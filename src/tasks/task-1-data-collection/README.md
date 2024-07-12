@@ -7,9 +7,9 @@
 
 
 
-| Task | Description | Link(if_exist) |
-| -------- | -------- | -------- |
-|Data Scraping|Scraping data from different sources to collect data of properties in Paris||
-|Datasets upload|Uploaded few datasets collected in the data folder||
-|Dataset uploaded|Uploaded Paris housing dataset which also include the proximity to amenities. 2nd sheet has the info of attributes.|[Paris Housing Index dataset](Paris_housing_index.xlsx)|
+| Task | Description |
+| -------- | -------- |
+|Data Scraping|Scraping data from different sources to collect data of properties in Paris|
+|Datasets upload|Uploaded few datasets collected in the data folder|
+|Dataset uploaded|Uploaded Paris housing dataset which also include the proximity to amenities. 2nd sheet has the info of attributes.|
 
