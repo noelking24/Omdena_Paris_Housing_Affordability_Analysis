@@ -11,7 +11,7 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|Data Collection|Collection of data from different sources which contains the details of properties sold, rented, and also of the properties currently on sale and for rent.|
+|1|Data Collection|Collection of data from different sources which contains the details of properties sold, rented, and also of the properties currently on sale and for rent in Paris.|
 |2|         |         |
 |3|         |         |
 |4|         |         |
