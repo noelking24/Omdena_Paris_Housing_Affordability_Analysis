@@ -25,7 +25,7 @@ Attribute details of [Paris_housing_index](Paris_housing_index.xlsx) dataset.
 
 #### France_Salary_Data 
 Attribute description of [France_salary_data](France_Salary_Data.xlsx) dataset.
-- CODGEO : unique code of the town
+- CODGEO : unique code of the town (details of CODGEO are listed in the [dataset](https://docs.google.com/spreadsheets/d/1dee4sjk_rfmwRGptydA4j9fFk6RrVBfDs7MdJBNuEik/edit?usp=sharing))
 - LIBGEO : name of the town
 - SNHM14 : mean net salary
 - SNHMC14 : mean net salary per hour for executive
