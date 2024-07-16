@@ -21,3 +21,33 @@ Attribute details of [Paris_housing_index](Paris_housing_index.xlsx) dataset.
 - longitude
 - latitude
 - price
+
+
+#### France_Salary_Data 
+Attribute description of [France_salary_data](France_Salary_Data.xlsx) dataset.
+- CODGEO : unique code of the town
+- LIBGEO : name of the town
+- SNHM14 : mean net salary
+- SNHMC14 : mean net salary per hour for executive
+- SNHMP14 : mean net salary per hour for middle manager
+- SNHME14 : mean net salary per hour for employee
+- SNHMO14 : mean net salary per hour for worker
+- SNHMF14 : mean net salary for women
+- SNHMFC14 : mean net salary per hour for feminin executive
+- SNHMFP14 : mean net salary per hour for feminin middle manager
+- SNHMFE14 : mean net salary per hour for feminin employee
+- SNHMFO14 : mean net salary per hour for feminin worker
+- SNHMH14 : mean net salary for man
+- SNHMHC14 : mean net salary per hour for masculin executive
+- SNHMHP14 : mean net salary per hour for masculin middle manager
+- SNHMHE14 : mean net salary per hour for masculin employee
+- SNHMHO14 : mean net salary per hour for masculin worker
+- SNHM1814 : mean net salary per hour for 18-25 years old
+- SNHM2614 : mean net salary per hour for 26-50 years old
+- SNHM5014 : mean net salary per hour for >50 years old
+- SNHMF1814 : mean net salary per hour for women between 18-25 years old
+- SNHMF2614 : mean net salary per hour for women between 26-50 years old
+- SNHMF5014 : mean net salary per hour for women >50 years old
+- SNHMH1814 : mean net salary per hour for men between 18-25 years old
+- SNHMH2614 : mean net salary per hour for men between 26-50 years old
+- SNHMH5014 : mean net salary per hour for men >50 years old
