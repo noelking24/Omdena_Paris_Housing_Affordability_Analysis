@@ -2,9 +2,14 @@
 
 Welcome to the **Streamlit Dashboards Repo**! This repository is for contributors to upload individual Streamlit dashboards and contribute features to the main application.
 
+## Getting Started
+
+**Please ensure you have the latest git everytime you begin working on the project**
+`git clone https://dagshub.com/Omdena/ParisFranceChapter_HousingAffordabilityAnalysis.git`
+
 ## Repository Structure
 
-- **`dashboards/`**: Contains individual Streamlit dashboard applications. Each dashboard should be in its own folder.
+- **`dashboards/`**: Contains individual Streamlit dashboard(s) if any and other Power-BI/Tableau/Qlkisense/etc Dashboards applications. Each dashboard should be in its own folder according to the tool used.
 - **`streamlit-main.py`**: The main Streamlit application file for integrating approved features.
 
 ## How to Contribute
@@ -35,7 +40,3 @@ Welcome to the **Streamlit Dashboards Repo**! This repository is for contributor
 - **Testing**: Ensure your code is thoroughly tested before submission.
 
 ### Try to stay by the PEP8 standards (https://peps.python.org/pep-0008/#tabs-or-spaces)
-
-## Getting Started
-
-Use git-clone
