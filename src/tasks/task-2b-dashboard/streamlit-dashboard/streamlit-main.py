@@ -112,7 +112,7 @@ if filtered_df.empty:
 # Color pallete:- https://colorhunt.co/
 color_map = {
     'Apartment': '#FF8225',
-    'Villa: '#B43F3F',
+    'Villa': '#B43F3F',
     'Duplex': '#EF5A6F'
 }
 
@@ -138,9 +138,26 @@ fig = px.scatter_mapbox(
 # mapbox-layers :- https://plotly.com/python/mapbox-layers/
 fig.update_layout(
     mapbox_style='carto-darkmatter',
-    mapbox_zoom=12,
     mapbox_center={'lat': 48.8566, 'lon': 2.3522},
-    margin={'r':0,'t':0,'l':0,'b':0}
+    margin={'r':0,'t':0,'l':0,'b':0},
+    modebar={
+        'orientation': 'v',
+    },
+    legend_title='Property Type',
+    legend_y=0.5,
+    uirevision='constant'
+)
+fig.update_geos(
+    showcountries=True
+)
+
+fig.update_mapboxes(
+    bounds={
+        'north': 51.138093815546775,
+        'west': -5.979299805444654,
+        'south': -42.11925588687173,
+        'east': 8.401274768380318
+    }
 )
 
 st.plotly_chart(fig)
