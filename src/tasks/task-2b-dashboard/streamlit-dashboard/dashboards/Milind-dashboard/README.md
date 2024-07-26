@@ -1,0 +1,2 @@
+Milind's Streamlit Dashboard
+Welcome to Milind's Streamlit Dashboard! This dashboard is part of the Omdena Paris France Chapter's Housing Affordability Analysis project. It provides visualizations and insights related to housing affordability in Paris.
