@@ -1,9 +1,14 @@
+import os
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+# Directory pathing
+curr_dir = os.path.dirname(__file__)
+csv_path = os.path.relpath('../synthetic-data/Dummy_Data - Available_Property.csv', start=curr_dir)
+
 # Data filtering
-df = pd.read_csv('synthetic-data/Dummy_Data - Available_Property.csv')
+df = pd.read_csv(csv_path)
 
 def filter_data(budget_range, rent_or_buy, min_rooms, max_rooms, districts, lease_length, property_type):
     '''
