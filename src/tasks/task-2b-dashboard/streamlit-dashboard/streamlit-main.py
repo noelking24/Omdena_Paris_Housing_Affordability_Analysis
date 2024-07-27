@@ -164,7 +164,7 @@ with col1:
 with col2:
     render_kpi_card(
         title=f"Average {rent_or_buy}",
-        value=round(filtered_df[rent_or_buy].mean()),
+        value=round(filtered_df['Rent' if rent_or_buy == 'Rent' else 'Cost'].mean()),
         footer_icon="💲",
         footer_text="Rental Market",
         gradient_start="#FFFFFF",  # Light Green
