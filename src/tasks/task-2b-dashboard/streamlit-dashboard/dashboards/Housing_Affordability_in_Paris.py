@@ -70,7 +70,6 @@ price_range = st.sidebar.slider(
 # Apply filters
 filtered_df = df[
     (df["room_type"].isin(room_type)) &
-  	(df[]
     (df["person_capacity"] >= person_capacity[0]) &
     (df["person_capacity"] <= person_capacity[1]) &
     (df["price"] >= price_range[0]) &
