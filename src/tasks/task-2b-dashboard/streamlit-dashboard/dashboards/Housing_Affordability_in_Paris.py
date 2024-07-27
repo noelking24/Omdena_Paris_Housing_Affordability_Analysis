@@ -70,11 +70,21 @@ price_range = st.sidebar.slider(
 # Apply filters
 filtered_df = df[
     (df["room_type"].isin(room_type)) &
+  	(df[]
     (df["person_capacity"] >= person_capacity[0]) &
     (df["person_capacity"] <= person_capacity[1]) &
     (df["price"] >= price_range[0]) &
     (df["price"] <= price_range[1])
 ]
+     
+if host_status != "All":
+    filtered_df = filtered_df[filtered_df["host_status"] == host_status]
+
+if room_sharing != "All":
+    filtered_df = filtered_df[filtered_df["room_sharing"] == room_sharing]
+
+if room_private != "All":
+    filtered_df = filtered_df[filtered_df["room_private"] == room_private]
 
 # Number of properties
 st.subheader(f"Number of Available Properties: {filtered_df.shape[0]}")
