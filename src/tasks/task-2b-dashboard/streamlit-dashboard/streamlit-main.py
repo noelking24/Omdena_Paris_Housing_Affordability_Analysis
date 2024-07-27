@@ -105,7 +105,7 @@ filtered_df = filter_data(budget_range, rent_or_buy, min_rooms, max_rooms, distr
 # Function to render a KPI card with CSS
 def render_kpi_card(title, value, footer_icon, footer_text, gradient_start, gradient_end):
     st.markdown(
-        f"""
+        f'''
         <style>
         .kpi-card {{
             background: linear-gradient(135deg, {gradient_start}, {gradient_end});
@@ -130,22 +130,22 @@ def render_kpi_card(title, value, footer_icon, footer_text, gradient_start, grad
             margin-top: 5px;
         }}
         </style>
-        """, unsafe_allow_html=True
+        ''', unsafe_allow_html=True
     )
 
     st.markdown(
-        f"""
-        <div class="kpi-card">
-            <div class="kpi-label">{title}</div>
-            <div class="kpi-value">{value}</div>
-            <div class="kpi-footer">{footer_icon} {footer_text}</div>
+        f'''
+        <div class='kpi-card'>
+            <div class='kpi-label'>{title}</div>
+            <div class='kpi-value'>{value}</div>
+            <div class='kpi-footer'>{footer_icon} {footer_text}</div>
         </div>
-        """,
+        ''',
         unsafe_allow_html=True
     )
 
 # Display the title
-st.title("Property Listings KPI Dashboard")
+st.title('Property Listings KPI Dashboard')
 
 # Create three columns for the KPI cards
 col1, col2, col3 = st.columns(3)
@@ -153,32 +153,32 @@ col1, col2, col3 = st.columns(3)
 # Render each KPI card in its respective column with different gradient colors
 with col1:
     render_kpi_card(
-        title="Total Properties Found",
+        title='Total Properties Found',
         value=len(filtered_df),
-        footer_icon="🔍",
-        footer_text="Market Overview",
-        gradient_start="#ff7eb3",  # Light Pink
-        gradient_end="#ff758c"     # Pink
+        footer_icon='🔍',
+        footer_text='Market Overview',
+        gradient_start='#ff7eb3',  # Light Pink
+        gradient_end='#ff758c'     # Pink
     )
 
 with col2:
     render_kpi_card(
-        title=f"Average {rent_or_buy}",
+        title=f'Average {rent_or_buy}',
         value=round(filtered_df['Rent' if rent_or_buy == 'Rent' else 'Cost'].mean()),
-        footer_icon="💲",
-        footer_text="Rental Market",
-        gradient_start="#FFFFFF",  # Light Green
-        gradient_end="#000000"     # Green
+        footer_icon='💲',
+        footer_text='Rental Market',
+        gradient_start='#FFFFFF',  # Light Green
+        gradient_end='#000000'     # Green
     )
 
 with col3:
     render_kpi_card(
-        title="Average Size",
+        title='Average Size',
         value=round(filtered_df['Size'].mean()),
-        footer_icon="💰",
-        footer_text="Buying Market",
-        gradient_start="#1CB5E0",  # Light Blue
-        gradient_end="#000851"     # Blue
+        footer_icon='💰',
+        footer_text='Buying Market',
+        gradient_start='#1CB5E0',  # Light Blue
+        gradient_end='#000851'     # Blue
     )
     
 # If no properties found
