@@ -1,0 +1,645 @@
+Proprety_name,Year_Built,Property_Type,Tax (dollars/year),Total_room,Bedroom,Bathroom,Price (euros),Prop_size (m^2)
+Montmartre - SacrÃ©-coeur - Perfect pied-Ã -terre with amazing views,1875.0,apartment,612.0,3.0,1.0,1.0,589999.0,39
+Renovated flat with open view - Paris 4th - Marais,1860.0,apartment,465.0,2.0,1.0,1.0,585000.0,41
+Saint-Germain-des-PrÃ©s,1800.0,apartment,2601.0,5.0,1.0,2.0,560000.0,28
+Saint-Germain-des-PrÃ©s,1800.0,apartment,641.0,5.0,1.0,2.0,560000.0,28
+"PARIS 17, MONCEAU PARK",1900.0,apartment,2601.0,5.0,1.0,2.0,549999.0,43
+House,1880.0,Single Family Homes,635.0,5.0,1.0,2.0,548999.0,40
+Perfect Pied-Ã -terre in front of the Jardins du Luxembourg,1964.0,apartment,1274.0,5.0,1.0,2.0,530000.0,40
+Apartment,1800.0,apartment,2601.0,1.0,3.0,1.0,329000.0,21
+Paris XVI - Art deco Penthouse opening on terraces,1930.0,apartment,7089.0,10.0,4.0,4.0,15099999.0,433
+Rare apartment by Jacques Garcia,1929.0,apartment,2601.0,5.0,5.0,5.0,12599999.0,358
+Paris 16Ã¨me- AUTEUIL HIPPODROME,1956.0,apartment,7672.0,5.0,4.0,3.0,12599999.0,265
+HÃ´tel des Invalides - Paris 7th,1880.0,apartment,4314.0,9.0,2.0,2.0,10499999.0,317
+Elegant renovated family apartment close to Rue du Bac,1892.0,apartment,5435.0,7.0,3.0,3.0,9979999.0,327
+Apartment in Paris 16th - Pompe / Victor Hugo,1900.0,apartment,2601.0,6.0,4.0,2.0,8899999.0,269
+Magnificent family and reception apartment close to the Avenue Montaigne,1880.0,apartment,2601.0,5.0,4.0,8.0,8499999.0,346
+Apartment in Paris 8th - Triangle d'Or,1930.0,apartment,2601.0,10.0,5.0,5.0,8499999.0,356
+Apartment,1900.0,apartment,6122.0,5.0,2.0,5.0,7900000.0,220
+Duplex,1929.0,Duplex Homes,2601.0,5.0,5.0,8.0,7900000.0,194
+Palais de l'ElysÃ©e - Place Beauvau,1825.0,Duplex Homes,4468.0,5.0,3.0,7.0,7850000.0,205
+Prestigious property - Paris VII - Saint Germain des PrÃ©s,1780.0,apartment,5292.0,5.0,3.0,6.0,7592000.0,188
+Mansion,1930.0,Single Family Homes,4278.0,8.0,4.0,9.0,7399999.0,293
+Elegant bright family apartment with balcony in Paris 16th.,1890.0,apartment,6747.0,7.0,4.0,3.0,7279999.0,267
+Apartment in Paris 16th - Henri Martin,1900.0,apartment,2601.0,6.0,3.0,3.0,7099999.0,243
+"Rare townhouse with garden, in the heart of the Gros Caillou district.",1900.0,Townhouse,2601.0,9.0,6.0,4.0,6995000.0,262
+luxury apartment for sale paris 7,1880.0,apartment,5217.0,8.0,5.0,6.0,6980000.0,270
+Saint-Germain-des-PrÃ©s,1993.0,Duplex Homes,2601.0,5.0,2.0,8.0,6499999.0,171
+Duplex,1896.0,Duplex Homes,2601.0,9.0,5.0,2.0,6299999.0,284
+Apartment,1824.0,apartment,2688.0,5.0,3.0,3.0,6249999.0,178
+Apartment in Paris 16th - TrocadÃ©ro,1888.0,apartment,2601.0,5.0,3.0,3.0,6199999.0,247
+Apartment with terraces for sale in Paris 16th - Passy,2004.0,apartment,2601.0,5.0,3.0,7.0,6199999.0,260
+Quai Voltaire,1768.0,Duplex Homes,3997.0,5.0,2.0,5.0,5899999.0,208
+Hoche / Parc Monceau,1913.0,Single Family Homes,2601.0,9.0,6.0,6.0,5879999.0,285
+HÃ´tel particulier Paris 17Ã¨me - Pereire,1890.0,Single Family Homes,2601.0,9.0,6.0,4.0,5750000.0,396
+Saint-Germain-des- PrÃ©s-/Rue Bonaparte,1880.0,apartment,2601.0,5.0,2.0,5.0,5750000.0,165
+Paris V - Family and reception apartment place du PanthÃ©on,1927.0,apartment,5514.0,7.0,5.0,5.0,5489999.0,252
+Avenue Montaigne,1880.0,apartment,4728.0,6.0,3.0,4.0,2582908.0,163
+Golden Triangle: a rare 3 bedroom turnkey apartment,1880.0,apartment,2601.0,5.0,3.0,3.0,4950000.0,158
+Apartment in Paris 8th - Triangle d'or,1880.0,apartment,2601.0,6.0,3.0,5.0,4948000.0,158
+Apartment in Paris 16th - Marceau / Pierre de Serbie,1893.0,apartment,2601.0,5.0,3.0,2.0,4725000.0,284
+Victor Hugo - TrocadÃ©ro,2006.0,Duplex Homes,2601.0,5.0,4.0,3.0,4700000.0,213
+"Parc Monceau, magnificent reception apartment!",1907.0,apartment,2601.0,7.0,3.0,6.0,4639999.0,246
+Apartment in Paris 16th - Victor Hugo,1900.0,apartment,2601.0,8.0,5.0,4.0,4580000.0,277
+Apartment in Paris 16th - TrocadÃ©ro,1900.0,apartment,3483.0,5.0,3.0,4.0,4499999.0,145
+PARIS 8 - GOLDEN TRIANGLE,1850.0,apartment,2601.0,5.0,2.0,3.0,4400000.0,200
+"Appartement de Luxe - 16Ã¨me Arrondissement, Paris",1925.0,apartment,3970.0,7.0,5.0,4.0,4380000.0,291
+Family property with balconies close to the Jardin du Ranelagh,1971.0,apartment,1216.0,6.0,3.0,3.0,4299999.0,234
+Apartment in Paris 6th - Saint-Sulpice,1900.0,apartment,2174.0,5.0,2.0,4.0,4299999.0,137
+Paris 1st - Rue de Rivoli / Tuileries,1860.0,apartment,5761.0,5.0,3.0,6.0,4199999.0,306
+"Avenue Montaigne. Pied-Ã -terre with terrace, two suites, a box.",1940.0,apartment,6688.0,3.0,2.0,5.0,3990000.0,116
+Friedland Faubourg Saint-HonorÃ©,1880.0,apartment,2601.0,5.0,3.0,4.0,3990000.0,238
+House in Paris 14th - AlÃ©sia,2007.0,Townhouse,4202.0,10.0,5.0,2.0,3980000.0,376
+Apartment in Paris 16th - TrocadÃ©ro,1888.0,apartment,2601.0,5.0,4.0,6.0,3949999.0,249
+6-bedroom family apartment.,1924.0,apartment,4562.0,9.0,6.0,7.0,3899999.0,284
+Duplex,1880.0,apartment,6086.0,5.0,2.0,3.0,3890000.0,197
+PARIS 8 - GOLDEN TRIANGLE,1850.0,apartment,2601.0,5.0,2.0,3.0,3800000.0,200
+Appartement de 302 mÂ² aux beaux volumes - Paris 17Ã¨me - Etoile,1913.0,apartment,3152.0,10.0,3.0,2.0,3780000.0,299
+Apartment in Paris 16th - La Muette,1910.0,apartment,2601.0,6.0,3.0,5.0,3750000.0,224
+Sole Agent - Nice three bedrooms apartment,1849.0,apartment,2925.0,5.0,3.0,4.0,3640000.0,140
+Family home near Batignolles,1886.0,Single Family Homes,5855.0,5.0,6.0,6.0,3624999.0,365
+Apartment in Paris 17th - Plaine Monceau,1900.0,apartment,7717.0,9.0,7.0,8.0,3599999.0,275
+Paris VI - Stunning Reception Apartment,1890.0,apartment,3496.0,4.0,2.0,2.0,3520000.0,143
+Apartment in Paris 16th - Passy,1931.0,apartment,5109.0,6.0,2.0,5.0,3500000.0,179
+SUPERBE APPARTEMENT - PLEINE VUE TOUR EIFFEL,1910.0,apartment,2601.0,5.0,2.0,4.0,3390000.0,114
+APPARTEMENT TRIANGLE D'OR - PARIS 8,1963.0,apartment,2601.0,4.0,2.0,3.0,3365000.0,100
+Gros Caillou UniversitÃ© - Beautiful through apartment - 4 Bedrooms,1930.0,apartment,737.0,6.0,4.0,4.0,3349999.0,220
+PARIS 8 - GOLDEN TRIANGLE / MONTAIGNE / CHAMPS-Ã‰LYSÃ‰ES,1850.0,apartment,3053.0,6.0,3.0,3.0,3300000.0,190
+Pompe Victor Hugo superbe appartement en parfait Ã©tat,1914.0,apartment,2601.0,5.0,4.0,6.0,3290000.0,257
+Family and reception flat - Paris 16th - Foch-Victor Hugo,1895.0,apartment,2601.0,5.0,6.0,4.0,3189999.0,287
+Private mansion in the heart of Saint-Germain-des-PrÃ©s'district,1850.0,Townhouse,2601.0,5.0,3.0,4.0,3119999.0,176
+PARIS XVI - Magnificent reception apartment with all the charm of the old,1891.0,apartment,4764.0,5.0,3.0,4.0,3099999.0,229
+Paris 16th - Charming reception apartment just steps away from Avenue Foch.,1896.0,apartment,4679.0,6.0,3.0,4.0,3000000.0,217
+Apartment in Paris 16th - Foch,1896.0,apartment,2601.0,8.0,3.0,4.0,3000000.0,218
+Apartment in Paris 7th - Champ de Mars,1894.0,apartment,2601.0,5.0,4.0,2.0,2990000.0,124
+PARIS 8 - GOLDEN TRIANGLE / MONTAIGNE / PLACE FRANÃ‡OIS 1ST,1880.0,apartment,2601.0,5.0,3.0,4.0,2970000.0,154
+Appartement vue Tour Eiffel - Paris 16Ã¨me - TrocadÃ©ro,1909.0,apartment,2601.0,8.0,3.0,4.0,2950000.0,216
+Duplex en dernier Ã©tage de 211mÂ² refait par architecte,1912.0,apartment,2690.0,4.0,3.0,3.0,2950000.0,208
+Paris XVI- Ranelagh - Muette,1897.0,apartment,5380.0,6.0,3.0,4.0,2889999.0,182
+148 sq.m. renovated family flat - Paris 3rd - Square du Temple,1890.0,apartment,1739.0,5.0,3.0,4.0,2790000.0,148
+Rue des Saints-PÃ¨res - Elegant reception appartment,1870.0,apartment,2601.0,5.0,2.0,3.0,2700000.0,126
+Apartment in Paris 16th - Foch,1960.0,apartment,2601.0,5.0,3.0,3.0,2689999.0,177
+IÃ©na - Place des Ã‰tats-Unis,1970.0,apartment,5576.0,5.0,4.0,2.0,2652000.0,216
+Exceptional apartment with view onto private gardens,1800.0,apartment,1922.0,2.0,1.0,2.0,2625000.0,84
+Paris 5 - Charming 1 bedroom pied-Ã -terre on courtyard and seine,1982.0,apartment,2601.0,5.0,1.0,2.0,2600000.0,93
+Apartment in Paris 5th - Notre-Dame / Ile de la CitÃ©,1763.0,apartment,3043.0,4.0,2.0,3.0,2519999.0,97
+Apartment with terrace in front of the Jardins du Luxembourg,1964.0,apartment,3393.0,5.0,1.0,4.0,2514000.0,122
+Family apartment on the last floor with terrace close to the Bon MarchÃ©,1919.0,apartment,2601.0,5.0,4.0,4.0,2499999.0,135
+Golden Triangle: three-bedroom apartment with luxurious renovation,1929.0,apartment,2601.0,5.0,3.0,3.0,2495999.0,146
+Paris 1st - Saint-Germain-l'Auxerrois. Reception apartment with stunning views.,1860.0,apartment,2743.0,4.0,2.0,2.0,2495000.0,117
+Atelier d'Artiste,1926.0,Single Family Homes,2138.0,6.0,1.0,4.0,2484000.0,168
+Family apartment - 4 bedrooms - PARIS XVI,1956.0,apartment,3804.0,6.0,4.0,6.0,2479999.0,172
+Gros Caillou - Three bedrooms apartment with work.,1926.0,apartment,4283.0,6.0,4.0,3.0,2459999.0,173
+Family apartment - 4 bedrooms - PARIS XVI,1956.0,apartment,3804.0,6.0,4.0,6.0,2389999.0,172
+Paris 7th - Apartment 2 bedrooms,1840.0,apartment,2601.0,5.0,2.0,4.0,2380000.0,75
+BEAUTIFUL FAMILY APARTMENT - OPEN VIEW,1930.0,apartment,4561.0,5.0,3.0,6.0,2350000.0,154
+Paris V - Magnificent apartment with all the charm of the old,1895.0,apartment,2978.0,5.0,4.0,3.0,2350000.0,160
+Paris 10Ã¨me - 5 piÃ¨ces 4 chambres de 170mÂ² refait Ã neuf,1890.0,apartment,1802.0,5.0,4.0,4.0,2300000.0,169
+Apartment in Paris 16th - TrocadÃ©ro,1957.0,apartment,2601.0,3.0,1.0,2.0,2280000.0,86
+Magnifique appartement entiÃ¨rement rÃ©novÃ© rue de l'OdÃ©on,1890.0,apartment,1838.0,4.0,2.0,4.0,2269999.0,103
+Paris VII- EXCLUSIVITY - Family apartment rue de Verneuil,1760.0,apartment,2982.0,6.0,4.0,2.0,2249999.0,128
+Top floor - Eiffel Tower view,1894.0,apartment,2625.0,5.0,4.0,4.0,2249999.0,176
+Appartement familial et de rÃ©ception,1880.0,apartment,2601.0,5.0,3.0,5.0,2240000.0,152
+Paris 18th - Montmartre - Apartment with Garden Renovated by an Architect,1800.0,apartment,1628.0,5.0,2.0,3.0,2190000.0,87
+Paris VII - SÃ©gur - top floor apartment in perfect condition,1890.0,apartment,2601.0,5.0,3.0,2.0,2190000.0,123
+Paris 8 - Madeleine - Beautiful and renovated 3 BR apartment with balcony,1830.0,apartment,2755.0,5.0,4.0,2.0,2190000.0,148
+Appartement familial 4 chambres - Vue dÃ©gagÃ©e,1900.0,apartment,2601.0,6.0,4.0,3.0,2179999.0,173
+Passy,1964.0,apartment,3796.0,5.0,3.0,5.0,2154999.0,154
+"Avenue Montaigne, Plaza AthÃ©nÃ©e, Pied-Ã -terre with two bedrooms.",1960.0,apartment,1527.0,4.0,2.0,4.0,2150000.0,76
+Apartment in Paris 16th - Jasmin,1930.0,apartment,4022.0,6.0,4.0,4.0,2140000.0,194
+Apartment in Paris 16th - Place des Etats-Unis,1930.0,apartment,2601.0,5.0,4.0,3.0,2100000.0,225
+Paris 4th - Top floor apartment with panoramic terrace and monument views,1930.0,apartment,2251.0,4.0,2.0,1.0,2080000.0,101
+PARIS 16 - CHURCH OF AUTEUIL,1908.0,apartment,2601.0,6.0,3.0,3.0,2050000.0,159
+Apartment in Paris 11th - Bastille Popincourt / Charonne,1800.0,apartment,2601.0,5.0,4.0,4.0,1999999.0,188
+Loft-style apartment - MarchÃ© de LÃ©vis - Villiers - 2 Rooms,1900.0,apartment,1737.0,5.0,2.0,4.0,1989999.0,145
+Family apartment with terrace and balcony - Pereire-AmpÃ¨re,1898.0,apartment,2883.0,5.0,3.0,3.0,1989999.0,146
+Nice bright apartment on the last floors with balconies and unobstructed views.,1950.0,apartment,2893.0,4.0,2.0,4.0,1989999.0,100
+Charming duplex Saint Germain Des PrÃ©s center Paris,1800.0,apartment,2601.0,4.0,2.0,4.0,1989999.0,108
+Paris 18th - Montmartre - Apartment with Garden Renovated by an Architect,1800.0,apartment,1628.0,3.0,2.0,3.0,1989999.0,87
+Apartment,1840.0,apartment,2601.0,5.0,3.0,3.0,1989999.0,130
+Apartment in Paris 16th - Dauphine,1960.0,apartment,2601.0,5.0,3.0,4.0,1974999.0,136
+Charming apartment with stunning views in Paris 5th.,1895.0,apartment,2601.0,4.0,2.0,2.0,1969999.0,142
+Paris 11. Loft de 170mÂ² avec terrasse,1983.0,apartment,2601.0,4.0,3.0,4.0,1969999.0,168
+Apartment,1890.0,apartment,1555.0,5.0,2.0,2.0,1920000.0,89
+Apartment,1910.0,apartment,2712.0,8.0,5.0,2.0,1899999.0,114
+Paris 9 - 3 bedrooms apartment in the heart of the theater district,1880.0,apartment,2601.0,4.0,3.0,2.0,1895000.0,145
+Tuileries Garden / Place VendÃ´me - Beautiful Apartment,1840.0,apartment,2601.0,2.0,1.0,2.0,1890000.0,72
+Passy - Kennedy : Beautiful apartment with views,1921.0,apartment,3891.0,5.0,5.0,3.0,1890000.0,150
+Apartment in Paris 9th - Avenue Fochot,1880.0,apartment,2601.0,5.0,1.0,2.0,1879999.0,96
+PARIS 15 - PENTHOUSE WITH TERRACES,1968.0,apartment,3374.0,5.0,3.0,4.0,1874999.0,136
+Paris 7th - 2 bedrooms - Gros caillou,1800.0,apartment,2601.0,5.0,2.0,4.0,1872000.0,89
+Lovely renovated apartment with terrace in the heart of Paris.,1850.0,apartment,1348.0,5.0,2.0,4.0,1850000.0,102
+"PARIS 17, TRIUMPHAL ARCH",1880.0,apartment,3657.0,5.0,3.0,3.0,1850000.0,139
+Family apartment - 5 bedrooms - VILLAGE d'AUTEUIL - PARIS XVI,1954.0,apartment,3573.0,7.0,5.0,4.0,1800000.0,159
+Contemporary house on 3 levels - Paris 19th - Bolivar,1954.0,Single Family Homes,2566.0,5.0,3.0,7.0,1798000.0,247
+Apartment in Paris 8th - Montaigne / FranÃ§ois 1er,1960.0,apartment,2601.0,3.0,2.0,3.0,1789999.0,84
+3-room apartment - Paris 16th - Victor Hugo,1904.0,apartment,2601.0,3.0,2.0,2.0,1750000.0,113
+Paris 20th - Saint-Blaise - Superb loft with Gustave Eiffel glass roof.,1900.0,apartment,1227.0,5.0,2.0,4.0,1750000.0,237
+APPARTEMENT TRIANGLE D'OR - PARIS 8Ã¨me,1963.0,apartment,1632.0,2.0,1.0,2.0,1750000.0,55
+Apartment in Paris 16th - Ranelagh,1910.0,apartment,2601.0,4.0,3.0,3.0,1739999.0,120
+Apartment in Paris 16th - Belles Feuilles / Victor Hugo,1963.0,apartment,2391.0,5.0,3.0,4.0,1735000.0,133
+Apartment for sale in Paris 15th - Seine,1976.0,apartment,2337.0,5.0,3.0,4.0,1694999.0,134
+Elegant 5 rooms - Paris XVI,1925.0,apartment,2601.0,5.0,2.0,3.0,1690000.0,136
+Perfect condition-Saint-Germain de PrÃ©s-Two bedrooms,1890.0,apartment,2601.0,3.0,2.0,2.0,1680000.0,79
+Paris 12 - Daumesnil - Apartment with double terrace,1970.0,apartment,2541.0,4.0,2.0,3.0,1669999.0,140
+Sole Agent - Crossing apartment with balcony,1882.0,apartment,2009.0,5.0,2.0,4.0,1665000.0,101
+Rue du Bac : perfect renovated pied-Ã -terre.,1830.0,apartment,2601.0,3.0,2.0,2.0,1649999.0,73
+High floor family apartment with balcony - Ternes/Maillot,1932.0,apartment,2979.0,5.0,3.0,2.0,1649999.0,135
+Paris 16 - Art Deco apartment,1950.0,apartment,2113.0,5.0,3.0,5.0,1644999.0,148
+Paris 8th - Golden Triangle - Luxurious apartment with terraces,1984.0,apartment,2293.0,3.0,2.0,2.0,1620000.0,96
+Perfect Pied-Ã -terre / Rive Gauche,1910.0,apartment,1534.0,4.0,2.0,2.0,1599999.0,90
+Family apartment to renovate - Porte Maillo,1970.0,apartment,2875.0,5.0,3.0,2.0,1599999.0,125
+Paris 9 - Appartement 4 piÃ¨ces 3 chambres de 125mÂ²,1880.0,apartment,2601.0,4.0,3.0,3.0,1599999.0,123
+Place VendÃ´me perfect pied-Ã -terre,1833.0,apartment,2550.0,3.0,2.0,1.0,1598999.0,84
+Paris 6 - rue Vavin-jardin du Luxembourg,1900.0,apartment,2601.0,5.0,3.0,2.0,1590000.0,96
+"Superb pied-Ã -terre on avenue d'IÃ©na to renovate, Paris XVI.",1940.0,apartment,2601.0,3.0,1.0,4.0,1590000.0,133
+PARIS 8TH - Saint Augustin,1890.0,apartment,2565.0,5.0,3.0,3.0,1579999.0,129
+Paris 9 - Place Saint Georges - elegant apartment like a boutique hÃ´tel suite,1840.0,apartment,2601.0,5.0,1.0,2.0,1550000.0,106
+Apartment for sale in Paris 3rd arr. - rue des Tournelles.,1855.0,apartment,1821.0,5.0,3.0,2.0,1529999.0,127
+Paris 16 - Family apartment with terrace,1969.0,apartment,1654.0,7.0,4.0,5.0,1520000.0,168
+Apartment in Paris 2nd - Place des Victoires,1870.0,apartment,2601.0,5.0,3.0,2.0,1520000.0,102
+Appartement de rÃ©ception avenue de la Grande ArmÃ©e,1887.0,apartment,2601.0,3.0,1.0,2.0,1495000.0,128
+Familial apartment- 75017/Niel,1881.0,apartment,3365.0,6.0,4.0,3.0,1489999.0,141
+Appartement familial - Vue dÃ©gagÃ©e - Paris XVI,1960.0,apartment,2601.0,5.0,3.0,3.0,1489999.0,124
+Renovated and bright top floor apartment with a view of Les Invalides,1900.0,apartment,2601.0,5.0,2.0,2.0,1480000.0,103
+Paris VIe - Saint Sulpice,1850.0,apartment,2601.0,5.0,3.0,2.0,1480000.0,77
+Paris 18 - Amazing apartment with a private garden in the heart of Montmartre,1960.0,apartment,1452.0,4.0,2.0,1.0,1469999.0,71
+Apartment,1880.0,apartment,2432.0,3.0,2.0,3.0,1469999.0,94
+Apartment,1935.0,apartment,1812.0,5.0,2.0,2.0,1450000.0,98
+Open-plan family flat - Vaugirard - Paris 15th,1914.0,apartment,2601.0,5.0,3.0,2.0,1450000.0,130
+Victor Hugo/rue de la Pompe,1900.0,apartment,2350.0,5.0,2.0,2.0,1390000.0,88
+Family duplex - Paris 4th - Rambuteau district,1800.0,Duplex Homes,932.0,5.0,4.0,2.0,1390000.0,125
+EXCLUSIVITÃ‰ - Paris 1er - Louvre /Rivoli - Charmant appartement Familial,1800.0,apartment,2601.0,5.0,4.0,3.0,1390000.0,106
+Paris 7 - Gros Caillou/Saint Dominique,1920.0,apartment,1249.0,5.0,2.0,2.0,1390000.0,91
+PARIS XVI - Family apartment - 4 bedrooms,1931.0,apartment,4582.0,6.0,4.0,5.0,1390000.0,150
+Paris XVI - La Fontaine - Castel BÃ©ranger,1898.0,apartment,2601.0,4.0,1.0,2.0,1380000.0,83
+Appartement vue dÃ©gagÃ©e,1956.0,apartment,2601.0,5.0,2.0,2.0,1374999.0,117
+Apartment,1880.0,apartment,1336.0,5.0,2.0,2.0,1360000.0,56
+Apartment,1880.0,apartment,1336.0,5.0,1.0,2.0,1360000.0,56
+Pereire / Batignolles,1930.0,apartment,2476.0,5.0,2.0,3.0,1354999.0,127
+Garden level in a building with swimming pool.,1780.0,apartment,890.0,2.0,1.0,2.0,1349999.0,43
+Magnificent renovated 2-room apartment - Eiffel Tower view - Gros Caillou,1881.0,apartment,1087.0,5.0,1.0,1.0,1349999.0,50
+Duplex,2021.0,Duplex Homes,1710.0,4.0,2.0,3.0,1348999.0,76
+PARIS - GROS CAILLOUX - EIFFEL TOWER,1898.0,apartment,1571.0,3.0,2.0,2.0,1299999.0,74
+Saint Thomas d'Aquin - Appartement avec vue et balcon.,1932.0,apartment,1534.0,5.0,1.0,2.0,1295000.0,65
+Paris 7 - Bon marchÃ© - 2 bedrooms,1880.0,apartment,2114.0,5.0,2.0,2.0,1290000.0,73
+Paris XVI- Flandrin - exceptional 'Pied Ã terre',1907.0,apartment,2601.0,2.0,1.0,2.0,1290000.0,60
+Paris II - Contemporary apartment with open views on a high floor,1870.0,apartment,1130.0,5.0,3.0,3.0,1290000.0,100
+Paris IX - Charming apartment on a high floor with a large long balcony,1966.0,apartment,1484.0,5.0,2.0,4.0,1270000.0,100
+Paris 7th - Gros Caillou - 1 Bedroom,1949.0,apartment,2601.0,2.0,1.0,2.0,1259999.0,49
+Paris 16th Victor Hugo,1870.0,apartment,2616.0,5.0,3.0,1.0,1250000.0,106
+Place Saint-Georges / Rue des Martyrs - Bright 2 bedrooms apartment,1860.0,apartment,2601.0,5.0,2.0,1.0,1234999.0,95
+Apartment,1830.0,apartment,1308.0,5.0,2.0,3.0,1234999.0,94
+Beautiful 3-room apartment with balcony - Hoche / Monceau,1935.0,apartment,2030.0,3.0,1.0,2.0,1200000.0,76
+Garden flat with gardens and terraces - Paris 12th - Daumesnil,2006.0,apartment,2180.0,5.0,3.0,4.0,1200000.0,128
+Appartement terrasse - Village d' Auteuil Ã PARIS XVI,2004.0,apartment,1775.0,5.0,1.0,2.0,1189999.0,78
+PARIS - SAINT GERMAIN DES PRES,1800.0,apartment,2601.0,2.0,1.0,2.0,1189999.0,47
+Appartement terrasse - Village d' Auteuil Ã PARIS XVI,2004.0,apartment,1775.0,5.0,1.0,2.0,1189999.0,78
+Paris XVI - Muette : Entirely renovated elegant and modern apartment,1952.0,apartment,1971.0,5.0,2.0,3.0,1165999.0,89
+Paris 16 - Duplex dernier Ã©tage avec terrasse de plain pied et vue Tour Eiffel -,1962.0,apartment,2601.0,4.0,2.0,2.0,1150000.0,98
+Paris 11 - Chemin Vert,1850.0,apartment,2601.0,5.0,2.0,3.0,1150000.0,87
+Perfect pied-Ã -terre close to Rue Cler Market,1890.0,apartment,2601.0,3.0,2.0,3.0,1150000.0,61
+Paris 6 - St Germain des PrÃ¨s - Pied-Ã -terre rÃ©novÃ© - 2 Chambres,1949.0,apartment,2314.0,5.0,2.0,2.0,1139999.0,63
+Paris 6th - Saint-Germain-des-PrÃ©s / Rue Bonaparte,1993.0,apartment,1722.0,5.0,1.0,2.0,1119999.0,61
+DERNIER ETAGE - VUE TOUS MONUMENTS,1955.0,apartment,2045.0,4.0,2.0,2.0,1105000.0,81
+Apartment,1900.0,apartment,2601.0,3.0,2.0,2.0,1099999.0,74
+Paris XVIII- Triplex avec Terrasse,1930.0,apartment,1355.0,5.0,3.0,2.0,1090000.0,92
+Paris XVI - Victor Hugo Foch - perfect 'Pied Ã terre',1974.0,apartment,2601.0,2.0,1.0,3.0,1060000.0,60
+MarchÃ© Ordener - Villa Montcalm,1930.0,apartment,1304.0,5.0,3.0,2.0,1045000.0,98
+Apartment,1989.0,apartment,1723.0,5.0,1.0,2.0,1000000.0,56
+"Village Faidherbe, mixed-use workshop-loft rehabilitated into 4 rooms.",1890.0,apartment,2601.0,4.0,2.0,2.0,995000.0,88
+Exelmans- Rue de Civry-Rue de Varize. Beautiful family apartment for sale,1960.0,apartment,1888.0,5.0,3.0,3.0,995000.0,104
+Apartment,1850.0,apartment,805.0,3.0,2.0,2.0,990000.0,64
+CafÃ© de Flore-Eglise Saint-Germain,1999.0,apartment,2601.0,5.0,1.0,2.0,979999.0,61
+"Saint Thomas d'Aquin, bright and calm pied-Ã -terre.",1880.0,apartment,2601.0,2.0,1.0,2.0,979999.0,49
+Duplex,1800.0,apartment,918.0,5.0,3.0,4.0,959999.0,72
+APPARTEMENT FAMILIAL ENSOLEILLE - BALCON ET VUE DEGAGEE,1959.0,apartment,1413.0,4.0,3.0,2.0,950000.0,74
+Paris 8th - Avenue des Champs ElysÃ©es,1971.0,apartment,2601.0,2.0,1.0,2.0,945000.0,57
+Apartment,1860.0,apartment,984.0,3.0,2.0,2.0,930000.0,61
+Paris IX Charming apartment with balcony and unobstructed views,1900.0,apartment,1003.0,5.0,2.0,3.0,914999.0,63
+Jasmine-Mozart - Beautiful apartment of 90.74 sq.m,1953.0,apartment,2253.0,5.0,2.0,1.0,900000.0,90
+Paris 14 / Montparnasse. 4 piÃ¨ces 3 chambres au 17Ã¨me et dernier Ã©tage,1966.0,apartment,822.0,5.0,2.0,2.0,899000.0,83
+Paris XI - EXCLUSIVITY - Magnificent renovated apartment with a large terrace,2002.0,apartment,2601.0,5.0,1.0,2.0,899000.0,63
+Magnificent newly renovated loft - Jules Joffrin,2015.0,apartment,1267.0,5.0,2.0,2.0,885000.0,64
+Apartment in Paris 15th - Beaugrenelle,1963.0,apartment,1203.0,1.0,1.0,1.0,885000.0,39
+Charming Haussmannian apartment,1890.0,apartment,2601.0,4.0,2.0,1.0,880000.0,59
+Ã‰cole Militaire,1942.0,apartment,1529.0,5.0,1.0,2.0,874000.0,57
+Apartment,1820.0,apartment,434.0,5.0,2.0,2.0,849999.0,89
+ExclusivitÃ© 3 piÃ¨ces 2 chambres de 67mÂ² carrez et Jardin de 180mÂ²,1975.0,apartment,2601.0,3.0,2.0,2.0,839999.0,245
+9th and top floor with 180Â° terrace overlooking Paris,1972.0,apartment,1812.0,4.0,2.0,2.0,799999.0,83
+Charming 3-room apartment with balcony - Saint Ferdinand - Paris 17th,1925.0,apartment,2601.0,3.0,1.0,2.0,799999.0,66
+Appartement 2 chambres Place des Vosges,1780.0,apartment,1571.0,3.0,2.0,1.0,779999.0,63
+Appartement familial - Paris XVI,1968.0,apartment,963.0,3.0,2.0,3.0,779999.0,69
+Apartment,1800.0,apartment,2601.0,2.0,1.0,1.0,778999.0,51
+3 rooms renovated - Villiers/Batignolles,1990.0,apartment,1522.0,3.0,2.0,1.0,749999.0,67
+Paris 2nd - Montorgueil - Elegant pied-Ã -terre renovated in a private mansion,1770.0,apartment,674.0,2.0,1.0,1.0,749999.0,31
+Flat with a view over the roofs of Paris - Paris 4th - Saint-Paul,1875.0,apartment,2601.0,3.0,1.0,2.0,749999.0,54
+Apartment,1920.0,apartment,1402.0,3.0,2.0,2.0,748999.0,71
+Apartment in Paris 5th - Notre Dame,1763.0,apartment,2601.0,2.0,1.0,2.0,745000.0,50
+Apartment in Paris 16th - Ranelagh,1900.0,apartment,2601.0,2.0,1.0,1.0,740000.0,62
+Montmartre : A two-room apartment with spectacular view on the SacrÃ©-Coeur,1880.0,apartment,933.0,5.0,1.0,1.0,734999.0,42
+3-room apartment overlooking Paris,1972.0,apartment,2601.0,3.0,1.0,1.0,720000.0,71
+Paris 3rd - Place des Vosges. Charming studio with balcony.,1830.0,apartment,492.0,1.0,3.0,1.0,695000.0,54
+Paris XVIII - Abbesses / Martyrs,1880.0,apartment,796.0,5.0,1.0,1.0,659999.0,48
+Charming 3-room apartment in excellent condition - Legendre/Epinettes,1880.0,apartment,2601.0,3.0,1.0,1.0,645000.0,54
+Charming 3-room apartment with balcony - marchÃ© Poncelet,1850.0,apartment,1323.0,3.0,1.0,1.0,645000.0,54
+Service spacious rooms to renovate - Rue de Grenelle,1900.0,apartment,2601.0,5.0,2.0,1.0,589999.0,54
+Renovated flat with open view - Paris 4th - Marais,1860.0,apartment,465.0,2.0,1.0,1.0,585000.0,41
+Saint-Germain-des-PrÃ©s,1800.0,apartment,2601.0,5.0,1.0,2.0,560000.0,28
+Saint-Germain-des-PrÃ©s,1800.0,apartment,641.0,5.0,1.0,2.0,560000.0,28
+"PARIS 17, MONCEAU PARK",1900.0,apartment,2601.0,5.0,1.0,2.0,549999.0,43
+House,1880.0,Single Family Homes,635.0,5.0,1.0,2.0,548999.0,40
+Perfect Pied-Ã -terre in front of the Jardins du Luxembourg,1964.0,apartment,1274.0,5.0,1.0,2.0,530000.0,40
+Apartment,1800.0,apartment,2601.0,1.0,3.0,1.0,329000.0,21
+Paris 16th District - An ideal pied a terre,1950.0,apartment,2601.0,5.0,1.0,1.0,690000.0,54
+Paris 8th District - A perfect pied a terre,1830.0,apartment,2601.0,5.0,1.0,1.0,690000.0,39
+Paris 1st District - An ideal pied a terre,1810.0,apartment,2601.0,5.0,1.0,1.0,690000.0,33
+Paris 16th District - An ideal pied a terre,1910.0,apartment,2601.0,5.0,1.0,1.0,695000.0,49
+Paris 7th District - An ideal pied a terre,1850.0,apartment,2601.0,5.0,2.0,1.0,720000.0,47
+Paris 7th District - An ideal pied a terre,1989.0,apartment,2601.0,5.0,1.0,1.0,724999.0,48
+Paris 14th District - An ideal pied a terre,1971.0,apartment,2601.0,5.0,1.0,0.0,729999.0,60
+PARIS 5th district on Quai Saint Michel,1700.0,apartment,2601.0,5.0,1.0,1.0,745000.0,51
+Paris 7th District - An ideal pied a terre,1900.0,apartment,2601.0,5.0,1.0,1.0,760000.0,51
+Paris 16th District - A bright 2-bed apartment,1962.0,apartment,2601.0,5.0,2.0,1.0,790000.0,66
+Paris 6th District - A delightful pied a terre,1900.0,apartment,2601.0,5.0,1.0,1.0,790000.0,53
+Paris 15th District - An ideal pied a terre,1929.0,apartment,2601.0,5.0,2.0,1.0,797999.0,47
+Paris 15th District - An ideal pied a terre,1995.0,apartment,2601.0,5.0,2.0,1.0,810000.0,72
+Paris 16th District - An ideal pied a terre,1900.0,apartment,2601.0,5.0,1.0,1.0,824999.0,51
+Paris 6th District - An ideal pied a terre,1610.0,apartment,2601.0,5.0,1.0,1.0,824999.0,50
+Paris 6th District - A superb pied a terre with a garden,1930.0,apartment,2601.0,5.0,1.0,1.0,826999.0,31
+Paris 17th District - A bright 3-room apartment,1955.0,apartment,2601.0,5.0,2.0,1.0,830000.0,67
+Paris 6th District - A renovated pied a terre,1850.0,apartment,2601.0,5.0,1.0,1.0,836000.0,43
+Paris 6th District - An ideal pied a terre,1998.0,apartment,2601.0,5.0,1.0,1.0,844999.0,43
+Paris 16th District - A 2-bed apartment with two terraces,1950.0,apartment,2601.0,5.0,2.0,1.0,849999.0,73
+Paris 18th District - An ideal pied a terre,1907.0,apartment,2601.0,5.0,2.0,1.0,849999.0,62
+Paris 7th District - An ideal pied a terre,1890.0,apartment,2601.0,5.0,1.0,1.0,864999.0,63
+Paris 7th District - An ideal pied a terre,1904.0,apartment,2601.0,5.0,1.0,1.0,869999.0,77
+Paris 12th District - An elegant pied a terre,1900.0,apartment,2601.0,5.0,1.0,1.0,869999.0,92
+Paris 6th District - An ideal pied a terre,1730.0,apartment,2601.0,5.0,1.0,1.0,875000.0,44
+Paris 9th District - An ideal pied a terre,1880.0,apartment,2601.0,5.0,2.0,1.0,880000.0,66
+Paris 9th District - An ideal pied a terre,1840.0,apartment,2601.0,5.0,2.0,1.0,889999.0,67
+Paris 6th District Top floor with a terrace.,1730.0,apartment,2601.0,5.0,1.0,1.0,892500.0,45
+Paris 4th District - A charming pied a terre,1750.0,apartment,2601.0,5.0,1.0,1.0,892999.0,62
+Paris 4th District - An ideal pied a terre,1828.0,apartment,2601.0,5.0,2.0,1.0,894999.0,59
+Paris 9th District - An ideal pied a terre,1998.0,apartment,2601.0,5.0,2.0,1.0,914999.0,67
+Paris 16th District - A 2-bed apartment in mint condition,1989.0,apartment,2601.0,5.0,2.0,1.0,928000.0,86
+Paris 17th District - An atypical 3-bed apartment,1880.0,apartment,2601.0,5.0,3.0,2.0,930000.0,73
+Paris 6th District - An ideal pied a terre,1930.0,apartment,2601.0,5.0,1.0,1.0,939999.0,60
+"Paris,ÃŽle-de-France,France",1970.0,apartment,2601.0,5.0,2.0,1.0,939999.0,62
+Paris 20th District - A bright and peaceful 2-bed apartment,1970.0,apartment,2601.0,5.0,2.0,1.0,945000.0,74
+Paris 16th District - A 3-bed family apartment,1961.0,apartment,2601.0,5.0,3.0,2.0,945000.0,89
+Paris 16th District - An elegant pied a terre,1904.0,apartment,2601.0,5.0,2.0,1.0,945000.0,89
+Paris 16th District - A sunny 3-bed apartment,1959.0,apartment,2601.0,5.0,3.0,1.0,950000.0,73
+Paris 6th District - An ideal pied a terre,1890.0,apartment,2601.0,5.0,1.0,1.0,950000.0,50
+Paris 17th District - A bright 2-bed apartment,1970.0,apartment,2601.0,5.0,2.0,1.0,950000.0,77
+Paris 16th District - A delightful pied a terre,1890.0,apartment,2601.0,5.0,1.0,1.0,950000.0,53
+Paris 9th District - An ideal pied a terre,1998.0,apartment,2601.0,5.0,2.0,1.0,970000.0,76
+"Paris 6th District - Saint-Germain-des-PrÃ©s, one bedroom flat in perfect condition.",1800.0,apartment,2601.0,5.0,1.0,1.0,975000.0,43
+Paris 15th District - A 2-bed apartment commanding panoramic views,1970.0,apartment,2601.0,5.0,2.0,1.0,979999.0,97
+Paris 16th District - An ideal pied a terre,2001.0,apartment,2601.0,5.0,2.0,0.0,979999.0,73
+Paris 7th District - An ideal pied a terre,1863.0,apartment,2601.0,5.0,1.0,1.0,979999.0,48
+Paris 4th District - An ideal pied a terre in a prime location,1800.0,apartment,2601.0,5.0,1.0,1.0,990000.0,62
+Paris 16th District - A 3-bd apartment,1979.0,apartment,2601.0,5.0,3.0,2.0,990000.0,99
+Paris 9th District - A 2/3 bed apartment enjoying open views,1885.0,apartment,2601.0,5.0,2.0,1.0,990000.0,88
+Paris 17th District - A remarkable pied a terre,1890.0,apartment,2601.0,5.0,1.0,1.0,995000.0,69
+Paris 1st District - An ideal pied a terre,1750.0,apartment,2601.0,5.0,2.0,2.0,995000.0,68
+Paris 1st District - An ideal pied a terre,1800.0,apartment,2601.0,5.0,1.0,1.0,997000.0,65
+Paris 7th District - An ideal pied a terre,1800.0,apartment,2601.0,5.0,1.0,1.0,997499.0,45
+Paris 7th District - An ideal pied a terre,1989.0,apartment,2601.0,5.0,1.0,1.0,1000000.0,56
+Paris 3rd District - A 67 sqm apartment to revamp,1750.0,apartment,2601.0,5.0,1.0,1.0,1007999.0,64
+Paris 4th District - Two apartments with great potential,1650.0,apartment,2601.0,5.0,2.0,3.0,1020000.0,73
+Paris 18th District - A 2-bed apartment enjoying an open view,1954.0,apartment,2601.0,5.0,2.0,1.0,1020000.0,76
+Paris 5th District - A 2/3 bed apartment,1900.0,apartment,2601.0,5.0,2.0,2.0,1024999.0,77
+Paris 5th District - A renovated 2-bed apartment,1890.0,apartment,2601.0,5.0,2.0,0.0,1035000.0,62
+Paris 16th District - An ideal pied a terre,1959.0,apartment,2601.0,5.0,1.0,1.0,1040000.0,78
+"Paris,ÃŽle-de-France,France",1995.0,apartment,2601.0,5.0,2.0,2.0,1040000.0,70
+Paris 13th District - An ideal pied a terre,1900.0,apartment,2601.0,5.0,2.0,1.0,1049999.0,93
+Paris 4th District - A bright and elegant pied a terre,1880.0,apartment,2601.0,5.0,1.0,1.0,1049999.0,72
+Paris 16th District - An ideal pied a terre,1880.0,apartment,2601.0,5.0,2.0,0.0,1049999.0,62
+Paris 7th District - A renovated pied a terre,1897.0,apartment,2601.0,5.0,1.0,1.0,1049999.0,46
+Paris 4th District - An ideal pied a terre,1785.0,apartment,2601.0,5.0,2.0,2.0,1049999.0,65
+Paris 7th District - An ideal pied a terre,1800.0,apartment,2601.0,5.0,2.0,1.0,1060000.0,74
+Paris XVIIe - MarchÃ© Lebon.,1911.0,apartment,2601.0,5.0,2.0,2.0,1069999.0,96
+Paris 6th District - An ideal pied a terre,1891.0,apartment,2601.0,5.0,2.0,1.0,1079999.0,62
+Paris 16th District - A pied a terre with a terrace,2004.0,apartment,2601.0,5.0,1.0,1.0,1090000.0,70
+Paris 4th District - A superb pied a terre,1637.0,apartment,2601.0,5.0,1.0,1.0,1099999.0,58
+Paris 7th District - An ideal pied a terre,1905.0,apartment,2601.0,5.0,1.0,1.0,1099999.0,56
+Paris 7th District - An ideal pied a terre,1920.0,apartment,2601.0,5.0,2.0,1.0,1099999.0,58
+Paris 4th District - A superb pied a terre,1637.0,apartment,2601.0,5.0,1.0,1.0,1099999.0,58
+Paris 7th District - An ideal pied a terre,1905.0,apartment,2601.0,5.0,1.0,1.0,1099999.0,56
+Paris 6th District - An ideal pied a terre,1930.0,apartment,2601.0,5.0,1.0,1.0,1099999.0,45
+Paris 17th District - An ideal pied a terre,1850.0,apartment,2601.0,5.0,1.0,1.0,1099999.0,61
+Paris 7th District - An ideal pied a terre,1920.0,apartment,2601.0,5.0,2.0,1.0,1099999.0,58
+Paris 16th District - A 3-bed dual-aspect apartment,1970.0,apartment,2601.0,5.0,3.0,2.0,1099999.0,116
+Paris 6th District - An ideal pied Ã terre in Saint-Germain-des-PrÃ©s,1994.0,apartment,2601.0,5.0,1.0,0.0,1119999.0,62
+Paris 7th District - A 2-bed apartment with balconies,1964.0,apartment,2601.0,5.0,2.0,1.0,1124999.0,74
+Paris 15th District - An ideal pied a terre,1995.0,apartment,2601.0,5.0,3.0,1.0,1130000.0,104
+Paris 16th District - A 3-bed family apartment,1900.0,apartment,2601.0,5.0,3.0,2.0,1139999.0,115
+Paris 18th District - Great potential in a prime location,1955.0,apartment,2601.0,5.0,2.0,1.0,1144999.0,81
+Paris 16th District - A perfect pied a terre,1934.0,apartment,2601.0,5.0,1.0,0.0,1150000.0,33
+Paris 12th District - A bright and peaceful 3-bed apartment,1896.0,apartment,2601.0,5.0,3.0,1.0,1150000.0,97
+Paris 1st District - An ideal pied a terre,1700.0,apartment,2601.0,5.0,2.0,2.0,1150000.0,82
+Paris 4th District - A delightful pied a terre,1700.0,apartment,2601.0,5.0,2.0,2.0,1180000.0,58
+PParis 4th District - A delightful pied a terre oozing with charm,1650.0,apartment,2601.0,5.0,1.0,1.0,1180000.0,65
+Paris 17th District - A sunny 2/3 bed apartment,1990.0,apartment,2601.0,5.0,3.0,2.0,1180000.0,109
+Paris 13th District - A 3-bed apartment with a balcony,1980.0,apartment,2601.0,5.0,3.0,0.0,1180000.0,100
+Paris 4th District - An ideal pied a terre,1880.0,apartment,2601.0,5.0,1.0,1.0,1189999.0,92
+Paris 6th District - A perfect pied a terre,1800.0,apartment,2601.0,5.0,1.0,1.0,1189999.0,35
+Paris 4th District - An ideal pied a terre,1900.0,apartment,2601.0,5.0,2.0,2.0,1239999.0,60
+Paris 16th District - A 2/3 bed apartment,1880.0,apartment,2601.0,5.0,2.0,0.0,1249000.0,86
+"Paris,ÃŽle-de-France,France",1920.0,apartment,2601.0,5.0,3.0,2.0,1249000.0,98
+Paris 7th District - An ideal pied a terre,1942.0,apartment,2601.0,5.0,1.0,1.0,1250000.0,74
+Paris 5th District - A peaceful 3-bed apartment,1900.0,apartment,2601.0,5.0,3.0,1.0,1250000.0,93
+Paris 16th District - A 5-bed apartment with terrace/balconies,2009.0,apartment,2601.0,5.0,3.0,3.0,1250000.0,111
+Paris 16th District - An ideal pied a terre,1987.0,apartment,2601.0,5.0,2.0,2.0,1259999.0,84
+Paris 3rd District - A 4-room apartment to renovate,1850.0,apartment,2601.0,5.0,2.0,1.0,1259999.0,88
+Paris 16th District - A 4-bed apartment,1955.0,apartment,2601.0,5.0,4.0,2.0,1279999.0,122
+Paris 9th District - A recently renovated 4-room apartment,1900.0,apartment,2601.0,5.0,2.0,2.0,1295000.0,97
+Paris 18th District - An ideal pied a terre,1910.0,apartment,2601.0,5.0,2.0,2.0,1295000.0,63
+Paris 9th District - A 3-bed artistâ€™s studio,1900.0,apartment,2601.0,5.0,2.0,1.0,1299999.0,79
+Paris 13th District - A two-bed apartment with a terrace,1980.0,apartment,2601.0,5.0,3.0,1.0,1299999.0,78
+Paris 9th District - An elegant 3-bed apartment with a terrace,1850.0,apartment,2601.0,5.0,3.0,1.0,1340000.0,100
+Paris 16th District - A 2-bed apartment with a balcony,1970.0,apartment,2601.0,5.0,2.0,2.0,1340000.0,89
+Paris 13th District - A bright and peaceful 2/3 bed apartment with a balcony,1975.0,apartment,2601.0,5.0,3.0,2.0,1349999.0,95
+Paris 17th District - An elegant 3-bed apartment,1880.0,apartment,2601.0,5.0,3.0,1.0,1349999.0,112
+Paris 3rd District - An ideal pied a terre,1650.0,apartment,2601.0,5.0,1.0,1.0,1349999.0,97
+Paris 15th District - A peaceful pied a terre,1913.0,apartment,2601.0,5.0,2.0,1.0,1349999.0,80
+PARIS IIe - Rue du Mail,1436.0,apartment,2601.0,5.0,2.0,2.0,1349999.0,93
+Paris 16th District - An ideal pied a terre in an iconic building,1894.0,apartment,2601.0,5.0,1.0,1.0,1380000.0,79
+Paris 6th District - A perfect pied a terre,1900.0,apartment,2601.0,5.0,2.0,1.0,1380000.0,72
+Paris 17th District - A 3-bed loft-style apartment,1930.0,apartment,2601.0,5.0,3.0,2.0,1390000.0,113
+Paris 4th District - An ideal pied a terre,1800.0,apartment,2601.0,5.0,2.0,2.0,1390000.0,81
+Paris 7th District - A bright 3-bed apartment,1900.0,apartment,2601.0,5.0,3.0,1.0,1390000.0,90
+Paris 7th District - A 3-bed apartment with a balcony,1964.0,apartment,2601.0,5.0,3.0,2.0,1390000.0,101
+Paris 4th District - A delightful pied a terre oozing with period charm,1800.0,apartment,2601.0,5.0,2.0,1.0,1394999.0,94
+Paris 4th District - A 4-bed apartment oozing with period charm,1756.0,apartment,2601.0,5.0,4.0,2.0,1394999.0,83
+"Paris,ÃŽle-de-France,France",1965.0,apartment,2601.0,5.0,2.0,1.0,1399999.0,82
+Paris 15th District - A bright 3/4 bed apartment,1980.0,apartment,2601.0,5.0,4.0,2.0,1410000.0,131
+Paris 16th District - A renovated pied a terre,1880.0,apartment,2601.0,5.0,2.0,1.0,1439999.0,104
+Paris 7th District - An ideal pied a terre,1850.0,apartment,2601.0,5.0,2.0,1.0,1450000.0,92
+Paris 16th District - A 3-bed apartment with a leafy terrace,1932.0,apartment,2601.0,5.0,3.0,2.0,1450000.0,84
+Paris 9th District - A bright 3-bed apartment,1850.0,apartment,2601.0,5.0,3.0,2.0,1450000.0,138
+Paris 2nd District - A delightful pied a terre,1750.0,apartment,2601.0,5.0,1.0,1.0,1460000.0,74
+Paris 7th District - An ideal pied a terre with a terrace,1955.0,apartment,2601.0,5.0,1.0,1.0,1469999.0,51
+Paris 8th District - An ideal pied a terre,1991.0,apartment,2601.0,5.0,2.0,2.0,1475000.0,89
+Paris 7th District - An ideal pied a terre enjoying Eiffel Tower views,1913.0,apartment,2601.0,5.0,2.0,2.0,1475000.0,62
+Paris 3rd District - A peaceful apartment,1900.0,apartment,2601.0,5.0,3.0,2.0,1480000.0,139
+"Paris,ÃŽle-de-France,France",1730.0,apartment,2601.0,5.0,1.0,1.0,1489999.0,62
+Paris 16th District - A 3-bed family apartment,1969.0,apartment,2601.0,5.0,3.0,2.0,1489999.0,124
+Paris 16th District - A 2-bed apartment enjoying an open view,1965.0,apartment,2601.0,5.0,2.0,0.0,1495000.0,103
+Paris 16th District - A 3-bed apartment with balconies,1968.0,apartment,2601.0,5.0,3.0,2.0,1495000.0,147
+Paris 7th District - An ideal pied a terre,1890.0,apartment,2601.0,5.0,2.0,1.0,1500000.0,68
+Paris 9th District - A bright loft-style apartment,1880.0,apartment,2601.0,5.0,3.0,2.0,1500000.0,150
+Paris 9th District - An elegant 4-room apartment,1850.0,apartment,2601.0,5.0,3.0,2.0,1545000.0,134
+Paris 7th District - An ideal pied a terre,1897.0,apartment,2601.0,5.0,1.0,1.0,1545000.0,76
+Paris 12th District - A 3-bed apartment with an exceptional terrace,2017.0,apartment,2601.0,5.0,3.0,2.0,1550000.0,103
+Paris 16th District - An ideal pied a terre,2017.0,apartment,2601.0,5.0,2.0,1.0,1559999.0,68
+Paris 6th District - A workshop to renovate,1900.0,apartment,2601.0,5.0,2.0,1.0,1559999.0,114
+Paris 8th District - An ideal pied a terre,1850.0,apartment,2601.0,5.0,2.0,1.0,1570000.0,95
+Paris 1st District - A magnificent pied a terre in a prime location,1850.0,apartment,2601.0,5.0,1.0,1.0,1579999.0,68
+Paris 8th District - An ideal pied a terre,1900.0,apartment,2601.0,5.0,2.0,1.0,1590000.0,84
+Paris 6th District - An ideal pied a terre,1927.0,apartment,2601.0,5.0,2.0,1.0,1590000.0,60
+Paris 6th District - An ideal pied a terre,1927.0,apartment,2601.0,5.0,2.0,1.0,1590000.0,60
+Paris 16th District - An elegant 4-bed apartment,1900.0,apartment,2601.0,5.0,4.0,4.0,1590000.0,132
+Paris 8th District - An ideal pied a terre,1900.0,apartment,2601.0,5.0,2.0,1.0,1590000.0,84
+Paris 7th District - An ideal pied a terre,1830.0,apartment,2601.0,5.0,1.0,1.0,1590000.0,73
+Paris 6th District - A superb 3-bed apartment,1750.0,apartment,2601.0,5.0,3.0,1.0,1647999.0,107
+Paris 3rd District - An ideal pied a terre,1722.0,apartment,2601.0,5.0,2.0,2.0,1649999.0,89
+Paris 6th District - A split-level 3-bed apartment,1912.0,apartment,2601.0,5.0,3.0,2.0,1649999.0,125
+Paris 16th District - A 3/4 bed family apartment with a garden,1956.0,apartment,2601.0,5.0,3.0,2.0,1665000.0,111
+Paris 1st District - A split-level apartment in a prime location,1615.0,apartment,2601.0,5.0,3.0,2.0,1669999.0,91
+"Paris,ÃŽle-de-France,France",1951.0,apartment,2601.0,5.0,2.0,1.0,1680000.0,100
+Paris 5th District - A 4-bed family apartment,1900.0,apartment,2601.0,5.0,4.0,2.0,1685000.0,160
+Paris 15th District - A 2/3 bed apartment enjoying an Eiffel Tower view,1930.0,apartment,2601.0,5.0,2.0,1.0,1690000.0,99
+Paris 15th District - A top-floor duplex apartment,1976.0,apartment,2601.0,5.0,3.0,2.0,1694999.0,119
+Paris 6th District - A perfect pied a terre,1900.0,apartment,2601.0,5.0,2.0,1.0,1694999.0,79
+Paris XVIIe - Saint-Ferdinand.,1900.0,apartment,2601.0,5.0,3.0,1.0,1694999.0,147
+Paris 16th District - A spacious 3-bed apartment,1928.0,apartment,2601.0,5.0,3.0,0.0,1698999.0,143
+Paris 7th District - A 2/3 bed apartment with a terrace,1895.0,apartment,2601.0,5.0,3.0,2.0,1699999.0,125
+Paris 16th District - An ideal family apartment,1911.0,apartment,2601.0,5.0,3.0,2.0,1739999.0,127
+Paris 5th District - Two apartments with great potential,1850.0,apartment,2601.0,5.0,3.0,0.0,1750000.0,118
+Paris 9th District - A 3-bed apartment oozing with period charm,1830.0,apartment,2601.0,5.0,3.0,2.0,1769999.0,130
+Paris 16th District - A bright 2/3 bed apartment,1963.0,apartment,2601.0,5.0,2.0,2.0,1784999.0,103
+Paris VIe - Jardin du Luxembourg,1914.0,apartment,2601.0,5.0,2.0,1.0,1784999.0,104
+Paris 16th District - An ideal pied a terre with a garden,1950.0,apartment,2601.0,5.0,2.0,1.0,1799000.0,81
+Paris 5th District - A 3-bed apartment in a prime location,1890.0,apartment,2601.0,5.0,3.0,0.0,1800000.0,117
+Paris 6th District - A 3-bed apartment enjoying superb views,1900.0,apartment,2601.0,5.0,3.0,2.0,1800000.0,112
+Paris 7th District - An elegant pied a terre,1850.0,apartment,2601.0,5.0,3.0,2.0,1800000.0,94
+"Paris,ÃŽle-de-France,France",1700.0,apartment,2601.0,5.0,2.0,0.0,1850000.0,96
+Paris 17th District - A 4-bed apartment in mint condition,1900.0,apartment,2601.0,5.0,4.0,2.0,1850000.0,143
+Paris 17th District - A six-room apartment to renovate,1910.0,apartment,2601.0,5.0,4.0,2.0,1869000.0,180
+Paris 16th District - A peaceful 3-bed apartment,1913.0,apartment,2601.0,5.0,4.0,1.0,1870000.0,138
+Paris 1st District - An ideal pied a terre,1840.0,apartment,2601.0,5.0,1.0,1.0,1890000.0,72
+Paris 7th District - An apartment with a garden,1850.0,apartment,2601.0,5.0,2.0,1.0,1899999.0,81
+Paris 6th District - A 4-bed family apartment,1900.0,apartment,2601.0,5.0,4.0,2.0,1899999.0,121
+"Paris,ÃŽle-de-France,France",1950.0,apartment,2601.0,5.0,2.0,2.0,1899999.0,69
+Paris 18th District - An ideal pied a terre,1890.0,apartment,2601.0,5.0,3.0,1.0,1920000.0,108
+Paris 16th District - A peaceful 3-bed apartment enjoying an open view,1960.0,apartment,2601.0,5.0,3.0,2.0,1924999.0,162
+Paris 16th District - An ideal pied a terre,1890.0,apartment,2601.0,5.0,2.0,1.0,1929999.0,120
+Paris 16th District - A superb pied a terre,1882.0,apartment,2601.0,5.0,2.0,2.0,1929999.0,115
+Paris 8th District - A superb pied a terre,1880.0,apartment,2601.0,5.0,2.0,2.0,1949999.0,64
+Paris 7th District - A renovated pied a terre,1885.0,apartment,2601.0,5.0,1.0,1.0,1949999.0,79
+Paris 6th District Saint Placide Corner apartment,1900.0,apartment,2601.0,5.0,3.0,2.0,1955000.0,109
+Paris 17th District - An elegant 4-bed apartment,1896.0,apartment,2601.0,5.0,4.0,2.0,1973999.0,138
+Paris 5th District - A bright 3/4 bed apartment,1930.0,apartment,2601.0,5.0,4.0,2.0,1980000.0,152
+Paris XVIIe - Pierre Demours - MarchÃ© Lebon.,1900.0,apartment,2601.0,5.0,4.0,2.0,1989999.0,162
+Paris 16th District - A 2-bed apartment enjoying a panoramic view,1930.0,apartment,2601.0,5.0,3.0,2.0,1989999.0,138
+Paris 16th District - An ideal pied a terre,1963.0,apartment,2601.0,5.0,2.0,0.0,1989999.0,117
+Paris 7th District - A superb 4-bed apartment,1932.0,apartment,2601.0,5.0,4.0,3.0,1989999.0,162
+Paris 13th District - A 3-bed apartment,2000.0,apartment,2601.0,5.0,3.0,2.0,1994999.0,123
+Paris 9th District - An atypical 4/5 bed apartment,1910.0,apartment,2601.0,5.0,4.0,2.0,1994999.0,148
+Paris 6th District - A renovated 3-bed apartment,1890.0,apartment,2601.0,5.0,3.0,2.0,1994999.0,112
+Paris 16th District - A bright 3 bed apartment with a balcony,1960.0,apartment,2601.0,5.0,3.0,3.0,1994999.0,105
+Paris 17th District - A renovated 3-bed apartment,1890.0,apartment,2601.0,5.0,3.0,2.0,1994999.0,160
+Paris 1st District - An ideal pied a terre,1700.0,apartment,2601.0,5.0,2.0,1.0,1999999.0,68
+Paris 8th District - A bright pied a terre in a prime location,2004.0,apartment,2601.0,5.0,2.0,0.0,1999999.0,87
+"Paris,ÃŽle-de-France,France",1932.0,apartment,2601.0,5.0,4.0,2.0,1999999.0,143
+Paris 16th District - A renovated pied a terre,1962.0,apartment,2601.0,5.0,2.0,0.0,1999999.0,99
+Paris 16th District - A renovated pied a terre with terraces,1956.0,apartment,2601.0,5.0,1.0,0.0,1999999.0,89
+Paris 4th District - An ideal pied a terre with a roof terrace,1930.0,apartment,2601.0,5.0,2.0,1.0,2080000.0,88
+Paris 16th District - A superb pied a terre,1962.0,apartment,2601.0,5.0,2.0,0.0,2095000.0,90
+Paris 16th District - A 2/3 bed apartment,1925.0,apartment,2601.0,5.0,2.0,2.0,2100000.0,155
+Paris 16th District - A renovated pied a terre,1992.0,apartment,2601.0,5.0,2.0,4.0,2100000.0,130
+Paris 16th District - A bright 3-bed family apartment,1930.0,apartment,2601.0,5.0,3.0,2.0,2100000.0,170
+Paris 3rd District - An ideal pied a terre,1870.0,apartment,2601.0,5.0,2.0,2.0,2150000.0,96
+Paris 7th District - A spacious 5-room apartment,1885.0,apartment,2601.0,5.0,3.0,1.0,2150000.0,136
+Paris 17th District - An elegant 3-bed apartment,1870.0,apartment,2601.0,5.0,3.0,3.0,2190000.0,138
+Paris 3rd District - A 4-bed apartment with a balcony,1910.0,apartment,2601.0,5.0,4.0,2.0,2190000.0,130
+Paris 7th District - A superb pied a terre,1680.0,apartment,2601.0,5.0,2.0,2.0,2195000.0,176
+Paris 16th District - A spacious 2-bed apartment with a balcony,1950.0,apartment,2601.0,5.0,2.0,2.0,2240000.0,136
+Paris 6th District - A 5-room apartment in a prime location,1810.0,apartment,2601.0,5.0,3.0,2.0,2249999.0,123
+Paris 17th District - Ideal Liberal profession.,1910.0,apartment,2601.0,5.0,5.0,4.0,2280000.0,208
+Paris 7th District - A 3-bed apartment with a terrace,1991.0,apartment,2601.0,5.0,3.0,1.0,2289999.0,115
+Paris 14th District - A delightful apartment,1974.0,apartment,2601.0,5.0,4.0,4.0,2289999.0,187
+Paris 16th District - A renovated 3-bed apartment,1920.0,apartment,2601.0,5.0,3.0,2.0,2294999.0,134
+Paris 7th District - An exceptional pied a terre,1934.0,apartment,2601.0,5.0,2.0,1.0,2300000.0,102
+Paris 8th District - A 3-bed apartment,1890.0,apartment,2601.0,5.0,3.0,2.0,2300000.0,146
+Paris 17th District - A superb 3-bed apartment,1885.0,apartment,2601.0,5.0,3.0,2.0,2350000.0,165
+Paris VIe- Jardin du Luxembourg/Port Royal,1908.0,apartment,2601.0,5.0,3.0,2.0,2361999.0,127
+Paris 16th District - A sunny apartment oozing with period charm.,1890.0,apartment,2601.0,5.0,3.0,2.0,2389999.0,140
+Paris 16th District - A 3/4 bed family apartment,1900.0,apartment,2601.0,5.0,4.0,3.0,2389999.0,231
+Paris 2nd District - A superb 3-bed apartment,1890.0,apartment,2601.0,5.0,3.0,2.0,2392000.0,110
+Paris 14th District - A superb 3-bed period property,1927.0,villa/townhouse,2601.0,5.0,4.0,3.0,2400000.0,203
+Paris 6th District - A bright 3-bed apartment,1930.0,apartment,2601.0,5.0,3.0,2.0,2449999.0,107
+Paris 10th District - A meticulously renovated 6-room apartment,1850.0,apartment,2601.0,5.0,3.0,2.0,2449999.0,198
+Paris 16th District - A 5-bed family home with terraces,1967.0,villa/townhouse,2601.0,5.0,6.0,4.0,2470000.0,186
+Paris 5th District - An elegant 3-bed apartment in a prime location,1867.0,apartment,2601.0,5.0,3.0,1.0,2490000.0,149
+Paris 7th District - An ideal pied a terre,1880.0,apartment,2601.0,5.0,2.0,2.0,2499999.0,123
+Paris 16th District - A superb penthouse apartment,1969.0,apartment,2601.0,5.0,3.0,3.0,2499999.0,192
+PARIS XXe - LA CAMPAGNE A PARIS,1830.0,villa/townhouse,2601.0,5.0,3.0,2.0,2499999.0,144
+Paris 20th District - A charming period property with a garden,1830.0,apartment,2601.0,5.0,3.0,2.0,2499999.0,144
+Paris 6th District -An ideal pied a terre,1880.0,apartment,2601.0,5.0,2.0,2.0,2499999.0,115
+Paris 16th District - A 3-bed family apartment,1970.0,apartment,2601.0,5.0,3.0,2.0,2499999.0,162
+Paris 5th District - An ideal pied a terre,1700.0,apartment,2601.0,5.0,2.0,2.0,2519999.0,94
+"Paris,ÃŽle-de-France,France",1925.0,apartment,2601.0,5.0,3.0,2.0,2519999.0,199
+Paris 8th District Avenue George V,1963.0,apartment,2601.0,5.0,1.0,1.0,2519999.0,61
+Paris 16th District - A spacious 3-bed apartment,1880.0,apartment,2601.0,5.0,3.0,2.0,2549999.0,169
+Paris 16th District - A bright 3-bed apartment,1910.0,apartment,2601.0,5.0,3.0,2.0,2549999.0,141
+Paris 16th District - A spacious apartment commanding exceptional views,1968.0,apartment,2601.0,5.0,3.0,3.0,2589999.0,218
+Paris 8th District - A spacious 3-bed apartment,1893.0,apartment,2601.0,5.0,3.0,2.0,2589999.0,190
+Paris 16th District - A renovated 4-bed apartment,1890.0,apartment,2601.0,5.0,4.0,3.0,2589999.0,188
+Paris 10th District - A superb 3/4 bed apartment,1930.0,apartment,2601.0,5.0,3.0,2.0,2600000.0,153
+Paris 16th District - A meticulously renovated 2/3 bed apartment,1930.0,apartment,2601.0,5.0,2.0,2.0,2650000.0,169
+Paris 8th District - A renovated 3-bed apartment,1900.0,apartment,2601.0,5.0,4.0,3.0,2689999.0,163
+Paris 16th District - An apartment with a 41 sqm terrace,1965.0,apartment,2601.0,5.0,3.0,2.0,2700000.0,150
+Paris 8th District - A spacious family apartment,1880.0,apartment,2601.0,5.0,5.0,4.0,2700000.0,180
+Paris 5th on Quai de la Tournelle accross Ile St Louis,1965.0,apartment,2601.0,5.0,1.0,1.0,2749999.0,86
+Paris 16th District - A bright 3-bed apartment,1990.0,apartment,2601.0,5.0,3.0,3.0,2749999.0,145
+Paris 5th District - A sunny 3-bed apartment,1900.0,apartment,2601.0,5.0,3.0,2.0,2749999.0,149
+Paris 17th District - A 3-bed apartment with a superb roof terrace,1970.0,apartment,2601.0,5.0,2.0,3.0,2790000.0,116
+Paris 9th District - A renovated 3/4 bed apartment,1860.0,apartment,2601.0,5.0,4.0,2.0,2799999.0,224
+Paris 7th District - An ideal pied a terre,1850.0,apartment,2601.0,5.0,2.0,2.0,2799999.0,93
+Paris 6th District - A spacious 3-bed apartment,1920.0,apartment,2601.0,5.0,3.0,0.0,2799999.0,158
+Paris 7th District - An elegant 3/4 bed apartment,1914.0,apartment,2601.0,5.0,3.0,2.0,2830000.0,158
+Paris 7th District - An elegant pied a terre,1880.0,apartment,2601.0,5.0,2.0,2.0,2840000.0,106
+Paris 16th District - A 4/5 bed apartment with a balcony,1910.0,apartment,2601.0,5.0,5.0,3.0,2849999.0,225
+Paris 7th District - An ideal pied a terre,1800.0,apartment,2601.0,5.0,2.0,2.0,2849999.0,123
+Paris 7th District - An elegant 3-bed appartment front of the garden,1863.0,apartment,2601.0,5.0,3.0,2.0,2849999.0,126
+Paris 16th District - A renovated pied a terre,1970.0,apartment,2601.0,5.0,2.0,0.0,2889999.0,118
+Paris 17th District - A period Town House with great potential,1900.0,villa/townhouse,2601.0,5.0,5.0,2.0,2900000.0,297
+Paris 16th District - A superb apartment with a garden,1902.0,apartment,2601.0,5.0,3.0,3.0,2950000.0,237
+Paris 16th District - A 6-bed family apartment with a balcony,1926.0,apartment,2601.0,5.0,6.0,0.0,2950000.0,240
+Paris 17th District - A 267 sqm apartment,1890.0,apartment,2601.0,5.0,5.0,0.0,2950000.0,246
+Paris 7th District - A renovated 4-bed apartment,1975.0,apartment,2601.0,5.0,4.0,3.0,2990000.0,159
+Paris 16th District - A bright 3-bed apartment,1930.0,apartment,2601.0,5.0,3.0,0.0,2990000.0,147
+"Paris 6th District - Saint-Germain-des-PrÃ©s, two bedrooms.",1850.0,apartment,2601.0,5.0,2.0,2.0,3000000.0,144
+Paris 7th District - An ideal pied a terre in a prime location,1820.0,apartment,2601.0,5.0,2.0,1.0,3000000.0,102
+Paris 7th District - An ideal pied a terre,1800.0,apartment,2601.0,5.0,2.0,2.0,3097500.0,115
+Paris 16th district Place des Etats-Unis,1880.0,apartment,2601.0,5.0,3.0,2.0,3099999.0,140
+Paris 16th District - A superb 3-bed apartment,1880.0,apartment,2601.0,5.0,3.0,0.0,3099999.0,140
+Paris 8th District - An ideal pied a terre,1890.0,apartment,2601.0,5.0,2.0,2.0,3099999.0,148
+Paris XVIIe - Wagram. Wagram. AmpÃ¨re.,1903.0,apartment,2601.0,5.0,4.0,3.0,3099999.0,253
+Paris 18th District - A spacious family home with terraces,2016.0,villa/townhouse,2601.0,5.0,7.0,3.0,3119999.0,235
+Paris 15th District - A renovated 3-bed apartment,1900.0,apartment,2601.0,5.0,4.0,3.0,3130000.0,126
+Paris 6th District - A bright 3/4 bed apartment,1870.0,apartment,2601.0,5.0,3.0,2.0,3149999.0,123
+Paris 8th District - A superb pied a terre,1860.0,apartment,2601.0,5.0,2.0,2.0,3189999.0,104
+Paris 14th District - A 5-bed apartment with a garden,1992.0,apartment,2601.0,5.0,5.0,0.0,3200000.0,212
+"Paris,ÃŽle-de-France,France",1890.0,apartment,2601.0,5.0,3.0,3.0,3200000.0,148
+Paris 7th District - A 3-bed apartment enjoying superb views,1910.0,apartment,2601.0,5.0,3.0,1.0,3200000.0,126
+Paris 16th District - A bright and peaceful 3-bed apartment,1929.0,apartment,2601.0,5.0,3.0,0.0,3200000.0,196
+Paris 16th District - A bright 4-bed apartment,1920.0,apartment,2601.0,5.0,4.0,0.0,3250000.0,212
+Paris 7th District - An exceptional 3-bed apartment,1834.0,apartment,2601.0,5.0,3.0,2.0,3290000.0,118
+Paris 17th District - A superb apartment in a prime location,1910.0,apartment,2601.0,5.0,4.0,2.0,3300000.0,183
+Paris 17th District - A superb pied a terre,1900.0,apartment,2601.0,5.0,2.0,2.0,3360000.0,138
+Paris 8th District - A superbly renovated 2/3 bed apartment,1880.0,apartment,2601.0,5.0,3.0,3.0,3360000.0,135
+Paris 7th District - An ideal pied a terre in a prime location,1900.0,apartment,2601.0,5.0,2.0,2.0,3369999.0,105
+Paris 16th District - An elegant 5-bed apartment,1900.0,apartment,2601.0,5.0,9.0,2.0,3390000.0,192
+Paris 16th District - A superb top-floor apartment with a terrace,1970.0,apartment,2601.0,5.0,3.0,3.0,3399999.0,162
+Paris 8th District - An elegant pied a terre in a prime location,1900.0,apartment,2601.0,5.0,2.0,2.0,3439999.0,132
+Paris 8th District - A superb pied a terre,1950.0,apartment,2601.0,5.0,2.0,2.0,3464999.0,106
+Paris 17th District - A magnificent 6-bed apartment,1915.0,apartment,2601.0,5.0,6.0,4.0,3500000.0,333
+Paris 8th District - A renovated apartment in a prime location,1840.0,apartment,2601.0,5.0,3.0,3.0,3500000.0,168
+Paris 6th District - An ideal pied a terre,1850.0,apartment,2601.0,5.0,3.0,3.0,3500000.0,132
+Paris VIe - Jardin du Luxembourg,1930.0,apartment,2601.0,5.0,5.0,3.0,3550000.0,205
+Paris 17th District - An elegant 4-bed apartment,1913.0,apartment,2601.0,5.0,4.0,4.0,3579999.0,274
+Paris 16th District - A superb 4-bed family home,1900.0,villa/townhouse,2601.0,5.0,4.0,4.0,3599999.0,247
+"Paris 15th District, on the edge of the 7th District - An ideal pied a terre",1965.0,apartment,2601.0,5.0,3.0,3.0,3674999.0,117
+Paris 16th District - Benjamin Godard - 160 sqm with 3 bedrooms,1900.0,apartment,2601.0,5.0,3.0,3.0,3690000.0,158
+Paris 16th District - A 3-bed apartment with a garden,1900.0,apartment,2601.0,5.0,4.0,2.0,3750000.0,222
+Paris 16th District - A peaceful 3-bed apartment enjoying an open view,1960.0,apartment,2601.0,5.0,6.0,4.0,3750000.0,324
+Paris 6th District - A bright and spacious 2/3 bed apartment,1859.0,apartment,2601.0,5.0,3.0,3.0,3795000.0,178
+Paris 14th District - A renovated architect-designed property,1892.0,apartment,2601.0,5.0,4.0,4.0,3839999.0,212
+Paris 16th District - A superb 3-bed apartment in an iconic buildng,1931.0,apartment,2601.0,5.0,3.0,2.0,3850000.0,212
+Paris 4e - Place des Vosges,1612.0,apartment,2601.0,5.0,2.0,1.0,3899999.0,128
+Paris 14th District - An exceptional 4-bed family home,1860.0,villa/townhouse,2601.0,5.0,4.0,3.0,3899999.0,314
+Paris 8th District - A 3-bed apartment in a prime location,1962.0,apartment,2601.0,5.0,3.0,3.0,3949999.0,178
+Paris 5th District - An elegant 3-bed apartment in a prime location,1930.0,apartment,2601.0,5.0,3.0,3.0,3949999.0,192
+Paris 8th District - A 3-bed apartment with a balcony,1900.0,apartment,2601.0,5.0,3.0,2.0,3949999.0,193
+Paris 7th District - A bright 3-bed apartment,1700.0,apartment,2601.0,5.0,3.0,2.0,3960000.0,186
+Paris 14th District - A peaceful architect-designed property,2007.0,villa/townhouse,2601.0,5.0,5.0,5.0,3980000.0,326
+Paris 8th District - A superb 3-bed apartment,1880.0,apartment,2601.0,5.0,3.0,0.0,3990000.0,157
+Paris 16th District - A superb 2/3 bed apartment,1930.0,apartment,2601.0,5.0,3.0,2.0,3990000.0,204
+Paris 4th District - An ideal pied a terre,1607.0,apartment,2601.0,5.0,2.0,1.0,3990000.0,174
+Paris 8th District - An elegant 3-bed apartment,1880.0,apartment,2601.0,5.0,3.0,2.0,3990000.0,242
+Paris 16th District - A renovated floor through apartment.,1900.0,apartment,2601.0,5.0,3.0,2.0,3999999.0,234
+Paris 6th District - A tastefully renovated three-bed apartment.,1900.0,apartment,2601.0,5.0,3.0,2.0,4100000.0,154
+Paris 6th District - A renovated 4-bed apartment,1850.0,apartment,2601.0,5.0,4.0,0.0,4195000.0,166
+Paris 1st District - A magnificent 300 sqm apartment,1860.0,apartment,2601.0,5.0,4.0,3.0,4199999.0,295
+Paris 4th District - An exceptional 2/3 bed apartment in a prime location,1600.0,apartment,2601.0,5.0,2.0,2.0,4266000.0,143
+Paris 1st District - An elegant 6-room apartment,1750.0,apartment,2601.0,5.0,3.0,0.0,4355000.0,178
+"Paris,ÃŽle-de-France,France",1894.0,apartment,2601.0,5.0,4.0,4.0,4429999.0,235
+Paris 7th District - Barbet de Jouy - 3/4 bed apartment,1980.0,apartment,2601.0,5.0,4.0,2.0,4499999.0,177
+Paris 16th District - A superb 4-bed apartment,1930.0,apartment,2601.0,5.0,4.0,0.0,4499999.0,349
+Paris 16th District - A spacious apartment enjoying open views,1890.0,apartment,2601.0,5.0,6.0,0.0,4549999.0,359
+16th District - Square Lamartine - Victor Hugo,1900.0,apartment,2601.0,5.0,5.0,3.0,4580000.0,277
+Paris 7th District - A bright 3-bed apartment enjoying superb views,1913.0,apartment,2601.0,5.0,3.0,2.0,4700000.0,175
+Paris 3rd District - An exceptional 3-bed apartment in a period private mansion,1754.0,apartment,2601.0,5.0,3.0,2.0,4869999.0,171
+Paris 8th District - A magnificent split-level apartment,1927.0,apartment,2601.0,5.0,5.0,6.0,4900000.0,282
+Paris 8th District - Avenue Montaigne,1930.0,apartment,2601.0,5.0,3.0,0.0,4900000.0,213
+Paris 8th District - A meticulously renovated 3-bed apartment,1880.0,apartment,2601.0,5.0,3.0,0.0,4950000.0,158
+Paris 16th District - An elegant 4-bed apartment,1890.0,apartment,2601.0,5.0,4.0,4.0,4984999.0,280
+Paris 8th District - A superb 3-bed apartment,1850.0,apartment,2601.0,5.0,3.0,2.0,5000000.0,195
+Paris 7th District - Prime location,1929.0,apartment,2601.0,5.0,4.0,4.0,0.0,270
+Paris 6th District - BEAUX- ARTS - 3-bed workshop-style apartment,1805.0,apartment,2601.0,5.0,3.0,2.0,5200000.0,168
+Paris 8th District - An elegant apartment with an extensive terrace,1960.0,apartment,2601.0,5.0,3.0,2.0,5200000.0,166
+Paris 16th District - An exceptional private mansion,1880.0,villa/townhouse,2601.0,5.0,5.0,3.0,5250000.0,223
+Paris 16th District - An exceptional 3-bed apartment enjoying stunning views,1925.0,apartment,2601.0,5.0,3.0,0.0,5399999.0,217
+Paris 6th District - A renovated 5-room apartment,1950.0,apartment,2601.0,5.0,3.0,2.0,5399999.0,196
+Paris 5th District - A superb 5-bed apartment,1927.0,apartment,2601.0,5.0,5.0,3.0,5489999.0,253
+Paris 16th District - A superb 4-bed apartment,1895.0,apartment,2601.0,5.0,4.0,0.0,5494999.0,207
+Paris 8th District - An exceptional 3-bed apartment in a prime location,1900.0,apartment,2601.0,5.0,3.0,3.0,5600000.0,184
+Paris 16th District - An elegant 3-bed apartment with a balcony,1900.0,apartment,2601.0,5.0,3.0,3.0,5685000.0,198
+"Paris,ÃŽle-de-France,France",1900.0,apartment,2601.0,5.0,4.0,4.0,5699999.0,237
+Paris 6th District - Business premises,1880.0,commercial / office,2601.0,5.0,3.0,1.0,5750376.0,257
+Paris 16th District - Ideal business premises,1905.0,apartment,2601.0,5.0,4.0,0.0,5800000.0,316
+"Paris 16th District - A unique panoramic view of Eiffel Tower and Seine, magnificent 3-bed apartment",1925.0,apartment,2601.0,5.0,4.0,2.0,5800000.0,207
+Paris 8th District - An exceptional 4-bed apartment with a leafy garden,1900.0,apartment,2601.0,5.0,4.0,0.0,5850000.0,311
+Paris 8th District - A superb pied a terre with a terrace,1920.0,apartment,2601.0,5.0,2.0,2.0,5899999.0,134
+Paris 7th District - A renovated 4-bed apartment commanding an exceptional view,1910.0,apartment,2601.0,5.0,4.0,3.0,5899999.0,204
+Paris 8th District - An exceptional 3-bed apartment,1896.0,apartment,2601.0,5.0,4.0,3.0,5899999.0,183
+Paris 7th District - A magnificent apartment with a garden,1892.0,apartment,2601.0,5.0,4.0,4.0,5949999.0,271
+Paris 8th District - An exceptional 3-bed apartment,1910.0,apartment,2601.0,5.0,3.0,0.0,6199999.0,307
+Paris 16th District - A superb pied a terre,1930.0,apartment,2601.0,5.0,2.0,2.0,6240000.0,144
+Paris 8th District - A meticulously renovated 3-bed apartment,1840.0,apartment,2601.0,5.0,3.0,3.0,6299999.0,217
+Paris 16th District - A 4-bed apartment enjoying an Eiffel Tower view,1890.0,apartment,2601.0,5.0,3.0,0.0,6400000.0,282
+Paris 16th District - An elegant 4-bed apartment,1930.0,apartment,2601.0,5.0,4.0,4.0,0.0,334
+Paris 4th District - A magnificent apartment in an exceptional location,1950.0,apartment,2601.0,5.0,3.0,1.0,6499999.0,225
+Paris 1st District - An elegant 3/4 bed apartment,1820.0,apartment,2601.0,5.0,4.0,3.0,6499999.0,188
+Paris 16th District - A superb 4-bed apartment,1900.0,apartment,2601.0,5.0,4.0,0.0,6670000.0,277
+Paris 7th District - A superb 350 sqm Hotel Particulier..,1823.0,villa/townhouse,2601.0,5.0,3.0,0.0,0.0,346
+Paris 8th District - A spacious apartment in a prime location,1880.0,apartment,2601.0,5.0,6.0,0.0,7099999.0,221
+Paris 16th District - An exceptional private mansion,1930.0,villa/townhouse,2601.0,5.0,6.0,0.0,7449999.0,346
+Paris 7th District - A magnificent 3-bed apartment,1750.0,apartment,2601.0,5.0,3.0,3.0,7592000.0,187
+Paris 8th District - A spacious apartment with great potential,1870.0,apartment,2601.0,5.0,7.0,0.0,7900000.0,386
+Paris 8th District - A magnificent duplex apartment in a prime location,1962.0,apartment,2601.0,5.0,3.0,0.0,8400000.0,183
+Paris 16th District - An exceptional private mansion,1930.0,villa/townhouse,2601.0,5.0,4.0,3.0,0.0,390
+Paris 7th District - An exceptional pied a terre,1938.0,apartment,2601.0,5.0,3.0,3.0,0.0,282
+Paris 8th District - A magnificent 3-bed apartment,1891.0,apartment,2601.0,5.0,3.0,3.0,8899999.0,245
+Paris 8th District - An exceptional apartment in a prime location,1860.0,apartment,2601.0,5.0,4.0,5.0,0.0,334
+Paris 16th District - A magnificent private mansion,1930.0,apartment,2601.0,5.0,4.0,3.0,9600000.0,405
+Paris 7th District - An exceptional family apartment,1925.0,apartment,2601.0,5.0,5.0,2.0,0.0,263
+Paris 8th District - A superb penthouse apartment with terraces,1930.0,apartment,2601.0,5.0,3.0,0.0,9749999.0,222
+Paris 16th District - Place des Etats-Unis,1911.0,apartment,2601.0,5.0,3.0,3.0,9949999.0,332
+Paris 6th District - A superb period property,1850.0,villa/townhouse,2601.0,5.0,15.0,0.0,10200000.0,529
+Paris 16th District - A magnificent private mansion in a prime location,1900.0,villa/townhouse,2601.0,5.0,5.0,3.0,0.0,430
+Paris 16th District - An exceptional penthouse apartment,1969.0,apartment,2601.0,5.0,4.0,2.0,10950000.0,293
+Paris 7th District - A magnificent pied a terre bathed in sunshine,2013.0,apartment,2601.0,5.0,3.0,0.0,11000000.0,224
+Paris 1st District - Exceptional apartment - Stunning view,1840.0,apartment,2601.0,5.0,2.0,0.0,11500000.0,239
+Paris 16th - Place des Etats-Unis,1911.0,apartment,2601.0,5.0,3.0,4.0,0.0,389
+Paris 16th District - A magnificent apartment with a garden,1931.0,apartment,2601.0,5.0,5.0,3.0,12360000.0,543
+"Paris,ÃŽle-de-France,France",1902.0,apartment,2601.0,5.0,5.0,3.0,12599999.0,371
+Paris 8th District - A magnificent 10-room private mansion,1880.0,villa/townhouse,2601.0,5.0,5.0,4.0,12899999.0,367
+Paris 7th District - An exceptional apartment in a prime location,1931.0,apartment,2601.0,5.0,4.0,0.0,13949999.0,502
+Paris 16th District - An exceptional 5-bed apartment,1917.0,apartment,2601.0,5.0,5.0,5.0,14800000.0,438
+Paris 1st District - An exceptional period Town House,1850.0,villa/townhouse,2601.0,5.0,4.0,0.0,0.0,337
+Paris 16th District - A stoneâ€™s throw from the Arc de Triomphe,1990.0,apartment,2601.0,5.0,7.0,0.0,0.0,506
