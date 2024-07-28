@@ -9,7 +9,7 @@ Welcome to the **Streamlit Dashboards Repo**! This repository is for contributor
 
 ## Repository Structure
 
-- **`dashboards/`**: Contains individual Streamlit dashboard(s) if any and other Power-BI/Tableau/Qlkisense/etc Dashboards applications. Each dashboard should be in its own folder according to the tool used.
+- **`dashboards/`**: Contains Power-BI/Tableau/Qlkisense/etc Dashboards applications. Each dashboard should be in its own folder according to the tool used.
 - **`streamlit-main.py`**: The main Streamlit application file for integrating approved features.
 
 ## How to Contribute
