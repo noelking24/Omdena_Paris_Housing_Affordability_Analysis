@@ -3,37 +3,14 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+from utils.filter import filter_data
+
 # Directory pathing
 curr_dir = os.path.dirname(__file__)
 csv_path = os.path.relpath('../synthetic-data/Dummy_Data - Available_Property.csv', start=curr_dir)
 
 # Data filtering
 df = pd.read_csv(csv_path)
-
-def filter_data(budget_range, rent_or_buy, min_rooms, max_rooms, districts, lease_length, property_type):
-    '''
-    This function filters the data according to the user's choices
-    returns a filtered pandas dataframe
-    '''
-    if rent_or_buy == 'Rent':
-        filtered_data = df[(df['Rent'] >= budget_range[0]) & (df['Rent'] <= budget_range[1])]
-    else:
-        filtered_data = df[(df['Cost'] >= budget_range[0]) & (df['Cost'] <= budget_range[1])] # Change the slider range dynamically if it's cost
-    
-    filtered_data = filtered_data[
-        (filtered_data['Number of rooms'] >= min_rooms) & 
-        (filtered_data['Number of rooms'] <= max_rooms) & 
-        (filtered_data['District/Arrondissement'].isin(districts)) &
-        (filtered_data['Lease Duration (Months)'] >= lease_length) &
-        (filtered_data['Property_Type'].isin(property_type))
-    ]
-
-    if co_living:
-        filtered_data = filtered_data[filtered_data['Co-Living'] == 1]    
-    if pet_friendly:
-        filtered_data = filtered_data[filtered_data['Pets allowed'] == 1]
-    
-    return filtered_data
 
 # Streamlit UI
 st.title('Paris Property Listings')
@@ -45,38 +22,17 @@ st.sidebar.header('Please Provide your preferences')
 # Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.radio
 rent_or_buy = st.sidebar.radio('Do you want to rent or buy a property?', ('Rent', 'Buy'))
 
-# Budget range slider
-# Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.slider
-
-if rent_or_buy == 'Rent':
-    budget_range = st.sidebar.slider(
-    'Select your budget range (in euros):', 
-    min_value=0, 
-    max_value=10000, 
-    value=(500, 2000), # Default Range
-    step=100 # Increase by 100 Euros
+# Rooms range
+min_max_rooms = st.sidebar.slider(
+    'Number of Rooms:',
+    min_value=1,
+    max_value=10,
+    value=(1, 2),
+    step=1
 )
-
-if rent_or_buy == 'Buy':
-    budget_range = st.sidebar.slider(
-    'Select your budget range (in euros):', 
-    min_value=100000, 
-    max_value=500000, 
-    value=(100000, 200000), # Default Range
-    step=10000 # Increase by 10000 Euros
-)
-
-# Number of rooms slider
-min_rooms = st.sidebar.slider('Minimum Number of Rooms:', 0, 10, 1)
-max_rooms = st.sidebar.slider('Maximum Number of Rooms:', 1, 10, 5)
 
 # District preference
 # Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.multiselect
-districts = st.sidebar.multiselect(
-    'Preferred Arrondissement/District:', 
-    options=df['District/Arrondissement'].unique(), 
-    default=df['District/Arrondissement'].unique() # Select all by default
-)
 
 # Property Type Preference
 property_type = st.sidebar.multiselect(
@@ -97,9 +53,6 @@ lease_length = st.sidebar.number_input(
 # Checkbox docs :- https://docs.streamlit.io/develop/api-reference/widgets/st.checkbox
 co_living = st.sidebar.checkbox('Do you Prefer Co-living?', value=False)
 pet_friendly = st.sidebar.checkbox('Do you Require Property to be Pet-Friendly?', value=False)
-
-# Call the function to Filter data, All options to filter data should be made available before this step
-filtered_df = filter_data(budget_range, rent_or_buy, min_rooms, max_rooms, districts, lease_length, property_type)
 
 # Render KPI Card
 # Function to render a KPI card with CSS
@@ -145,42 +98,61 @@ def render_kpi_card(title, value, footer_icon, footer_text, gradient_start, grad
     )
 
 # Display the title
-st.title('Property Listings KPI Dashboard')
+# st.title('Property Listings KPI Dashboard')
 
+# Budget range slider
+# Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.slider
+if rent_or_buy == 'Rent':
+    budget_range = st.slider(
+    'Select your budget range (in euros):', 
+    min_value=0, 
+    max_value=10000, 
+    value=(500, 2000), # Default Range
+    step=100 # Increase by 100 Euros
+)
+
+if rent_or_buy == 'Buy':
+    budget_range = st.slider(
+    'Select your budget range (in euros):', 
+    min_value=100000, 
+    max_value=500000, 
+    value=(100000, 200000), # Default Range
+    step=10000 # Increase by 10000 Euros
+)
+
+districts = st.multiselect(
+    'Preferred Arrondissement/District:', 
+    options=df['District/Arrondissement'].unique(), 
+    default=df['District/Arrondissement'].unique() # Select all by default
+)
+
+
+# Call the function to Filter data, All options to filter data should be made available before this step
+filtered_df = filter_data(df, budget_range, rent_or_buy, min_max_rooms, districts, lease_length, property_type, co_living, pet_friendly)
+
+st.divider()
 # Create three columns for the KPI cards
 col1, col2, col3 = st.columns(3)
 
-# Render each KPI card in its respective column with different gradient colors
+
 with col1:
-    render_kpi_card(
-        title='Total Properties Found',
-        value=len(filtered_df),
-        footer_icon='🔍',
-        footer_text='Market Overview',
-        gradient_start='#ff7eb3',  # Light Pink
-        gradient_end='#ff758c'     # Pink
+    st.metric(
+        label="Total Properties Found",
+        value=f"{len(filtered_df)}"
     )
 
 with col2:
-    render_kpi_card(
-        title=f'Average {rent_or_buy}',
-        value=round(filtered_df['Rent' if rent_or_buy == 'Rent' else 'Cost'].mean()),
-        footer_icon='💲',
-        footer_text='Rental Market',
-        gradient_start='#FFFFFF',  # Light Green
-        gradient_end='#000000'     # Green
+    st.metric(
+        label=f"Average {rent_or_buy}",
+        value=f"{round(filtered_df['Rent' if rent_or_buy == 'Rent' else 'Cost'].mean())} euros"
     )
 
 with col3:
-    render_kpi_card(
-        title='Average Size',
-        value=round(filtered_df['Size'].mean()),
-        footer_icon='💰',
-        footer_text='Buying Market',
-        gradient_start='#1CB5E0',  # Light Blue
-        gradient_end='#000851'     # Blue
+    st.metric(
+        label="Average size",
+        value=f"{round(filtered_df['Size'].mean())} sq. m."
     )
-    
+
 # If no properties found
 if filtered_df.empty:
     st.warning('No properties found matching your criteria. Please adjust your filters.')
@@ -241,6 +213,8 @@ fig.update_mapboxes(
 )
 
 st.plotly_chart(fig)
+
+st.divider()
 
 # Display additional data about the filtered properties
 if not filtered_df.empty:
