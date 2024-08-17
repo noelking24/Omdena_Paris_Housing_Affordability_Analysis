@@ -18,17 +18,28 @@ st.title('Paris Property Listings')
 # Sidebar for user inputs, the right portion would be dedicated for user-preview
 st.sidebar.header('Please Provide your preferences')
 
+
+rent_or_buy_help = """
+    This option lets you filter which types of housing will appear on your map. 
+"""
 # Initial choice of rent/purchase
 # Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.radio
-rent_or_buy = st.sidebar.radio('Do you want to rent or buy a property?', ('Rent', 'Buy'))
+rent_or_buy = st.sidebar.radio(
+    'Do you want to rent or buy a property?', 
+    ('Rent', 'Buy'),
+    help=rent_or_buy_help)
 
+min_max_rooms_help = """
+    This slider filters for the acceptable number of rooms that a property can have on the map.
+"""
 # Rooms range
 min_max_rooms = st.sidebar.slider(
     'Number of Rooms:',
     min_value=1,
     max_value=10,
     value=(1, 2),
-    step=1
+    step=1,
+    help=min_max_rooms_help
 )
 
 # District preference
@@ -108,7 +119,7 @@ if rent_or_buy == 'Rent':
     min_value=0, 
     max_value=10000, 
     value=(500, 2000), # Default Range
-    step=100 # Increase by 100 Euros
+    step=100, # Increase by 100 Euros
 )
 
 if rent_or_buy == 'Buy':
