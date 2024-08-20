@@ -1,16 +1,50 @@
 import os
 import streamlit as st
+from streamlit_theme import st_theme
 import pandas as pd
 import plotly.express as px
-
-from utils.filter import filter_data
+from geojson import load
+from utils.filter import clean_raw_data, process_merged_data
 
 # Directory pathing
 curr_dir = os.path.dirname(__file__)
-csv_path = os.path.relpath('../synthetic-data/Dummy_Data - Available_Property.csv', start=curr_dir)
+merged_dataset_path = os.path.relpath('./data/merged_dataset.xlsx', start=curr_dir)
+geojson_path = os.path.relpath('../map-data/paris_arrondisements.geojson')
+
+# Page configs
+st.set_page_config(
+    page_title="Main",
+    menu_items={
+        'About': """
+        
+        #### About
+        This dashboard was made with the help of volunteer from Omdena as part of the France's Local Chapter Challenge.
+
+        """
+    }
+)
+
+# Get theme
+theme = st_theme()
+st.write(theme)
+
+# Reading GeoJSON
+with open(geojson_path) as f:
+    gj = load(f)
 
 # Data filtering
-df = pd.read_csv(csv_path)
+# df = pd.read_csv(csv_path)
+df = pd.read_excel(
+  merged_dataset_path,
+  # rent in euros, area in sq. m
+  names=['rent/cost', 'zipcode', 'arrondissement', 'area', 'rooms', 'bedrooms', 'bathroom', 'type'],
+  dtype={
+    'zipcode': 'string',
+    'type': 'string'
+  }
+)
+cleaned_df = clean_raw_data(df)
+st.write(cleaned_df.head(5))
 
 # Streamlit UI
 st.title('Paris Property Listings')
@@ -45,72 +79,6 @@ min_max_rooms = st.sidebar.slider(
 # District preference
 # Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.multiselect
 
-# Property Type Preference
-property_type = st.sidebar.multiselect(
-    'Choose your Property Preference:',
-    options=df['Property_Type'].unique(), 
-    default=df['Property_Type'].unique()  # Select all by default
-)
-
-# Lease length
-# Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.number_input
-lease_length = st.sidebar.number_input(
-    'Minimum Lease Length (months):', 
-    min_value=0, 
-    step=1, 
-    value=6  # Default lease length
-)
-
-# Checkbox docs :- https://docs.streamlit.io/develop/api-reference/widgets/st.checkbox
-co_living = st.sidebar.checkbox('Do you Prefer Co-living?', value=False)
-pet_friendly = st.sidebar.checkbox('Do you Require Property to be Pet-Friendly?', value=False)
-
-# Render KPI Card
-# Function to render a KPI card with CSS
-def render_kpi_card(title, value, footer_icon, footer_text, gradient_start, gradient_end):
-    st.markdown(
-        f'''
-        <style>
-        .kpi-card {{
-            background: linear-gradient(135deg, {gradient_start}, {gradient_end});
-            border-radius: 15px;
-            padding: 20px;
-            color: black;
-            text-align: center;
-            font-weight: bold;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 10px;
-        }}
-        .kpi-value {{
-            font-size: 36px;
-        }}
-        .kpi-label {{
-            font-size: 18px;
-            color: black;
-        }}
-        .kpi-footer {{
-            color: black;
-            font-size: 14px;
-            margin-top: 5px;
-        }}
-        </style>
-        ''', unsafe_allow_html=True
-    )
-
-    st.markdown(
-        f'''
-        <div class='kpi-card'>
-            <div class='kpi-label'>{title}</div>
-            <div class='kpi-value'>{value}</div>
-            <div class='kpi-footer'>{footer_icon} {footer_text}</div>
-        </div>
-        ''',
-        unsafe_allow_html=True
-    )
-
-# Display the title
-# st.title('Property Listings KPI Dashboard')
-
 # Budget range slider
 # Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.slider
 if rent_or_buy == 'Rent':
@@ -133,13 +101,13 @@ if rent_or_buy == 'Buy':
 
 districts = st.multiselect(
     'Preferred Arrondissement/District:', 
-    options=df['District/Arrondissement'].unique(), 
-    default=df['District/Arrondissement'].unique() # Select all by default
+    options=cleaned_df['arrondissement'].unique(), 
+    default=cleaned_df['arrondissement'].unique() # Select all by default
 )
 
 
 # Call the function to Filter data, All options to filter data should be made available before this step
-filtered_df = filter_data(df, budget_range, rent_or_buy, min_max_rooms, districts, lease_length, property_type, co_living, pet_friendly)
+filtered_df = process_merged_data(cleaned_df, budget_range, rent_or_buy, min_max_rooms, districts)
 
 st.divider()
 # Create three columns for the KPI cards
@@ -155,54 +123,49 @@ with col1:
 with col2:
     st.metric(
         label=f"Average {rent_or_buy}",
-        value=f"{round(filtered_df['Rent' if rent_or_buy == 'Rent' else 'Cost'].mean())} euros"
+        value=f"{round(filtered_df['rent' if rent_or_buy == 'Rent' else 'cost'].mean())} euros"
     )
 
 with col3:
     st.metric(
         label="Average size",
-        value=f"{round(filtered_df['Size'].mean())} sq. m."
+        value=f"{round(filtered_df['area'].mean())} sq. m."
     )
 
 # If no properties found
 if filtered_df.empty:
     st.warning('No properties found matching your criteria. Please adjust your filters.')
 
-# Plotting the map using Plotly
-# Docs:- https://plotly.com/python/scattermapbox/
-
-# Custom colors for property types
-# Color pallete:- https://colorhunt.co/
-color_map = {
-    'Apartment': '#FF8225',
-    'Villa': '#B43F3F',
-    'Duplex': '#EF5A6F'
-}
-
-fig = px.scatter_mapbox(
-    filtered_df,
-    lat=filtered_df['Latitude'], 
-    lon=filtered_df['Longitude'],
-    color='Property_Type',
-    size='Size', # Size of property in sqare feet
-    hover_name='Address',
-    hover_data={
-        'Rent': True, 
-        'Cost': True, 
-        'Number of rooms': True, 
-        'Size': True,
-        'District/Arrondissement': True,
-    },
-    color_discrete_map=color_map,
-    zoom=12,
-    height=600
+size_data = pd.DataFrame(filtered_df.groupby(['arrondissement']).size().reset_index())
+size_data.rename(
+    columns={0: 'count'},
+    inplace=True
 )
+st.write(size_data)
+
+fig = px.choropleth_mapbox(
+  size_data,
+  geojson=gj,
+  color='count',
+  locations='arrondissement',
+  featureidkey='properties.cartodb_id',
+  color_continuous_scale="Viridis",
+  range_color=(0,110),
+  zoom=10,
+  opacity=0.5
+  )
+fig.update_layout(
+  mapbox_center={'lat': 48.8566, 'lon': 2.3522},
+  margin={'r':0,'t':0,'l':0,'b':0}
+)
+
+if theme['backgroundColor'] == "#ffffff":
+    fig.update_layout(mapbox_style="carto-positron")
+if theme['backgroundColor'] == "#0e1117":
+    fig.update_layout(mapbox_style='carto-darkmatter')
 
 # mapbox-layers :- https://plotly.com/python/mapbox-layers/
 fig.update_layout(
-    mapbox_style='carto-darkmatter',
-    mapbox_center={'lat': 48.8566, 'lon': 2.3522},
-    margin={'r':0,'t':0,'l':0,'b':0},
     modebar={
         'orientation': 'v',
     },
@@ -228,6 +191,7 @@ st.plotly_chart(fig)
 st.divider()
 
 # Display additional data about the filtered properties
+# TODO: update dashboard according to PowerBI uttility?
 if not filtered_df.empty:
     st.subheader('Top 5 options for you would be')
     st.dataframe(filtered_df[:5])
@@ -250,7 +214,7 @@ if not filtered_df.empty:
 
     # Histogram of property prices
     
-    st.subheader('Price Distribution')
-    price_column = 'Cost' if rent_or_buy == 'Buy' else 'Rent'
-    fig_hist = px.histogram(filtered_df, x=price_column, nbins=20, title='Price Distribution')
-    st.plotly_chart(fig_hist)
+    # st.subheader('Price Distribution')
+    # price_column = 'Cost' if rent_or_buy == 'Buy' else 'Rent'
+    # fig_hist = px.histogram(filtered_df, x=price_column, nbins=20, title='Price Distribution')
+    # st.plotly_chart(fig_hist)
