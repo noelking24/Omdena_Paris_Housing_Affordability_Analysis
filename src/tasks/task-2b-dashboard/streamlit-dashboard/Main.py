@@ -6,7 +6,13 @@ import plotly.express as px
 import geopandas as gpd
 from geojson import load
 from utils.filter import clean_raw_data, process_merged_data
-from utils.metrics import calculate_avg_rent_cost, get_max_rentable, get_max_housing
+from utils.metrics import (
+    calculate_avg_rent_cost, 
+    get_max_rentable, 
+    get_max_housing,
+    get_max_bedrooms,
+    get_max_bathrooms
+)
 
 # Directory pathing
 curr_dir = os.path.dirname(__file__)
@@ -37,6 +43,9 @@ with open(geojson_path) as f:
 # Get GDF
 gdf = gpd.read_file(geojson_path, columns=['name', 'cartodb_id'])
 gdf_id_name_only = gdf[['name', 'cartodb_id']]
+gdf_id_name_only = gdf_id_name_only.rename({
+    'arrondissement': 'cartodb_id'
+})
 
 # Data filtering
 # df = pd.read_csv(csv_path)
@@ -47,26 +56,22 @@ df = pd.read_excel(
   dtype={
     'zipcode': 'string',
     'type': 'string'
-  },
-  na_values={
-    'rooms': 0,
-    'bedrooms': 0,
-    'bathroom': 0
   }
 )
 cleaned_df = clean_raw_data(df)
 
 # Streamlit UI
 st.title('Paris Property Listings')
+st.divider()
 
 # Sidebar for user inputs, the right portion would be dedicated for user-preview
-st.sidebar.header('Please Provide your preferences')
+st.subheader('Please provide your preferences')
 
 min_max_rooms_help = """
     This slider filters for the acceptable number of rooms that a property can have on the map.
 """
 # Rooms range
-min_max_rooms = st.sidebar.slider(
+min_max_rooms = st.slider(
     'Number of Rooms:',
     min_value=1,
     max_value=10,
@@ -109,6 +114,49 @@ with budget_range_column:
         step=10000 # Increase by 10000 Euros
     )
 
+bedroom_checkbox_col, has_bedroom_col = st.columns([0.3, 0.7])
+
+with bedroom_checkbox_col:
+    consider_bedroom = st.checkbox(
+        "Prefer unique bedrooms?",
+        value=False,
+        help="""
+        - Check this if you'd like to consider for unique bedrooms
+        - :warning: Listings may not include bedrooms, but MAY have single rooms
+        that can be used as sleeping quarters
+        """
+    )
+
+with has_bedroom_col:
+    min_max_bedrooms = st.slider(
+        "Select range of preferred bedrooms",
+        min_value=1,
+        # max_value=10,
+        max_value=get_max_bedrooms(cleaned_df),
+        value=(1, 2),
+        disabled=not consider_bedroom
+    )    
+
+bathroom_checkbox_col, has_bathroom_col = st.columns([0.3, 0.7])
+
+with bathroom_checkbox_col:
+    consider_bathroom = st.checkbox(
+        "Consider bathroom/s?",
+        value=False,
+        help="""
+        - Check this if you'd like to consider for bathrooms when checking for properties
+        """
+    )
+
+with has_bathroom_col:
+    min_max_bathroom = st.slider(
+        "Select range of preferred bathrooms",
+        min_value=1,
+        max_value=get_max_bathrooms(cleaned_df),
+        value=(1, 2),
+        disabled=not consider_bathroom
+    )    
+
 districts = st.multiselect(
     'Preferred Arrondissement/District:', 
     options=cleaned_df['arrondissement'].unique(), 
@@ -117,7 +165,17 @@ districts = st.multiselect(
 
 
 # Call the function to Filter data, All options to filter data should be made available before this step
-filtered_df = process_merged_data(cleaned_df, budget_range, rent_or_buy, min_max_rooms, districts)
+filtered_df = process_merged_data(
+    cleaned_df, 
+    budget_range, 
+    rent_or_buy, 
+    min_max_rooms,
+    consider_bedroom,
+    min_max_bedrooms,
+    consider_bathroom,
+    min_max_bathroom,
+    districts
+)
 
 st.divider()
 # Create three columns for the KPI cards
@@ -160,9 +218,12 @@ grouped_agg_data = filtered_df.groupby(['arrondissement']).agg({
     'bedrooms': ['min', 'max', 'mean'],
     'bathroom': ['min', 'max']
 })
+
 grouped_agg_data.columns = ['_'.join(col).strip() for col in grouped_agg_data.columns.values]
 result = pd.DataFrame(grouped_agg_data)
-result = size_data.join(result, how='inner', on='arrondissement', validate='one_to_one')
+result = size_data.merge(result, how='inner', on='arrondissement', validate='one_to_one')
+result = result.join(gdf_id_name_only.set_index('cartodb_id'), how='inner', on='arrondissement', validate='1:1')
+
 
 fig = px.choropleth_mapbox(
   result,
@@ -173,7 +234,10 @@ fig = px.choropleth_mapbox(
   color_continuous_scale="YlGn",
   range_color=(0,result['count'].max()),
   zoom=8,
-  opacity=0.5
+  opacity=0.5,
+  labels={
+      'count': 'Matching Properties'
+  }
   )
 fig.update_layout(
   mapbox_center={'lat': 48.8566, 'lon': 2.3522},
@@ -235,3 +299,12 @@ if not filtered_df.empty:
     # price_column = 'Cost' if rent_or_buy == 'Buy' else 'Rent'
     # fig_hist = px.histogram(filtered_df, x=price_column, nbins=20, title='Price Distribution')
     # st.plotly_chart(fig_hist)
+st.sidebar.write("""
+    #### Note
+    - :warning: This app is a helpful tool to complement your search, but it's not a definitive guide for choosing the best property listings for your needs.
+    
+    #### Guide             
+    - Use the filters at the top of the page to identify which districts (arrondisements) are most likely to
+    contain your properties of choice
+    - Hover on the :grey_question: symbol in each filter to know more about what that filter does
+""")

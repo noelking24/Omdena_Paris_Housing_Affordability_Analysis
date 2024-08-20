@@ -20,6 +20,24 @@ def get_max_housing(
   except Exception as e:
     return None
 
+def get_max_bedrooms(
+    df: pd.DataFrame
+) -> float | int | None:
+  try:
+    max_bedrooms = df['bedrooms'].max()
+    return int(max_bedrooms)
+  except Exception as e:
+    return None
+  
+def get_max_bathrooms(
+    df: pd.DataFrame
+) -> float | int | None:
+  try:
+    max_bathrooms = df['bathroom'].max()
+    return int(max_bathrooms)
+  except Exception as e:
+    return None
+
 def calculate_avg_rent_cost(
     df: pd.DataFrame,
     rent_or_buy_status: str

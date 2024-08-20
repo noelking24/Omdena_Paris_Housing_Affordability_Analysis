@@ -7,9 +7,13 @@ def clean_raw_data(
   try:
     cleaned_df = df.dropna(subset=['rent/cost', 'arrondissement'])
     cleaned_df['arrondissement'] = cleaned_df['arrondissement'].astype(int)
+
+    force_zero = ['rooms', 'bedrooms', 'bathroom']
+    cleaned_df[force_zero] = cleaned_df[force_zero].fillna(0)
+
     return cleaned_df[[x for x in cleaned_df.columns if x not in ['zipcode']]]
   except Exception as e:
-    st.warning(f"Data encountered errors while processing: {e}")
+    st.warning(f"Data encountered errors while cleaning raw data: {e}")
     cleaned_df = df
     return cleaned_df
 
@@ -17,13 +21,13 @@ def process_merged_data(
   df: pd.DataFrame,
   budget_range: list | tuple,
   rent_or_buy: str,
-  min_max_rooms: tuple,  
-  # has_bathroom: bool,
-  # bathroom_count: list | tuple,
-  # 
+  min_max_rooms: tuple,
+  has_bedrooms: bool,
+  min_max_bedrooms: list | tuple, 
+  has_bathroom: bool,
+  min_max_bathroom: list | tuple,
   districts: list | None = None, 
 ) -> pd.DataFrame:
-    print(min_max_rooms)
     try:
       df['rent'] = df['rent/cost'].where(df['type'] == 'Monthly Rent', None)
       df['cost'] = df['rent/cost'].where(df['type'] == 'Housing', None)
@@ -41,11 +45,20 @@ def process_merged_data(
       if districts:
         filtered_data = filtered_data[filtered_data['arrondissement'].isin(districts)]
 
+      if has_bedrooms:
+        filtered_data = filtered_data[
+          ((filtered_data['bedrooms'] >= min_max_bedrooms[0]) & (filtered_data['bedrooms'] <= min_max_bedrooms[1]))
+        ]
+      
+      if has_bathroom:
+         filtered_data = filtered_data[
+          ((filtered_data['bathroom'] >= min_max_bathroom[0]) & (filtered_data['bathroom'] <= min_max_bathroom[1]))    
+        ]
       # filtered_data = filtered_data.drop(['rent/cost'], inplace=True)
 
       return filtered_data  
     except Exception as e:
-      st.warning(f"Data encountered errors while processing: {e}")
+      st.warning(f"Data encountered errors while processing merged data: {e}")
       filtered_df = df
       return filtered_df
 
