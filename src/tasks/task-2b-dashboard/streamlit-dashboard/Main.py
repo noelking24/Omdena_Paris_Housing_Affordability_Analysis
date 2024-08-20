@@ -3,8 +3,10 @@ import streamlit as st
 from streamlit_theme import st_theme
 import pandas as pd
 import plotly.express as px
+import geopandas as gpd
 from geojson import load
 from utils.filter import clean_raw_data, process_merged_data
+from utils.metrics import calculate_avg_rent_cost, get_max_rentable, get_max_housing
 
 # Directory pathing
 curr_dir = os.path.dirname(__file__)
@@ -14,6 +16,7 @@ geojson_path = os.path.relpath('../map-data/paris_arrondisements.geojson')
 # Page configs
 st.set_page_config(
     page_title="Main",
+    layout="wide",
     menu_items={
         'About': """
         
@@ -26,11 +29,14 @@ st.set_page_config(
 
 # Get theme
 theme = st_theme()
-st.write(theme)
 
 # Reading GeoJSON
 with open(geojson_path) as f:
     gj = load(f)
+
+# Get GDF
+gdf = gpd.read_file(geojson_path, columns=['name', 'cartodb_id'])
+gdf_id_name_only = gdf[['name', 'cartodb_id']]
 
 # Data filtering
 # df = pd.read_csv(csv_path)
@@ -41,27 +47,20 @@ df = pd.read_excel(
   dtype={
     'zipcode': 'string',
     'type': 'string'
+  },
+  na_values={
+    'rooms': 0,
+    'bedrooms': 0,
+    'bathroom': 0
   }
 )
 cleaned_df = clean_raw_data(df)
-st.write(cleaned_df.head(5))
 
 # Streamlit UI
 st.title('Paris Property Listings')
 
 # Sidebar for user inputs, the right portion would be dedicated for user-preview
 st.sidebar.header('Please Provide your preferences')
-
-
-rent_or_buy_help = """
-    This option lets you filter which types of housing will appear on your map. 
-"""
-# Initial choice of rent/purchase
-# Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.radio
-rent_or_buy = st.sidebar.radio(
-    'Do you want to rent or buy a property?', 
-    ('Rent', 'Buy'),
-    help=rent_or_buy_help)
 
 min_max_rooms_help = """
     This slider filters for the acceptable number of rooms that a property can have on the map.
@@ -76,28 +75,39 @@ min_max_rooms = st.sidebar.slider(
     help=min_max_rooms_help
 )
 
-# District preference
-# Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.multiselect
+rent_or_buy_column, budget_range_column = st.columns([0.3, 0.7])
+
+with rent_or_buy_column:
+    rent_or_buy_help = """
+        This option lets you filter which types of housing will appear on your map. 
+    """
+    # Initial choice of rent/purchase
+    # Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.radio
+    rent_or_buy = st.radio(
+        'Do you want to rent or buy a property?', 
+        ('Rent', 'Buy'),
+        help=rent_or_buy_help)
 
 # Budget range slider
 # Docs:- https://docs.streamlit.io/develop/api-reference/widgets/st.slider
-if rent_or_buy == 'Rent':
-    budget_range = st.slider(
-    'Select your budget range (in euros):', 
-    min_value=0, 
-    max_value=10000, 
-    value=(500, 2000), # Default Range
-    step=100, # Increase by 100 Euros
-)
+with budget_range_column:
+    if rent_or_buy == 'Rent':
+        budget_range = st.slider(
+        'Select your budget range (in euros):', 
+        min_value=0, 
+        max_value=get_max_rentable(cleaned_df), 
+        value=(500, 2000), # Default Range
+        step=100, # Increase by 100 Euros
+    )
 
-if rent_or_buy == 'Buy':
-    budget_range = st.slider(
-    'Select your budget range (in euros):', 
-    min_value=100000, 
-    max_value=500000, 
-    value=(100000, 200000), # Default Range
-    step=10000 # Increase by 10000 Euros
-)
+    if rent_or_buy == 'Buy':
+        budget_range = st.slider(
+        'Select your budget range (in euros):', 
+        min_value=0, 
+        max_value=get_max_housing(cleaned_df), 
+        value=(100000, 200000), # Default Range
+        step=10000 # Increase by 10000 Euros
+    )
 
 districts = st.multiselect(
     'Preferred Arrondissement/District:', 
@@ -111,47 +121,58 @@ filtered_df = process_merged_data(cleaned_df, budget_range, rent_or_buy, min_max
 
 st.divider()
 # Create three columns for the KPI cards
-col1, col2, col3 = st.columns(3)
+with st.container():
+    if not filtered_df.empty:
+        col1, col2, col3 = st.columns(3)
 
+        with col1:
+            st.metric(
+                label="Total Properties Found",
+                value=f"{len(filtered_df)}"
+            )
 
-with col1:
-    st.metric(
-        label="Total Properties Found",
-        value=f"{len(filtered_df)}"
-    )
+        with col2:
+            avg_rent = calculate_avg_rent_cost(filtered_df, rent_or_buy)
+            st.metric(
+                label=f"Average {rent_or_buy}",
+                value=f"{avg_rent} euros" if avg_rent is not None else "N/A"
+            )
 
-with col2:
-    st.metric(
-        label=f"Average {rent_or_buy}",
-        value=f"{round(filtered_df['rent' if rent_or_buy == 'Rent' else 'cost'].mean())} euros"
-    )
-
-with col3:
-    st.metric(
-        label="Average size",
-        value=f"{round(filtered_df['area'].mean())} sq. m."
-    )
-
-# If no properties found
-if filtered_df.empty:
-    st.warning('No properties found matching your criteria. Please adjust your filters.')
+        with col3:
+            st.metric(
+                label="Average size",
+                value=f"{round(filtered_df['area'].mean())} sq. m."
+            )
+    else:
+        st.warning("""
+        ##### No properties found matching your criteria.
+        ######  Please adjust your filters.
+    """)
 
 size_data = pd.DataFrame(filtered_df.groupby(['arrondissement']).size().reset_index())
 size_data.rename(
     columns={0: 'count'},
     inplace=True
 )
-st.write(size_data)
+grouped_agg_data = filtered_df.groupby(['arrondissement']).agg({
+    'area': ['mean'],
+    'rooms': ['min', 'max', 'mean'],
+    'bedrooms': ['min', 'max', 'mean'],
+    'bathroom': ['min', 'max']
+})
+grouped_agg_data.columns = ['_'.join(col).strip() for col in grouped_agg_data.columns.values]
+result = pd.DataFrame(grouped_agg_data)
+result = size_data.join(result, how='inner', on='arrondissement', validate='one_to_one')
 
 fig = px.choropleth_mapbox(
-  size_data,
+  result,
   geojson=gj,
   color='count',
   locations='arrondissement',
   featureidkey='properties.cartodb_id',
-  color_continuous_scale="Viridis",
-  range_color=(0,110),
-  zoom=10,
+  color_continuous_scale="YlGn",
+  range_color=(0,result['count'].max()),
+  zoom=8,
   opacity=0.5
   )
 fig.update_layout(
@@ -164,31 +185,27 @@ if theme['backgroundColor'] == "#ffffff":
 if theme['backgroundColor'] == "#0e1117":
     fig.update_layout(mapbox_style='carto-darkmatter')
 
-# mapbox-layers :- https://plotly.com/python/mapbox-layers/
-fig.update_layout(
-    modebar={
-        'orientation': 'v',
-    },
-    legend_title='Property Type',
-    legend_y=0.5,
-    uirevision='constant'
-)
-fig.update_geos(
-    showcountries=True
-)
-
 fig.update_mapboxes(
     bounds={
-        'north': 51.138093815546775,
-        'west': -5.979299805444654,
-        'south': -42.11925588687173,
-        'east': 8.401274768380318
+        'north': 48.931178068288375,
+        'west': 2.1891149795072145,
+        'south': 48.77780516767416,
+        'east':2.5015673458389447
     }
 )
 
 st.plotly_chart(fig)
 
 st.divider()
+
+st.write("""
+    ### Insights
+""")
+st.write("""
+    - Analyze single-unit bedrooms, double-unit bedrooms
+    - Districts with 
+    - focus on writing insights after the data has been FULLY integrated into visualization
+""")
 
 # Display additional data about the filtered properties
 # TODO: update dashboard according to PowerBI uttility?
