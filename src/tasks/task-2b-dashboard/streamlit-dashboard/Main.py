@@ -5,6 +5,7 @@ import pandas as pd
 import plotly.express as px
 import geopandas as gpd
 from geojson import load
+from utils.map_settings import update_color_map
 from utils.filter import clean_raw_data, process_merged_data
 from utils.metrics import (
     calculate_avg_rent_cost, 
@@ -160,9 +161,15 @@ with has_bathroom_col:
 districts = st.multiselect(
     'Preferred Arrondissement/District:', 
     options=cleaned_df['arrondissement'].unique(), 
-    default=cleaned_df['arrondissement'].unique() # Select all by default
+    default=cleaned_df['arrondissement'].unique(), # Select all by default
+    format_func=lambda option: f"{gdf_id_name_only[gdf_id_name_only['cartodb_id'] == option]['cartodb_id'].values[0]} ({gdf_id_name_only[gdf_id_name_only['cartodb_id'] == option]['name'].values[0]})"
 )
 
+metric_view = st.selectbox(
+    "View based on?",
+    options=('Count', 'Cost', 'Area Size'),
+    help="This updates the visual color data shown on the map based on your preferences"
+)
 
 # Call the function to Filter data, All options to filter data should be made available before this step
 filtered_df = process_merged_data(
@@ -225,25 +232,30 @@ result = pd.DataFrame(grouped_agg_data)
 result = size_data.merge(result, how='inner', on='arrondissement', validate='one_to_one')
 result = result.join(gdf_id_name_only.set_index('cartodb_id'), how='inner', on='arrondissement', validate='1:1')
 
-
+map_data = update_color_map(metric_view)
 fig = px.choropleth_mapbox(
   result,
   geojson=gj,
-  color='count',
+  color=map_data['metric'],
   locations='arrondissement',
   featureidkey='properties.cartodb_id',
-  color_continuous_scale="YlGn",
-  range_color=(0,result['count'].max()),
+  color_continuous_scale=map_data['color_scale'],
+  range_color=(
+    result[map_data['metric']].min(),  
+    result[map_data['metric']].max()
+    ),
   zoom=8,
   opacity=0.5,
   labels={
       'count': 'Matching Properties',
-      'rent/cost_mean': 'Average Price'
+      'rent/cost_mean': 'Average Price (euros)',
+      'area_mean': 'Average Area Size (m<sup>2</sup>)'
   },
+  hover_name='name',
   hover_data={
-    "name": True,
     "count": True,
-    "rent/cost_mean": True
+    "rent/cost_mean": ":,.2f",
+    'area_mean': ":.2f"
   }
   )
 fig.update_layout(
