@@ -1,4 +1,4 @@
-# Paris, France Housing Price Dashboard
+# Paris, France Housing Price Power BI Dashboard
 This interactive dashboard provides insights into housing prices and characteristics across various districts (arrondissements) in Paris, France. It allows users to filter and explore data based on their preferences for area, price, rooms, and other housing features.
 
 ## Usage
