@@ -213,6 +213,7 @@ size_data.rename(
     inplace=True
 )
 grouped_agg_data = filtered_df.groupby(['arrondissement']).agg({
+    'rent/cost': ['mean'],
     'area': ['mean'],
     'rooms': ['min', 'max', 'mean'],
     'bedrooms': ['min', 'max', 'mean'],
