@@ -6,10 +6,10 @@ def clean_raw_data(
 ) -> pd.DataFrame:
   try:
     cleaned_df = df.dropna(subset=['rent/cost', 'arrondissement'])
-    cleaned_df['arrondissement'] = cleaned_df['arrondissement'].astype(int)
+    cleaned_df.loc[:, ('arrondissement')] = cleaned_df.loc[:, ('arrondissement')].astype(int)
 
     force_zero = ['rooms', 'bedrooms', 'bathroom']
-    cleaned_df[force_zero] = cleaned_df[force_zero].fillna(0)
+    cleaned_df.loc[:, force_zero] = cleaned_df.loc[:, force_zero].fillna(0)
 
     return cleaned_df[[x for x in cleaned_df.columns if x not in ['zipcode']]]
   except Exception as e:
