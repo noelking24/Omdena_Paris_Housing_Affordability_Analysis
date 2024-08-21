@@ -237,7 +237,13 @@ fig = px.choropleth_mapbox(
   zoom=8,
   opacity=0.5,
   labels={
-      'count': 'Matching Properties'
+      'count': 'Matching Properties',
+      'rent/cost_mean': 'Average Price'
+  },
+  hover_data={
+    "name": True,
+    "count": True,
+    "rent/cost_mean": True
   }
   )
 fig.update_layout(
