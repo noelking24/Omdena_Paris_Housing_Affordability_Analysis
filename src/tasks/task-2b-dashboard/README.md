@@ -4,17 +4,20 @@
 - Priyal Shah
 - Jay Cruz
 
-### To-Dos
-- [] Decide on Dashboard tool to primarily use (Tableau vs. PowerBI vs. Streamlit)
-- [] Verify user stories for appropriate EDA application (ex. given the EDA, w/c are priorities that meet the user stories)
-- [] Establish functional requirements (wireframes, dashboard)
-- [] Build dashboard
+#### Contributions:
+- Hana Bedda
+- Pranav Gavali
+- Milind Thakur
 
-### Suggested Tools
-- Excalidraw / Figma (Prototyping tools)
-- Python
+#### Task Summary
+- Two dashboards were produced via Streamlit and PowerBI using a produced, merged dataset from Task 2A as initial reference data
+- (Streamlit) Dashboard provides an interactive set of filters which the user can use
+to look at the trends visible per district 
 
 ### Goals
-1. Integrate results of Task 2a (EDA) into a functioning dashboard
-2. Appropriately represent user's needs for the dashboard
-3. Ensure the dashboard is easy-to-use and easy-to-access for the concerned users
+- [x] Integrate results of Task 2a (EDA) into a functioning dashboard
+- [x] Appropriately represent user's needs for the dashboard
+- [x] Ensure the dashboard is easy-to-use and easy-to-access for the concerned users
+
+### Remaining Task
+- [ ] Attach pertinent insights and analysis of merged dataset

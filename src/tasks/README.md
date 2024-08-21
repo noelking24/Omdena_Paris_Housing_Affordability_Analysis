@@ -12,7 +12,7 @@ Note : Please Follow the below guidelines to create task folders
 | Task No| Task Name | Details |
 |-|-|-|
 |1|Data Collection|Collection of data from different sources which contains the details of properties sold, rented, and also of the properties currently on sale and for rent in Paris.|
-|2|Data Analysis|         |
-|3|Dashboard|Interactive visual representation of data analysis, allowing individuals to identify via app the best properties in the area.|
-|4|         |         |
+|2a|Data Analysis|Collation, analysis, and aggregation of Property Data to be used for Dashboard construction.|
+|2b|Dashboard|Interactive visual representation of data analysis, allowing individuals to identify via app the best properties in the area.|
+|3|Report Documentation|Summative documentation of previous tasks for future reference and improvements.|
 |5|Political Rationale| The entire basis of the political rationale is to create a document upon which we could use as a basis to know if the direction of our current application is viable or not|
