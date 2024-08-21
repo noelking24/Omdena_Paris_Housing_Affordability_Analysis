@@ -282,35 +282,33 @@ st.plotly_chart(fig)
 st.divider()
 
 st.write("""
-    ### Insights
+    ### Insights & Summary Statistics
 """)
 st.write("""
-    - Analyze single-unit bedrooms, double-unit bedrooms
-    - Districts with 
-    - focus on writing insights after the data has been FULLY integrated into visualization
+    - TO BE ADDED SOON
 """)
 
 # Display additional data about the filtered properties
 # TODO: update dashboard according to PowerBI uttility?
-if not filtered_df.empty:
-    st.subheader('Top 5 options for you would be')
-    st.dataframe(filtered_df[:5])
+# if not filtered_df.empty:
+    # st.subheader('Top 5 options for you would be')
+    # st.dataframe(filtered_df[:5])
 
     # Download button for filtered data
     # Generate a printable PDF file with necessary information about the properties
-    st.download_button(
-        label='Download Filtered Data',
-        data=filtered_df.to_csv(index=False),
-        file_name='filtered_properties.csv',
-        mime='text/csv',
-    )
+    # st.download_button(
+    #     label='Download Filtered Data',
+    #     data=filtered_df.to_csv(index=False),
+    #     file_name='filtered_properties.csv',
+    #     mime='text/csv',
+    # )
 
     # Display summary statistics
     # Could generate an statistical numeric / Index to find out which would be the best option
     # Which one would have the most:- Size, Number of rooms, Lease Length at the least cost - Use this information to plot a scatter plot
     # Example from KF24 PG54
-    st.subheader('Summary Statistics')
-    st.write(filtered_df.describe())
+    # st.subheader('Summary Statistics')
+    # st.write(result.describe())
 
     # Histogram of property prices
     
