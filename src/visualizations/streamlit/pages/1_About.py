@@ -16,6 +16,7 @@ df = pd.DataFrame(test_data).set_index('index')
 
 st.set_page_config(
   page_title="Guide",
+  page_icon= "📗",
   layout="wide",
   initial_sidebar_state="expanded",
 )
