@@ -1,5 +1,18 @@
 import streamlit as st
-from Main import filtered_df
+import pandas as pd
+
+test_data = {
+    'rent/cost': [3606, 3611, 3612, 3614, 3617],
+    'arrondissement': [1, 1, 1, 1, 1],
+    'area': [26, 23, 31, 32, 40],
+    'rooms': [1, 1, 1, 1, 1],
+    'bedrooms': [0, 2, 1, 1, 2],
+    'bathroom': [0, 0, 0, 0, 0],
+    'type': ['Monthly Rent', 'Monthly Rent', 'Monthly Rent', 'Monthly Rent', 'Monthly Rent'],
+    'rent': [1950, 1380, 1848, 1848, 1990],
+    'cost': [None, None, None, None, None]
+}
+df = pd.DataFrame(test_data, index='rent/cost')
 
 st.set_page_config(
   page_title="Guide",
@@ -28,7 +41,7 @@ st.write("""
   ##### Sample Data
 """)
 
-st.write(filtered_df.head(5))
+st.write(df)
 
 st.write("""
   ##### Contributions
