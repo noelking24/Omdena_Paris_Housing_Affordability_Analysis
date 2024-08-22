@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 test_data = {
-    'rent/cost': [3606, 3611, 3612, 3614, 3617],
+    'index': [3606, 3611, 3612, 3614, 3617],
     'arrondissement': [1, 1, 1, 1, 1],
     'area': [26, 23, 31, 32, 40],
     'rooms': [1, 1, 1, 1, 1],
@@ -12,7 +12,7 @@ test_data = {
     'rent': [1950, 1380, 1848, 1848, 1990],
     'cost': [None, None, None, None, None]
 }
-df = pd.DataFrame(test_data, index='rent/cost')
+df = pd.DataFrame(test_data).set_index('index')
 
 st.set_page_config(
   page_title="Guide",
