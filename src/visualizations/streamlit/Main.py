@@ -5,6 +5,8 @@ import pandas as pd
 import plotly.express as px
 import geopandas as gpd
 from geojson import load
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 from utils.map_settings import update_color_map
 from utils.filter import clean_raw_data, process_merged_data
 from utils.metrics import (
@@ -24,6 +26,7 @@ geojson_path = os.path.relpath('./data/paris_arrondisements.geojson')
 st.set_page_config(
     page_title="Main",
     layout="wide",
+    page_icon="📈",
     menu_items={
         'About': """
         
@@ -185,35 +188,50 @@ filtered_df = process_merged_data(
 )
 
 st.divider()
-# Create three columns for the KPI cards
+
+# Create three columns for the KPI cards using HTML
 with st.container():
     if not filtered_df.empty:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.metric(
-                label="Total Properties Found",
-                value=f"{len(filtered_df)}"
-            )
+            total_properties_found_html = f"""
+            <div style="text-align: center; color: white; background-color: #90d08c; padding: 10px; border-radius: 10px;">
+                <p style="font-size: 24px; margin: 0;"><strong>Total Properties Found</strong></p>
+                <p style="font-size: 36px; margin: 0;">{len(filtered_df):,}</p>
+            </div>
+            """
+            st.markdown(total_properties_found_html, unsafe_allow_html=True)
 
         with col2:
             avg_rentcost_ratio = calculate_avg_rent_cost_per_sqm(filtered_df)
-            st.metric(
-                label=f"Average {rent_or_buy} per sq. m.",
-                value=f"{avg_rentcost_ratio} €/sq.m" if avg_rentcost_ratio is not None else "N/A"
-            )
+
+            avg_rentcost_ratio_html = f"""
+            <div style="text-align: center; color: white; background-color: #90d08c; padding: 10px; border-radius: 10px;">
+                <p style="font-size: 24px; margin: 0;"><strong>Average {rent_or_buy} per Area</strong></p>
+                <p style="font-size: 36px; margin: 0;">{'€' + str(avg_rentcost_ratio) + '/m²' if avg_rentcost_ratio is not None else 'N/A'}</p>
+            </div>
+            """
+            st.markdown(avg_rentcost_ratio_html, unsafe_allow_html=True)
 
         with col3:
-            st.metric(
-                label="Average size",
-                value=f"{round(filtered_df['area'].mean())} sq. m."
-            )
 
+            avg_area = filtered_df['area'].mean()
+
+            avg_size_html = f"""
+            <div style="text-align: center; color: white; background-color: #90d08c; padding: 10px; border-radius: 10px;">
+                <p style="font-size: 24px; margin: 0;"><strong>Average Area</strong></p>
+                <p style="font-size: 36px; margin: 0;">{f'{avg_area:.2f} m²'}</p>
+            </div>
+            """
+            st.markdown(avg_size_html, unsafe_allow_html=True)
     else:
         st.warning("""
         ##### No properties found matching your criteria.
         ######  Please adjust your filters.
-    """)
+    """)        
+
+
 
 size_data = pd.DataFrame(filtered_df.groupby(['arrondissement']).size().reset_index())
 size_data.rename(
@@ -292,9 +310,266 @@ st.divider()
 st.write("""
     ### Insights & Summary Statistics
 """)
+
+
+# Define a dictionary to map metric_view options to corresponding DataFrame columns
+metric_columns = {
+    'Price Ratio': 'rent_area_ratio',
+    'Count': None, 
+    'Cost': 'rent/cost', 
+    'Area Size': 'area'  
+}
+
+# Select the appropriate column based on metric_view
+selected_metric = metric_columns[metric_view]
+
+# Group by arrondissement and calculate mean and standard error of mean
+if metric_view == 'Count':
+    grouped_df = filtered_df.groupby('arrondissement').size().reset_index(name='count')
+    y_data = grouped_df['count']
+    error_y = None
+    y_axis_title = 'Count'
+else:
+    grouped_df = filtered_df.groupby('arrondissement')[selected_metric].agg(['mean', 'sem']).reset_index()
+    grouped_df.columns = ['arrondissement', 'mean', 'sem']
+    y_data = grouped_df['mean']
+    error_y = dict(type='data', array=grouped_df['sem'], visible=True)
+    y_axis_title = f'Average {metric_view}'
+
+# Create bar chart with error bars
+fig = go.Figure()
+
+fig.add_trace(
+    go.Bar(
+        x=grouped_df['arrondissement'],
+        y=y_data,
+        name=y_axis_title,
+        marker_color='#90d08c',
+        error_y=error_y
+    )
+)
+
+# Update layout
+fig.update_layout(
+    title=f'{y_axis_title} by Arrondissement',
+    xaxis_title='Arrondissement',
+    yaxis_title=y_axis_title,
+    font=dict(color='white'),
+    xaxis=dict(
+        tickcolor='white',
+        tickfont=dict(color='white', size=14)
+    ),
+    yaxis=dict(
+        tickcolor='white',
+        tickfont=dict(color='white', size=14)
+    ),
+    title_font=dict(size=24),
+    xaxis_title_font=dict(size=18),
+    yaxis_title_font=dict(size=18),
+)
+
+st.plotly_chart(fig)
+
+# Define a dictionary for the boxplots
+boxplot_columns = {
+    'Price Ratio': 'rent_area_ratio',
+    'Cost': 'rent/cost',
+    'Area Size': 'area'
+}
+
+# Select the appropriate column based on metric_view
+if metric_view != 'Count':
+    selected_metric = metric_columns[metric_view]
+    y_data = filtered_df[selected_metric]
+    y_axis_title = f'{metric_view}'
+else:
+    # For 'Count', we'll need to handle it differently
+    grouped_df = filtered_df.groupby('rooms').size().reset_index(name='count')
+    y_data = grouped_df['count']
+    y_axis_title = 'Count'
+
+# Create the figure
+fig = go.Figure()
+
+if metric_view != 'Count':
+    # Add box plot for selected metric vs. Rooms
+    fig.add_trace(
+        go.Box(
+            y=y_data,
+            x=filtered_df['rooms'],
+            name=y_axis_title,
+            marker_color='#90d08c',
+            boxmean='sd'
+        )
+    )
+else:
+    # For 'Count', we'll use a bar plot instead of a box plot
+    fig.add_trace(
+        go.Bar(
+            y=y_data,
+            x=grouped_df['rooms'],
+            name='Count',
+            marker_color='#90d08c'
+        )
+    )
+
+# Update layout with dark background and white text
+fig.update_layout(
+    title_text=f'{y_axis_title} by Number of Rooms',
+    font=dict(color='white'),
+    xaxis_title='Number of Rooms',
+    yaxis_title=y_axis_title,
+    xaxis=dict(
+        tickcolor='white',
+        tickfont=dict(color='white', size=14)
+    ),
+    yaxis=dict(
+        tickcolor='white',
+        tickfont=dict(color='white', size=14)
+    ),
+    title_font=dict(size=24),
+    xaxis_title_font=dict(size=18),
+    yaxis_title_font=dict(size=18),
+)
+
+st.plotly_chart(fig)
+
+
 st.write("""
-    - TO BE ADDED SOON
+    #### Distribution of Price and Area
 """)
+
+# Display charts with adjusted ratios
+col1, col2 = st.columns(2)  # 2/3 for bar chart, 1/3 for donut chart
+
+with col1:
+    # Determine the column to use based on the user's choice
+    column_to_use = 'rent' if rent_or_buy == 'Rent' else 'cost'
+
+    # Create the histogram based on the selected column
+    fig1 = px.histogram(filtered_df, x=filtered_df[column_to_use], nbins=15)
+
+    fig1.update_layout(
+        xaxis_title="Price (€)",
+        yaxis_title="Number of Properties",
+        font=dict(color='white'),
+        xaxis_title_font=dict(size=18),
+        yaxis_title_font=dict(size=18),
+        height = 300
+    )
+
+    # Update the color of the histogram bars
+    fig1.update_traces(
+        marker=dict(color='#90d08c')  # Set the color of the bars
+    )
+
+    st.plotly_chart(fig1)  
+
+with col2:
+    fig2 = px.histogram(filtered_df, x=filtered_df['area'], nbins=15)
+
+    fig2.update_layout(
+        xaxis_title="Area (m²)",
+        yaxis_title="Number of Properties",
+        font=dict(color='white'),
+        xaxis_title_font=dict(size=18),
+        yaxis_title_font=dict(size=18),
+        height = 300
+    )
+
+    # Update the color of the histogram bars
+    fig2.update_traces(
+        marker=dict(color='#90d08c')  # Set the color of the bars
+    )
+
+    st.plotly_chart(fig2)
+
+
+
+# Group by rooms and calculate mean for bedrooms and bathrooms
+grouped_df = filtered_df.groupby('rooms').agg({
+    'bedrooms': 'mean',
+    'bathroom': 'mean'
+}).reset_index()
+
+# Sort by number of rooms
+grouped_df = grouped_df.sort_values('rooms')
+
+# Create the figure
+fig = go.Figure()
+
+# Add trace for bedrooms if checkbox is checked
+if consider_bedroom:
+    fig.add_trace(go.Scatter(
+        x=grouped_df['rooms'],
+        y=grouped_df['bedrooms'],
+        mode='lines+markers',
+        name='Bedrooms',
+        line=dict(color='#90d08c', width=2, shape='spline', smoothing=1.3),
+        marker=dict(size=8, color='#90d08c'),
+        fill='tozeroy',
+        fillcolor='rgba(144, 208, 140, 0.3)'
+    ))
+
+# Add trace for bathrooms if checkbox is checked
+if consider_bathroom:
+    fig.add_trace(go.Scatter(
+        x=grouped_df['rooms'],
+        y=grouped_df['bathroom'],
+        mode='lines+markers',
+        name='Bathrooms',
+        line=dict(color='#5d8aa8', width=2, shape='spline', smoothing=1.3),
+        marker=dict(size=8, color='#5d8aa8'),
+        fill='tozeroy',
+        fillcolor='rgba(93, 138, 168, 0.3)'
+    ))
+
+# Update layout
+fig.update_layout(
+    title='Average Number of Bedrooms and Bathrooms by Total Rooms',
+    xaxis_title='Total Number of Rooms',
+    yaxis_title='Average Number',
+    paper_bgcolor='#0E1117',
+    plot_bgcolor='#0E1117',
+    font=dict(color='white'),
+    xaxis=dict(
+        tickcolor='white',
+        tickfont=dict(color='white', size=12),
+        title_font=dict(size=14),
+        tickmode='array',
+        tickvals=grouped_df['rooms'],
+        ticktext=[f'{i}' for i in grouped_df['rooms']]
+    ),
+    yaxis=dict(
+        tickcolor='white',
+        tickfont=dict(color='white', size=12),
+        title_font=dict(size=14)
+    ),
+    legend=dict(
+        font=dict(color='white', size=12),
+        bgcolor='rgba(0,0,0,0)'
+    ),
+    title_font=dict(size=20),
+    hovermode='x unified'
+)
+
+# Add custom hover template
+fig.update_traces(
+    hovertemplate="<b>Total Rooms: %{x}</b><br>" +
+                  "Average: %{y:.2f}<br>" +
+                  "<extra></extra>"
+)
+
+# Display the plot in Streamlit only if at least one of bedroom or bathroom is considered
+if consider_bedroom or consider_bathroom:
+    st.plotly_chart(fig)
+else:
+    st.write("Please select at least one of 'Prefer unique bedrooms?' or 'Consider bathroom/s?' to display the graph for bedroom/bathroom.")
+
+
+
+
+
 
 # Display additional data about the filtered properties
 # TODO: update dashboard according to PowerBI uttility?
