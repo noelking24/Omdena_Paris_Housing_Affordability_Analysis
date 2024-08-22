@@ -8,7 +8,7 @@ from geojson import load
 from utils.map_settings import update_color_map
 from utils.filter import clean_raw_data, process_merged_data
 from utils.metrics import (
-    calculate_avg_rent_cost, 
+    calculate_avg_rent_cost_per_sqm,
     get_max_rentable, 
     get_max_housing,
     get_max_bedrooms,
@@ -167,7 +167,7 @@ districts = st.multiselect(
 
 metric_view = st.selectbox(
     "View based on?",
-    options=('Count', 'Cost', 'Area Size'),
+    options=('Price Ratio', 'Count', 'Cost', 'Area Size'),
     help="This updates the visual color data shown on the map based on your preferences"
 )
 
@@ -197,10 +197,10 @@ with st.container():
             )
 
         with col2:
-            avg_rent = calculate_avg_rent_cost(filtered_df, rent_or_buy)
+            avg_rentcost_ratio = calculate_avg_rent_cost_per_sqm(filtered_df)
             st.metric(
-                label=f"Average {rent_or_buy}",
-                value=f"{avg_rent} euros" if avg_rent is not None else "N/A"
+                label=f"Average {rent_or_buy} per sq. m.",
+                value=f"{avg_rentcost_ratio} €/sq.m" if avg_rentcost_ratio is not None else "N/A"
             )
 
         with col3:
@@ -208,6 +208,7 @@ with st.container():
                 label="Average size",
                 value=f"{round(filtered_df['area'].mean())} sq. m."
             )
+
     else:
         st.warning("""
         ##### No properties found matching your criteria.
@@ -224,7 +225,8 @@ grouped_agg_data = filtered_df.groupby(['arrondissement']).agg({
     'area': ['mean'],
     'rooms': ['min', 'max', 'mean'],
     'bedrooms': ['min', 'max', 'mean'],
-    'bathroom': ['min', 'max']
+    'bathroom': ['min', 'max'],
+    'rent_area_ratio': ['min', 'max', 'mean']
 })
 
 grouped_agg_data.columns = ['_'.join(col).strip() for col in grouped_agg_data.columns.values]
@@ -248,14 +250,20 @@ fig = px.choropleth_mapbox(
   opacity=0.5,
   labels={
       'count': 'Matching Properties',
-      'rent/cost_mean': 'Average Price (euros)',
-      'area_mean': 'Average Area Size (m<sup>2</sup>)'
+      'rent_area_ratio_mean': 'Average Price per Area (€/m<sup>2</sup>)',
+      'rent/cost_mean': 'Average Price (€)',
+      'area_mean': 'Average Area Size (m<sup>2</sup>)',
+      'rent_area_ratio_min': 'Highest Price per Area (€/m<sup>2</sup>)',
+      'rent_area_ratio_max': 'Lowest Price per Area (€/m<sup>2</sup>)'
   },
   hover_name='name',
   hover_data={
     "count": True,
+    "rent_area_ratio_mean": ":,.2f",
     "rent/cost_mean": ":,.2f",
-    'area_mean': ":.2f"
+    'area_mean': ":.2f",
+    'rent_area_ratio_min': ':,.2f',
+    'rent_area_ratio_max': ':,.2f'
   }
   )
 fig.update_layout(

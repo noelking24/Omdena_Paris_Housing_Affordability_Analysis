@@ -34,8 +34,10 @@ def process_merged_data(
 
       if rent_or_buy == 'Rent':
         filtered_data = df[(df['rent'] >= budget_range[0]) & (df['rent'] <= budget_range[1])]
+        filtered_data['rent_area_ratio'] = df['rent'] / df['area']
       else:
         filtered_data = df[(df['cost'] >= budget_range[0]) & (df['cost'] <= budget_range[1])]
+        filtered_data['rent_area_ratio'] = df['cost'] / df['area']
 
       filtered_data = filtered_data[
         ((filtered_data['rooms'] >= min_max_rooms[0]) & 
@@ -53,9 +55,8 @@ def process_merged_data(
       if has_bathroom:
          filtered_data = filtered_data[
           ((filtered_data['bathroom'] >= min_max_bathroom[0]) & (filtered_data['bathroom'] <= min_max_bathroom[1]))    
-        ]
-      # filtered_data = filtered_data.drop(['rent/cost'], inplace=True)
-
+        ]   
+      
       return filtered_data  
     except Exception as e:
       st.warning(f"Data encountered errors while processing merged data: {e}")

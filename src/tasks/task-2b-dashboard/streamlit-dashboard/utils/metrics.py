@@ -41,7 +41,7 @@ def get_max_bathrooms(
 def calculate_avg_rent_cost(
     df: pd.DataFrame,
     rent_or_buy_status: str
-  ) -> str | None:
+  ) -> str | float | None:
   try:
     avg_rent = float()
     if rent_or_buy_status == 'Rent':
@@ -62,4 +62,26 @@ def calculate_avg_rent_cost(
     return formatted_avg_rent
   except Exception as e:
     st.warning(f'Error processing dataframe: {e}')
+    return 0.0
+
+def calculate_avg_rent_cost_per_sqm(
+  df: pd.DataFrame
+) -> str | float | None:
+  try:
+    avg_rent_cost_per_sqm = df['rent_area_ratio'].mean()
+
+    if not avg_rent_cost_per_sqm or pd.isna(avg_rent_cost_per_sqm):
+      return None
+    
+    rounded_avg_rent_cost_sqm = round(avg_rent_cost_per_sqm, 2)
+    if rounded_avg_rent_cost_sqm >= 1_000_000:
+        formatted_avg_rent = f'{rounded_avg_rent_cost_sqm / 1_000_000:.2f}M'
+    elif rounded_avg_rent_cost_sqm >= 1_000:
+        formatted_avg_rent = f'{rounded_avg_rent_cost_sqm / 1_000:.2f}K'
+    else:
+        formatted_avg_rent = f'{rounded_avg_rent_cost_sqm:.2f}'
+    return formatted_avg_rent
+  
+  except Exception as e:
+    st.warning(f'Error processing rent per sq.m: {e}')
     return 0.0
