@@ -1,6 +1,6 @@
 # Documentation Notes - Data Analysis
 ## Python Code
-* Important packages:
+* ### Important packages:
 1. Pandas
 2. Numpy
 3. Matplotlib
