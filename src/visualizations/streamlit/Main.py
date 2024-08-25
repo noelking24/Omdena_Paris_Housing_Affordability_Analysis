@@ -16,6 +16,7 @@ from utils.metrics import (
     get_max_bedrooms,
     get_max_bathrooms
 )
+from utils.scam_algorithm import get_district_ci, calculate_scam_properties
 
 # Directory pathing
 curr_dir = os.path.dirname(__file__)
@@ -170,9 +171,11 @@ districts = st.multiselect(
 
 metric_view = st.selectbox(
     "View based on?",
-    options=('Price Ratio', 'Count', 'Cost', 'Area Size'),
+    options=('Price Ratio', 'Potential Scam Properties', 'Count', 'Cost', 'Area Size'),
     help="This updates the visual color data shown on the map based on your preferences"
 )
+
+district_ci_df = get_district_ci(cleaned_df, rent_or_buy)
 
 # Call the function to Filter data, All options to filter data should be made available before this step
 filtered_df = process_merged_data(
@@ -186,8 +189,7 @@ filtered_df = process_merged_data(
     min_max_bathroom,
     districts
 )
-
-st.divider()
+filtered_df = calculate_scam_properties(filtered_df, district_ci_df)
 
 # Create three columns for the KPI cards using HTML
 with st.container():
@@ -231,7 +233,7 @@ with st.container():
         ######  Please adjust your filters.
     """)        
 
-
+st.write('######')
 
 size_data = pd.DataFrame(filtered_df.groupby(['arrondissement']).size().reset_index())
 size_data.rename(
@@ -244,10 +246,19 @@ grouped_agg_data = filtered_df.groupby(['arrondissement']).agg({
     'rooms': ['min', 'max', 'mean'],
     'bedrooms': ['min', 'max', 'mean'],
     'bathroom': ['min', 'max'],
-    'price/sqm': ['min', 'max', 'mean']
+    'price/sqm': ['min', 'max', 'mean'],
+    'potential_scam_property': ['sum', lambda x: x.mean()]
 })
+grouped_agg_data.columns = [
+    'rent/cost_mean',
+    'area_mean',
+    'rooms_min', 'rooms_max', 'rooms_mean',
+    'bedrooms_min', 'bedrooms_max', 'bedrooms_mean',
+    'bathroom_min', 'bathroom_max',
+    'price/sqm_min', 'price/sqm_max', 'price/sqm_mean',
+    'potential_scam_count', 'potential_scam_proportion'
+]
 
-grouped_agg_data.columns = ['_'.join(col).strip() for col in grouped_agg_data.columns.values]
 result = pd.DataFrame(grouped_agg_data)
 result = size_data.merge(result, how='inner', on='arrondissement', validate='one_to_one')
 result = result.join(gdf_id_name_only.set_index('cartodb_id'), how='inner', on='arrondissement', validate='1:1')
@@ -272,7 +283,8 @@ fig = px.choropleth_mapbox(
       'rent/cost_mean': 'Average Price (€)',
       'area_mean': 'Average Area Size (m<sup>2</sup>)',
       'price/sqm_min': 'Highest Price per Area (€/m<sup>2</sup>)',
-      'price/sqm_max': 'Lowest Price per Area (€/m<sup>2</sup>)'
+      'price/sqm_max': 'Lowest Price per Area (€/m<sup>2</sup>)',
+      'potential_scam_proportion': 'Scam Proportion'
   },
   hover_name='name',
   hover_data={
@@ -281,7 +293,8 @@ fig = px.choropleth_mapbox(
     "rent/cost_mean": ":,.2f",
     'area_mean': ":.2f",
     'price/sqm_min': ':,.2f',
-    'price/sqm_max': ':,.2f'
+    'price/sqm_max': ':,.2f',
+    'potential_scam_proportion': ':.3f * 100'
   }
   )
 fig.update_layout(
@@ -305,6 +318,16 @@ fig.update_mapboxes(
 
 st.plotly_chart(fig)
 
+with st.container():
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        scam_properties_html = f"""
+        <div style="text-align: center; color: white; background-color: #ac1111; padding: 10px; border-radius: 10px;">
+            <p style="font-size: 20px; margin: 0;"><strong>Potential Scam Properties</strong></p>
+            <p style="font-size: 36px; margin: 0;">{filtered_df['potential_scam_property'].sum()}</p>
+        </div>"""
+        st.markdown(scam_properties_html, unsafe_allow_html=True)
+
 st.divider()
 
 st.write("""
@@ -314,6 +337,7 @@ st.write("""
 
 # Define a dictionary to map metric_view options to corresponding DataFrame columns
 metric_columns = {
+    'Potential Scam Properties': 'potential_scam_property',
     'Price Ratio': 'price/sqm',
     'Count': None, 
     'Cost': 'rent/cost', 
@@ -329,6 +353,12 @@ if metric_view == 'Count':
     y_data = grouped_df['count']
     error_y = None
     y_axis_title = 'Count'
+elif metric_view == 'Potential Scam Properties':
+    grouped_df = filtered_df.groupby('arrondissement')[selected_metric].agg(['count', lambda x: x.mean(), 'sem']).reset_index()
+    grouped_df.columns = ['arrondissement', 'count', 'proportion', 'sem']
+    y_data = grouped_df['proportion']
+    error_y = dict(type='data', array=grouped_df['sem'], visible=True)
+    y_axis_title = "Percent Potential Scams per District (%)"
 else:
     grouped_df = filtered_df.groupby('arrondissement')[selected_metric].agg(['mean', 'sem']).reset_index()
     grouped_df.columns = ['arrondissement', 'mean', 'sem']
@@ -372,13 +402,18 @@ st.plotly_chart(fig)
 
 # Define a dictionary for the boxplots
 boxplot_columns = {
+    'Potential Scam Properties': 'potential_scam_property',
     'Price Ratio': 'price/sqm',
     'Cost': 'rent/cost',
     'Area Size': 'area'
 }
 
 # Select the appropriate column based on metric_view
-if metric_view != 'Count':
+if metric_view == 'Potential Scam Properties':
+    grouped_df = filtered_df[['rooms', 'arrondissement', 'potential_scam_property']].groupby('rooms').sum().reset_index()
+    y_data = grouped_df['potential_scam_property']
+    y_axis_title = f'{metric_view}'
+elif metric_view != 'Count':
     selected_metric = metric_columns[metric_view]
     y_data = filtered_df[selected_metric]
     y_axis_title = f'{metric_view}'
@@ -391,7 +426,7 @@ else:
 # Create the figure
 fig = go.Figure()
 
-if metric_view != 'Count':
+if metric_view not in ['Count', 'Potential Scam Properties']:
     # Add box plot for selected metric vs. Rooms
     fig.add_trace(
         go.Box(
@@ -566,39 +601,6 @@ if consider_bedroom or consider_bathroom:
 else:
     st.write("Please select at least one of 'Prefer unique bedrooms?' or 'Consider bathroom/s?' to display the graph for bedroom/bathroom.")
 
-
-
-
-
-
-# Display additional data about the filtered properties
-# TODO: update dashboard according to PowerBI uttility?
-# if not filtered_df.empty:
-    # st.subheader('Top 5 options for you would be')
-    # st.dataframe(filtered_df[:5])
-
-    # Download button for filtered data
-    # Generate a printable PDF file with necessary information about the properties
-    # st.download_button(
-    #     label='Download Filtered Data',
-    #     data=filtered_df.to_csv(index=False),
-    #     file_name='filtered_properties.csv',
-    #     mime='text/csv',
-    # )
-
-    # Display summary statistics
-    # Could generate an statistical numeric / Index to find out which would be the best option
-    # Which one would have the most:- Size, Number of rooms, Lease Length at the least cost - Use this information to plot a scatter plot
-    # Example from KF24 PG54
-    # st.subheader('Summary Statistics')
-    # st.write(result.describe())
-
-    # Histogram of property prices
-    
-    # st.subheader('Price Distribution')
-    # price_column = 'Cost' if rent_or_buy == 'Buy' else 'Rent'
-    # fig_hist = px.histogram(filtered_df, x=price_column, nbins=20, title='Price Distribution')
-    # st.plotly_chart(fig_hist)
 st.sidebar.write("""
     #### Note
     - :warning: This app is a helpful tool to complement your search, but it's not a definitive guide for choosing the best property listings for your needs.

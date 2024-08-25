@@ -2,6 +2,10 @@ import streamlit as st
 
 def update_color_map(metric_view: str) -> str:
   acceptable_options = {
+    'Potential Scam Properties': {
+      'metric': 'potential_scam_proportion',
+      'color_scale': 'YlOrRd'
+    },
     'Price Ratio': {
       'metric': 'price/sqm_mean',
       'color_scale': 'Temps'

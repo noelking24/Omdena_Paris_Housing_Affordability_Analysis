@@ -5,13 +5,14 @@ def clean_raw_data(
   df: pd.DataFrame
 ) -> pd.DataFrame:
   try:
-    cleaned_df = df.dropna(subset=['rent/cost', 'arrondissement'])
+    cleaned_df = df.dropna(subset=['zipcode'])
     cleaned_df.loc[:, ('arrondissement')] = cleaned_df.loc[:, ('arrondissement')].astype(int)
 
     force_zero = ['rooms', 'bedrooms', 'bathroom']
     cleaned_df.loc[:, force_zero] = cleaned_df.loc[:, force_zero].fillna(0)
+    cleaned_df.loc[:, 'price/sqm'] = cleaned_df.loc[:, 'rent/cost'] / cleaned_df.loc[:, 'area']
 
-    return cleaned_df[[x for x in cleaned_df.columns if x not in ['zipcode']]]
+    return cleaned_df
   except Exception as e:
     st.warning(f"Data encountered errors while cleaning raw data: {e}")
     cleaned_df = df
@@ -34,10 +35,10 @@ def process_merged_data(
 
       if rent_or_buy == 'Rent':
         filtered_data = df[(df['rent'] >= budget_range[0]) & (df['rent'] <= budget_range[1])]
-        filtered_data['price/sqm'] = df['rent'] / df['area']
+        # filtered_data['price/sqm'] = df['rent'] / df['area']
       else:
         filtered_data = df[(df['cost'] >= budget_range[0]) & (df['cost'] <= budget_range[1])]
-        filtered_data['price/sqm'] = df['cost'] / df['area']
+        # filtered_data['price/sqm'] = df['cost'] / df['area']
 
 
       filtered_data = filtered_data[
