@@ -294,7 +294,7 @@ fig = px.choropleth_mapbox(
     'area_mean': ":.2f",
     'price/sqm_min': ':,.2f',
     'price/sqm_max': ':,.2f',
-    'potential_scam_proportion': ':.3f * 100'
+    'potential_scam_proportion': ':.3f'
   }
   )
 fig.update_layout(
