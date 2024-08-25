@@ -284,6 +284,7 @@ fig = px.choropleth_mapbox(
       'area_mean': 'Average Area Size (m<sup>2</sup>)',
       'price/sqm_min': 'Highest Price per Area (€/m<sup>2</sup>)',
       'price/sqm_max': 'Lowest Price per Area (€/m<sup>2</sup>)',
+      'potential_scam_count': 'Potential Scam Properties',
       'potential_scam_proportion': 'Scam Proportion'
   },
   hover_name='name',
@@ -294,6 +295,7 @@ fig = px.choropleth_mapbox(
     'area_mean': ":.2f",
     'price/sqm_min': ':,.2f',
     'price/sqm_max': ':,.2f',
+    'potential_scam_count': True,
     'potential_scam_proportion': ':.3f'
   }
   )
