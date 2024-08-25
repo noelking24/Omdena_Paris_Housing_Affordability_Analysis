@@ -28,6 +28,9 @@ st.write("""
   
   This dashboard is meant to give users additional information on the districts (arrondissements) by showing
   where locations for viable and affordable housing are found based on the preferences set for the dashboard.
+         
+  Additionally, there is a detection algorithm encoded based on the provided datasets to show which districts
+  may potentially contain scam properties.
 
   ##### Data used
   - As of August 21, 2024, the initial data used for the dashboard consists of aggregated historical data
