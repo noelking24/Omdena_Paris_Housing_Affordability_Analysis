@@ -3,7 +3,7 @@ import streamlit as st
 def update_color_map(metric_view: str) -> str:
   acceptable_options = {
     'Price Ratio': {
-      'metric': 'rent_area_ratio_mean',
+      'metric': 'price/sqm_mean',
       'color_scale': 'Temps'
     },
     'Count': {
@@ -20,9 +20,9 @@ def update_color_map(metric_view: str) -> str:
     } # red to green
   }
   if metric_view is None:
-    metric = acceptable_options['rent_area_ratio_mean']
+    metric = acceptable_options['price/sqm_mean']
   if metric_view not in acceptable_options.keys():
     st.warning('Option not found in permissible keys')
-    metric = acceptable_options['rent_area_ratio_mean']
+    metric = acceptable_options['price/sqm_mean']
   metric = acceptable_options[metric_view]
   return metric

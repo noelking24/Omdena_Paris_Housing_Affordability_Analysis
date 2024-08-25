@@ -244,7 +244,7 @@ grouped_agg_data = filtered_df.groupby(['arrondissement']).agg({
     'rooms': ['min', 'max', 'mean'],
     'bedrooms': ['min', 'max', 'mean'],
     'bathroom': ['min', 'max'],
-    'rent_area_ratio': ['min', 'max', 'mean']
+    'price/sqm': ['min', 'max', 'mean']
 })
 
 grouped_agg_data.columns = ['_'.join(col).strip() for col in grouped_agg_data.columns.values]
@@ -268,20 +268,20 @@ fig = px.choropleth_mapbox(
   opacity=0.5,
   labels={
       'count': 'Matching Properties',
-      'rent_area_ratio_mean': 'Average Price per Area (€/m<sup>2</sup>)',
+      'price/sqm_mean': 'Average Price per Area (€/m<sup>2</sup>)',
       'rent/cost_mean': 'Average Price (€)',
       'area_mean': 'Average Area Size (m<sup>2</sup>)',
-      'rent_area_ratio_min': 'Highest Price per Area (€/m<sup>2</sup>)',
-      'rent_area_ratio_max': 'Lowest Price per Area (€/m<sup>2</sup>)'
+      'price/sqm_min': 'Highest Price per Area (€/m<sup>2</sup>)',
+      'price/sqm_max': 'Lowest Price per Area (€/m<sup>2</sup>)'
   },
   hover_name='name',
   hover_data={
     "count": True,
-    "rent_area_ratio_mean": ":,.2f",
+    "price/sqm_mean": ":,.2f",
     "rent/cost_mean": ":,.2f",
     'area_mean': ":.2f",
-    'rent_area_ratio_min': ':,.2f',
-    'rent_area_ratio_max': ':,.2f'
+    'price/sqm_min': ':,.2f',
+    'price/sqm_max': ':,.2f'
   }
   )
 fig.update_layout(
@@ -314,7 +314,7 @@ st.write("""
 
 # Define a dictionary to map metric_view options to corresponding DataFrame columns
 metric_columns = {
-    'Price Ratio': 'rent_area_ratio',
+    'Price Ratio': 'price/sqm',
     'Count': None, 
     'Cost': 'rent/cost', 
     'Area Size': 'area'  
@@ -372,7 +372,7 @@ st.plotly_chart(fig)
 
 # Define a dictionary for the boxplots
 boxplot_columns = {
-    'Price Ratio': 'rent_area_ratio',
+    'Price Ratio': 'price/sqm',
     'Cost': 'rent/cost',
     'Area Size': 'area'
 }

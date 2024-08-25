@@ -68,7 +68,7 @@ def calculate_avg_rent_cost_per_sqm(
   df: pd.DataFrame
 ) -> str | float | None:
   try:
-    avg_rent_cost_per_sqm = df['rent_area_ratio'].mean()
+    avg_rent_cost_per_sqm = df['price/sqm'].mean()
 
     if not avg_rent_cost_per_sqm or pd.isna(avg_rent_cost_per_sqm):
       return None
