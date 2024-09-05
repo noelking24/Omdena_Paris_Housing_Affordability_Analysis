@@ -1,0 +1,7 @@
+streamlit==1.37.1
+st-theme==1.2.3
+scipy==1.14.1
+numpy==1.26.3
+pandas==2.0.3
+plotly==5.15.0
+geojson==3.1.0

@@ -1,0 +1,830 @@
+Address,Street,Price,Area,Floor,Guest,Bed,Bath,Link
+"Invalides, Paris",Rue du Gros Caillou,1700,32,2,2,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-319
+"Pigalle, Paris",Rue Victor Massé,1890,43,1,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-494
+"Le Marais - République, Paris",Rue Réaumur,1970,32,3,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-553
+"Trocadéro, Paris",Rue Mesnil,1930,44,,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-583
+"Auteuil, Paris",Rue George Sand,1700,33,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-912
+"La Motte-Picquet Grenelle, Paris",Rue de l'Église,1670,37,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-652
+"Auteuil, Paris",Boulevard Murat,1540,48,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-600
+"Cadet, Paris",Rue La Fayette,1720,50,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-cadet-733
+"Anatole-France, Paris",Rue Aristide Briand,1900,38,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/levallois-perret-anatole-france-824
+"Pereire, Paris",Rue de Tocqueville,2420,45,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-710
+"Lamarck - Caulaincourt, Paris",Rue Lamarck,2010,50,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-921
+"Canal Saint-Martin, Paris",Rue des Vinaigriers,2060,42,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-10th-canal-saint-martin-805
+"Ternes, Paris",Place Tristan Bernard,2610,61,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-629
+"École Militaire, Paris",Rue de l'Exposition,1900,43,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-370
+"Trocadéro, Paris",Villa Eugène Manuel,2060,65,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-158
+"Champ de Mars, Paris",Avenue de Suffren,1830,40,4,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-877
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,1770,47,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-220
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,2720,59,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-357
+"Notre Dame des Champs, Paris",Rue Delambre,2300,30,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-notre-dame-des-champs-918
+"Notre Dame des Champs, Paris",Rue de Rennes,2320,37,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-notre-dame-des-champs-875
+"Notre Dame des Champs, Paris",Rue de Rennes,2320,37,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-notre-dame-des-champs-876
+"Pont de Neuilly, Paris",Boulevard du Château,2390,67,7,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-728
+"Canal Saint-Martin, Paris",Rue de la Grange aux Belles,2620,72,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-10th-canal-saint-martin-739
+"La Motte-Picquet Grenelle, Paris",Rue de Lourmel,1740,49,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-806
+"Commerce, Paris",Rue des Frères Morane,2160,51,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-commerce-785
+"Trocadéro, Paris",Rue Louis David,2460,66,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-881
+"Cadet, Paris",Rue Condorcet,3110,70,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-cadet-925
+"Passy, Paris",Rue de l'Assomption,1940,35,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-899
+"Lamarck - Caulaincourt, Paris",Rue Vauvenargues,1860,70,11,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-712
+"Pereire, Paris",Avenue de Villiers,2150,45,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-719
+"Pont de Neuilly, Paris",Rue de Longpont,2660,69,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-765
+"La Motte-Picquet Grenelle, Paris",Rue de la Procession,2430,71,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-825
+"Ternes, Paris",Rue du Dobropol,3020,97,4,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-299
+"Abbesses - Montmartre, Paris",Rue de Clignancourt,2870,93,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-abbesses-montmartre-430
+"Abbesses - Montmartre, Paris",Rue du Mont-Cenis,2130,63,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-abbesses-montmartre-676
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,2270,71,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-277
+"Bastille, Paris",Rue du Faubourg Saint-Antoine,2600,55,2,4,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-783
+"Pont de Neuilly, Paris",Rue de Chézy,2810,49,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-914
+"Passy, Paris",Rue Bois le Vent,2550,43,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-916
+"Trocadéro, Paris",Rue des Belles Feuilles,2790,65,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-470
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,3040,88,3,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-592
+"Passy, Paris",Avenue du Président Kennedy,2970,38,9,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-919
+"Auteuil, Paris",Quai Louis Blériot,2440,104,3,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-726
+"Ternes, Paris",Rue Barye,2920,47,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-900
+"Auteuil, Paris",Boulevard Exelmans,2730,85,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-356
+"Notre-Dame-de-Lorette, Paris",Square Trudaine,4290,108,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-notre-dame-de-lorette-293
+"Passy, Paris",Rue Massenet,2310,68,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-557
+"Ternes, Paris",Rue Bremontier,2610,63,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-290
+"Jardin du Luxembourg, Paris",Boulevard Saint-Michel,3110,62,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-773
+"Jardin du Luxembourg, Paris",Boulevard Saint-Michel,1990,36,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-774
+"Jardin du Luxembourg, Paris",Boulevard Saint-Michel,2170,45,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-775
+"Grands Boulevards, Paris",Rue Poissonnière,3830,83,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-grands-boulevards-758
+"Montmartre, Paris",Rue Hermel,1810,72,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-montmartre-838
+"Auteuil, Paris",Rue Michel Ange,2570,99,,6,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-640
+"Jardin du Luxembourg, Paris",Rue Corneille,3440,67,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-509
+"Auteuil, Paris",Rue Léon Bonnat,2670,93,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-687
+"Ternes, Paris",Rue Labie,3340,57,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-834
+"Les Sablons, Paris",Rue du Général Cordonnier,2950,70,2,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-les-sablons-762
+"Ternes, Paris",Rue Brunel,4140,29,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/pn/1013468
+"Champs-Élysées, Paris",Rue Beaujon,5040,58,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-488
+"Ternes, Paris",Boulevard Pereire,3180,110,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-377
+"Louvre, Paris",Rue Perrault,4560,64,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-027
+"Monceau, Paris",Rue Cardinet,2560,62,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-794
+"Trocadéro, Paris",Rue Saint-Didier,3700,70,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-913
+"Invalides, Paris",Avenue de Breteuil,3430,60,,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-562
+"Invalides, Paris",Avenue de Breteuil,3910,73,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-743
+"Passy, Paris",Rue Lekain,3780,70,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-808
+"Batignolles, Paris",Impasse de Lévis,3310,107,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-917
+"Porte Dauphine, Paris",Rue Lalo,4140,95,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-610
+"Notre Dame des Champs, Paris",Rue de Sèvres,4800,49,,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/pn/1019796
+"La Muette, Paris",Rue Vital,3720,100,5,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-764
+"Bastille, Paris",Rue de la Folie-Regnault,3590,101,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-777
+"Champ de Mars, Paris",Avenue de Suffren,5080,114,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-734
+"Porte Dauphine, Paris",Boulevard Suchet,1960,36,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-852
+"Buttes-Chaumont, Paris",Av. Simon Bolivar,1960,52,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-259
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,2830,60,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-591
+"Lamarck - Caulaincourt, Paris",Rue Lamarck,2590,47,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-745
+"Commerce, Paris",Rue du Clos Feuquières,9670,72,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/pn/398547
+"Les Halles, Paris",Rue Saint-Martin,1920,24,1,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-744
+"Quartier Latin, Paris",Rue Tournefort,2390,38,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-275
+"Cadet, Paris",Rue Richer,3320,73,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-cadet-929
+"Auteuil, Paris",Rue du Général Delestraint,1830,31,4,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-352
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,2170,50,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-360
+"Ternes, Paris",Rue des Acacias,2020,34,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-659
+"Place Vendome, Paris",Rue Cambon,2330,31,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-place-vendome-727
+"Jardin du Luxembourg, Paris",Rue Joseph Bara,2670,43,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-572
+"Miromesnil, Paris",Rue Mesnil,2800,45,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-miromesnil-812
+"Porte Dauphine, Paris",Rue Weber,3180,73,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-124
+"Lamarck - Caulaincourt, Paris",Rue du Mont-Cenis,2160,58,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-697
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,2630,51,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-747
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,3010,40,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-748
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,2370,58,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-205
+"Pereire, Paris",Avenue des Chasseurs,2540,70,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-920
+"Trocadéro, Paris",Quai Louis Blériot,3280,80,14,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-123
+"Notre Dame des Champs, Paris",Rue Saint-Romain,5060,112,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-notre-dame-des-champs-934
+"Batignolles, Paris",Rue Brochant,3110,56,2,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-904
+"Notre Dame des Champs, Paris",Rue d'Assas,3460,60,1,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-notre-dame-des-champs-269
+"Champ de Mars, Paris",Rue de Monttessuy,4100,55,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-756
+"Invalides, Paris",Rue de Sèvres,5350,114,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-927
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,3710,69,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-507
+"Auteuil, Paris",Rue Michel Ange,3510,91,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-569
+"Bastille Charonne, Paris",Avenue Philippe Auguste,4470,102,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-11th-bastille-charonne-791
+"Trocadéro, Paris",Rue Lauriston,3080,82,1,4,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-243
+"Champ de Mars, Paris",Avenue de Suffren,5340,102,5,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-787
+"Pont de Neuilly, Paris",Rue Edouard Nortier,2540,70,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-510
+"Trocadéro, Paris",Rue Auguste Vacquerie,3220,52,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-880
+"Quartier Latin, Paris",Rue de la Glacière,2190,43,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-704
+"Épinettes, Paris",Rue Legendre,2230,52,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-epinettes-789
+"Olympiades, Paris",Rue Xaintrailles,2770,67,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-13th-olympiades-491
+"Auteuil, Paris",Rue Boileau,3160,80,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-868
+"Notre Dame des Champs, Paris",Rue de Sèvres,3720,30,,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/pn/1019759
+"Trocadéro, Paris",Avenue Victor Hugo,6450,120,8,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-475
+"Pigalle, Paris",Rue de Dunkerque,1830,30,3,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-613
+"Batignolles, Paris",Rue Jouffroy d'Abbans,2400,63,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-439
+"Porte Dauphine, Paris",Avenue Foch,2630,40,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-874
+"Plaisance, Paris",Avenue Villemain,2840,77,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-14th-plaisance-587
+"Pereire, Paris",Rue Rennequin,3420,68,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-869
+"Ternes, Paris",Rue Bremontier,3820,100,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-384
+"Porte Dauphine, Paris",Rue du Général Appert,2370,41,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-800
+"Canal Saint-Martin, Paris",Rue La Fayette,2580,75,4,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-10th-canal-saint-martin-833
+"Pont de Neuilly, Paris",Avenue de Madrid,2820,66,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-480
+"Notre-Dame-de-Lorette, Paris",Rue Milton,2860,56,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-notre-dame-de-lorette-374
+"Haussman - Saint Lazare, Paris",Rue Saint-Lazare,3470,86,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-haussman-saint-lazare-511
+"Trocadéro, Paris",Rue de Chaillot,2090,38,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-707
+"École Militaire, Paris",Avenue Bosquet,2080,35,6,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-284
+"Champs-Élysées, Paris",Rue de Berri,2420,35,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-703
+"Champs-Élysées, Paris",Rue de Bassano,2280,36,3,2,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-786
+"Villiers, Paris",Rue des Dames,1930,39,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-391
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,1630,30,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-643
+"École Militaire, Paris",Avenue de Suffren,2100,42,7,,1 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-071
+"Porte Dauphine, Paris",Rue Dufrenoy,4650,97,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-841
+"Passy, Paris",Rue Massenet,2790,60,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-558
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,2270,63,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-431
+"Le Marais - Saint-Paul, Paris",Rue de Rivoli,3060,70,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-485
+"Champ de Mars, Paris",Rue Cler,5280,58,,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/pn/1013442
+"Passy, Paris",Rue de l'Abbé Gillet,5280,69,,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/pn/1013460
+"Sentier - Montorgueil, Paris",Rue de Turbigo,4990,55,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-328
+"Ternes, Paris",Rue Bayen,3190,70,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-686
+"Sentier - Montorgueil, Paris",Rue de Turbigo,3150,32,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-335
+"Les Halles, Paris",Rue Tiquetonne,3170,40,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-283
+"Trocadéro, Paris",Rue Lauriston,4130,89,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-693
+"Sentier - Montorgueil, Paris",Rue de Turbigo,3460,49,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-330
+"Jardin du Luxembourg, Paris",Boulevard Saint-Michel,4940,134,1,5,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-770
+"Villiers, Paris",Rue des Dames,1970,50,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-341
+"Madeleine, Paris",Rue Tronchet,2040,40,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-madeleine-016
+"Auteuil, Paris",Avenue Mozart,2650,63,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-605
+"Ternes, Paris",Rue des Acacias,2320,55,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-099
+"Sentier - Montorgueil, Paris",Rue d'Aboukir,2600,50,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-271
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,2450,54,2,3,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-864
+"Batignolles, Paris",Avenue de Clichy,2560,54,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-820
+"Bastille, Paris",Rue des Taillandiers,2620,45,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-173
+"Villiers, Paris",Rue des Dames,2820,74,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-338
+"Sentier - Montorgueil, Paris",Rue de Turbigo,3130,37,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-331
+"Pereire, Paris",Rue Albert Samain,3630,130,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-302
+"Louvre, Paris",Rue du Louvre,2850,35,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-819
+"La Muette, Paris",Boulevard Flandrin,4370,76,3,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-621
+"Le Marais - Saint-Paul, Paris",Rue de Rivoli,5070,82,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-253
+"Cadet, Paris",Rue de Maubeuge,2470,56,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-cadet-829
+"Batignolles, Paris",Rue de Saussure,2520,46,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-815
+"Madeleine, Paris",Rue Duphot,2780,55,1,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-madeleine-350
+"Saint-Germain-des-Prés, Paris",Boulevard Saint-Germain,3690,62,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-926
+"Sentier - Montorgueil, Paris",Rue de Turbigo,3780,49,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-329
+"Batignolles, Paris",Boulevard des Batignolles,4140,92,6,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-581
+"Ternes, Paris",Boulevard Pereire,4860,130,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-423
+"Le Marais - Saint-Paul, Paris",Rue du Roi de Sicile,2680,33,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-142
+"Le Marais - Saint-Paul, Paris",Boulevard du Temple,1950,32,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-585
+"Bastille, Paris",Cité de la Roquette,1880,51,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-421
+"Bastille, Paris",Rue Sedaine,2440,44,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-222
+"Batignolles, Paris",Rue Dulong,1950,37,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-761
+"Pigalle, Paris",Boulevard Marguerite de Rochechouart,2050,43,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-294
+"La Motte-Picquet Grenelle, Paris",Rue Frémicourt,2810,48,9,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-427
+"Saint-Georges, Paris",Rue de Maubeuge,2370,71,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-saint-georges-390
+"Le Marais - République, Paris",Rue Réaumur,2490,47,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-544
+"Épinettes, Paris",Rue Legendre,2900,81,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-epinettes-709
+"Sentier - Montorgueil, Paris",Rue Greneta,2980,45,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-799
+"Sentier - Montorgueil, Paris",Rue Tiquetonne,3120,38,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-818
+"Batignolles, Paris",Rue de Saussure,2870,56,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-839
+"Pigalle, Paris",Rue Marguerite de Rochechouart,2950,63,4,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-795
+"La Muette, Paris",Rue de Boulainvilliers,4980,142,3,,4 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-859
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,2330,61,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-206
+"Le Marais - Saint-Paul, Paris",Rue de Saintonge,2590,50,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-570
+"Le Marais - Saint-Paul, Paris",Rue Jacques Cœur,3340,61,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-436
+"Porte Dauphine, Paris",Rue Leroux,2990,63,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-790
+"Pigalle, Paris",Rue Pierre Haret,4030,105,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-713
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,2030,47,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-359
+"Le Marais - République, Paris",Rue Pastourelle,2360,38,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-698
+"Lamarck - Caulaincourt, Paris",Rue Lamarck,2150,56,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-858
+"Notre-Dame-de-Lorette, Paris",Rue de Maubeuge,2280,51,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-notre-dame-de-lorette-690
+"Abbesses - Montmartre, Paris",Rue de Clignancourt,2310,51,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-abbesses-montmartre-545
+"Batignolles, Paris",Rue la Condamine,2310,43,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-847
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,2390,60,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-240
+"Sentier - Montorgueil, Paris",Rue de Cléry,2750,45,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-385
+"Saint Ambroise République, Paris",Boulevard Richard-Lenoir,2580,51,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-11th-saint-ambroise-republique-753
+"Champs-Élysées, Paris",Rue du Faubourg Saint-Honoré,2810,50,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-769
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,2890,68,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-566
+"Europe, Paris",Rue de Turin,3280,64,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-850
+"Canal Saint-Martin, Paris",Rue Tesson,1710,37,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-10th-canal-saint-martin-656
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,2330,66,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-428
+"Pigalle, Paris",Rue Houdon,2490,55,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-601
+"Notre-Dame-de-Lorette, Paris",Rue des Martyrs,2710,76,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-notre-dame-de-lorette-208
+"Batignolles, Paris",Rue de Lévis,3050,50,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-831
+"La Motte-Picquet Grenelle, Paris",Boulevard de Grenelle,1950,41,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-404
+"Passy, Paris",Rue Lauriston,2930,66,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-886
+"Le Marais - République, Paris",Rue Saint-Martin,3070,34,4,2,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-788
+"Madeleine, Paris",Rue Tronchet,1970,41,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-madeleine-085
+"Montparnasse, Paris",Rue du Cherche-Midi,2350,53,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-montparnasse-624
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,2160,57,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-631
+"Saint-Georges, Paris",Rue Lamartine,2130,44,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-saint-georges-675
+"Monceau, Paris",Rue du Faubourg Saint-Honoré,2440,60,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-monceau-127
+"Monceau, Paris",Rue Cardinet,2290,45,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-monceau-883
+"Ternes, Paris",Avenue Mac-Mahon,2300,55,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-079
+"Champs-Élysées, Paris",Rue du Faubourg Saint-Honoré,3570,47,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-821
+"Ternes, Paris",Rue de l'Arc de Triomphe,2160,42,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-548
+"Le Marais - Saint-Paul, Paris",Rue Saint-Gilles,2080,44,1,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-023
+"Champs-Élysées, Paris",Rue du Faubourg Saint-Honoré,2990,56,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-033
+"Auteuil, Paris",Rue le Marois,1610,39,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-647
+"Trocadéro, Paris",Rue Octave Feuillet,1700,35,9,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-368
+"Ternes, Paris",Avenue des Ternes,1970,47,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-118
+"Le Marais - Saint-Paul, Paris",Place de Thorigny,2300,49,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-873
+"Ternes, Paris",Avenue Mac-Mahon,2320,55,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-080
+"Quartier Latin, Paris",Boulevard Saint-Germain,4200,70,7,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-696
+"Louvre, Paris",Place du Marché Saint-Honoré,2530,33,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-602
+"Abbesses - Montmartre, Paris",Rue Germain Pilon,2940,85,2,4,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-abbesses-montmartre-588
+"Pont de Neuilly, Paris",Rue Jacques Dulud,3120,100,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-633
+"Miromesnil, Paris",Boulevard Haussmann,4410,101,4,6,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-miromesnil-496
+"Bastille, Paris",Rue de Crussol,1580,34,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-872
+"Porte Dauphine, Paris",Rue Chalgrin,1770,30,2,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-711
+"Saint-Georges, Paris",Rue de la Tour d'Auvergne,1990,47,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-saint-georges-202
+"La Muette, Paris",Rue Copernic,5130,N/A,,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/pn/1013601
+"Monceau, Paris",Rue Pierre Demours,2160,40,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-752
+"Le Marais - République, Paris",Rue Notre Dame de Nazareth,2980,59,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-498
+"Champs-Élysées, Paris",Rue de Bassano,3720,98,4,6,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-217
+"Passy, Paris",Rue Singer,1430,42,5,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-262
+"Villiers, Paris",Passage Geffroy-Didelot,1550,36,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-435
+"Grands Boulevards, Paris",Boulevard de Bonne Nouvelle,1650,34,6,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-grands-boulevards-007
+"Batignolles, Paris",Rue Cardinet,1950,55,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-406
+"Porte Dauphine, Paris",Rue de la Faisanderie,2530,51,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-702
+"Bastille Charonne, Paris",Rue Pétion,2080,36,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-11th-bastille-charonne-749
+"Ternes, Paris",Rue du Faubourg Saint-Honoré,2210,35,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-261
+"Auteuil, Paris",Rue le Marois,2300,69,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-681
+"Miromesnil, Paris",Rue La Boétie,2300,38,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-miromesnil-671
+"Grands Boulevards, Paris",Rue de l'Échiquier,2880,57,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-grands-boulevards-135
+"Ternes, Paris",Avenue Beaucour,2560,47,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-295
+"La Motte-Picquet Grenelle, Paris",Rue Linois,2770,55,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-607
+"Porte Dauphine, Paris",Avenue Foch,5780,85,6,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-689
+"Champs-Élysées, Paris",Rue Lord Byron,5980,125,5,6,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-313
+"La Muette, Paris",Rue Copernic,1940,32,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-143
+"La Motte-Picquet Grenelle, Paris",Avenue Félix Faure,3190,85,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-782
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,3200,69,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-567
+"Bastille, Paris",Rue de Charenton,3260,72,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-811
+"Champs-Élysées, Paris",Av. George V,1930,38,2,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-426
+"Trocadéro, Paris",Rue Vineuse,3020,63,2,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-579
+"Bastille, Paris",Avenue Daumesnil,4070,93,2,4,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-398
+"Passy, Paris",Rue de l'Annonciation,1680,38,2,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-455
+"La Motte-Picquet Grenelle, Paris",Quai de Grenelle,1960,28,16,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-612
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,1940,28,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-828
+"École Militaire, Paris",Rue Augereau,2950,37,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-318
+"Sentier - Montorgueil, Paris",Rue de Turbigo,3300,49,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-332
+"Auteuil, Paris",Avenue de Versailles,3890,108,5,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-862
+"Ternes, Paris",Rue Poncelet,1770,41,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-495
+"Jardin du Luxembourg, Paris",Rue de la Grande Chaumière,2250,44,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-724
+"Champs-Élysées, Paris",Avenue Montaigne,2760,58,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-112
+"Batignolles, Paris",Rue la Condamine,3010,80,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-813
+"Auteuil, Paris",Avenue Ferdinand Buisson,3490,90,1,,4 Bedroom,3,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-766
+"Sentier - Montorgueil, Paris",Rue des Petits Carreaux,2180,47,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-429
+"Villiers, Paris",Rue des Dames,3240,71,3,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-400
+"Sentier - Montorgueil, Paris",Rue des Petits Carreaux,2200,43,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-272
+"Batignolles, Paris",Rue des Dames,2640,84,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-759
+"Le Marais - Saint-Paul, Paris",Rue des Archives,3100,60,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-087
+"Auteuil, Paris",Rue Michel Ange,4090,140,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-679
+"Miromesnil, Paris",Rue de Miromesnil,2020,40,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-miromesnil-649
+"Trocadéro, Paris",Vla de Longchamp,2500,41,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-730
+"Pigalle, Paris",Avenue Trudaine,5310,148,3,5,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-823
+"Louvre, Paris",Place du Marché Saint-Honoré,2280,36,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-126
+"Le Marais - Saint-Paul, Paris",Rue François Miron,2730,36,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-075
+"Europe, Paris",Rue de Monceau,4320,102,3,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-539
+"Abbesses - Montmartre, Paris",Rue Tardieu,2210,45,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-abbesses-montmartre-814
+"Quartier Latin, Paris",Boulevard Saint-Michel,2850,68,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-793
+"Invalides, Paris",Rue de Bellechasse,2910,55,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-060
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,1930,48,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-590
+"Le Marais - République, Paris",Rue de Normandie,3280,66,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-619
+"Trocadéro, Paris",Rue des Sablons,3590,90,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-452
+"Canal Saint-Martin, Paris",Quai de Valmy,1790,32,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-10th-canal-saint-martin-046
+"Les Halles, Paris",Rue Coquillière,2370,53,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-611
+"La Muette, Paris",Rue Vineuse,2790,87,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-521
+"Sentier - Montorgueil, Paris",Rue de Turbigo,2970,39,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-333
+"Passy, Paris",Rue des Eaux,4020,100,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-179
+"Ternes, Paris",Avenue de la Grande Armée,3110,94,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-573
+"Pereire, Paris",Rue Albert Samain,3760,107,7,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-254
+"Ternes, Paris",Rue de l'Étoile,2380,60,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-107
+"Pigalle, Paris",Rue du Delta,2170,39,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-626
+"École Militaire, Paris",Rue de Sèvres,1950,44,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-365
+"La Motte-Picquet Grenelle, Paris",Quai André Citroën,3570,62,28,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-731
+"Ternes, Paris",Rue Laugier,2420,58,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-596
+"Batignolles, Paris",Rue Juliette Lamber,2070,46,,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-614
+"La Motte-Picquet Grenelle, Paris",Rue Sébastien Mercier,2890,36,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-692
+"Monceau, Paris",Rue Médéric,2440,37,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-565
+"Auteuil, Paris",Boulevard Exelmans,2580,85,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-287
+"Odéon, Paris",Rue Saint-Sulpice,3260,40,4,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-odeon-830
+"Champ de Mars, Paris",Rue de Monttessuy,6590,137,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-516
+"Saint-Georges, Paris",Rue de Douai,1340,30,3,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-saint-georges-484
+"Quartier Latin, Paris",Rue des Fossés Saint-Jacques,1780,39,2,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-180
+"Auteuil, Paris",Rue Chardon Lagache,2170,42,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-661
+"Saint-Germain-des-Prés, Paris",Rue Dupin,2110,37,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-145
+"Abbesses - Montmartre, Paris",Rue du Mont-Cenis,2030,47,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-abbesses-montmartre-870
+"Bastille, Paris",Rue de Lyon,2160,56,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-010
+"Invalides, Paris",Boulevard de la Tour Maubourg,2290,45,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-106
+"Le Marais - République, Paris",Rue Meslay,3440,43,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-845
+"Abbesses - Montmartre, Paris",Rue de Clignancourt,2760,92,3,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-abbesses-montmartre-345
+"Villiers, Paris",Rue des Dames,3060,75,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-531
+"Sentier - Montorgueil, Paris",Rue d'Aboukir,3250,67,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-389
+"Pigalle, Paris",Rue André Antoine,3610,115,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-270
+"Invalides, Paris",Cité Martignac,4100,100,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-715
+"Haussman - Saint Lazare, Paris",Rue de la Chaussée d'Antin,2090,38,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-haussman-saint-lazare-232
+"Champs-Élysées, Paris",Rue de Bassano,2200,43,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-737
+"Commerce, Paris",Rue du Commerce,1570,38,,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-commerce-482
+"Ternes, Paris",Rue Troyon,2230,50,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-053
+"Champs-Élysées, Paris",Avenue des Champs-Élysées,2520,34,5,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-159
+"Champs-Élysées, Paris",Avenue des Champs-Élysées,2540,30,6,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-276
+"Champs-Élysées, Paris",Rue Lord Byron,3050,38,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-316
+"Pigalle, Paris",Rue Blanche,3410,88,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-190
+"Ternes, Paris",Avenue Carnot,4610,87,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-450
+"Batignolles, Paris",Square Claude Debussy,2000,64,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-443
+"Le Marais - République, Paris",Rue Réaumur,2700,64,2,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-047
+"Sentier - Montorgueil, Paris",Rue Marie Stuart,2290,40,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-003
+"Le Marais - République, Paris",Rue Notre Dame de Nazareth,3420,90,1,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-706
+"École Militaire, Paris",Rue Cler,1580,37,1,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-154
+"Passy, Paris",Rue Lekain,2210,33,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-751
+"Ternes, Paris",Rue du Sergent Hoff,1840,37,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-292
+"Bastille, Paris",Rue de la Roquette,2520,59,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-218
+"Sentier - Montorgueil, Paris",Rue des Petits Carreaux,2210,36,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-273
+"Le Marais - République, Paris",Boulevard Saint-Martin,2330,50,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-064
+"Porte Dauphine, Paris",Rue de Saïgon,2440,55,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-658
+"Quartier Latin, Paris",Rue de Poissy,4250,75,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-062
+"Sentier - Montorgueil, Paris",Rue Poissonnière,4390,75,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-817
+"Les Halles, Paris",Rue Hérold,2860,42,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-907
+"Sentier - Montorgueil, Paris",Rue Tiquetonne,3080,38,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-458
+"Notre-Dame-de-Lorette, Paris",Rue la Bruyère,1610,34,,1,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-notre-dame-de-lorette-441
+"Louvre, Paris",Rue Bailleul,1950,35,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-174
+"Grands Boulevards, Paris",Boulevard de Bonne Nouvelle,3320,100,2,4,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-grands-boulevards-354
+"Saint-Germain-des-Prés, Paris",Rue de Beaune,2150,45,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-863
+"Épinettes, Paris",Rue Lemercier,7740,58,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/pn/398212
+"Auteuil, Paris",Boulevard Murat,2910,90,4,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-402
+"Vaugirard, Paris",Rue Henri Bocquillon,3330,74,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-vaugirard-763
+"Le Marais - République, Paris",Rue Réaumur,4880,84,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-725
+"Le Marais - République, Paris",Rue de Picardie,11880,104,,,3 Bedroom,3,https://www.theblueground.com/furnished-apartments-paris-fr/pn/1013411
+"Invalides, Paris",Rue de Bourgogne,2030,47,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-034
+"La Muette, Paris",Rue de Boulainvilliers,3360,80,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-705
+"Sentier - Montorgueil, Paris",Rue de Turbigo,1690,26,7,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-334
+"Les Halles, Paris",Boulevard de Sébastopol,2050,56,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-618
+"Le Marais - République, Paris",Rue du Pont aux Choux,2320,52,4,2,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-481
+"Ternes, Paris",Avenue des Ternes,2450,62,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-147
+"Ternes, Paris",Rue Laugier,2570,56,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-577
+"Canal Saint-Martin, Paris",Rue Lucien Sampaix,1280,25,2,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-10th-canal-saint-martin-364
+"Trocadéro, Paris",Rue Lauriston,2070,40,2,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-867
+"Champ de Mars, Paris",Rue de l'Exposition,1950,32,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-462
+"Porte Dauphine, Paris",Rue de la Pompe,2070,37,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-497
+"Ternes, Paris",Avenue des Ternes,2350,45,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-810
+"Louvre, Paris",Place du Marché Saint-Honoré,2430,34,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-305
+"Champs-Élysées, Paris",Rue Robert Estienne,2710,55,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-183
+"Auteuil, Paris",Rue Poussin,2720,84,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-424
+"Le Marais - République, Paris",Rue Réaumur,3420,50,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-189
+"Invalides, Paris",Rue las Cases,3380,38,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-361
+"Jardin du Luxembourg, Paris",Rue de la Grande Chaumière,4600,74,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-582
+"Invalides, Paris",Rue de l'Université,6120,150,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-252
+"Champ de Mars, Paris",Rue Nocard,2730,50,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-327
+"Louvre, Paris",Place du Marché Saint-Honoré,3790,57,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-445
+"Louvre, Paris",Impasse Gomboust,3450,65,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-417
+"Trocadéro, Paris",Avenue de New York,2330,55,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-177
+"Miromesnil, Paris",Rue du Faubourg Saint-Honoré,2260,50,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-miromesnil-593
+"Bastille, Paris",Boulevard Morland,2280,47,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-028
+"Ternes, Paris",Rue Fourcroy,2480,55,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-630
+"Miromesnil, Paris",Boulevard Haussmann,4560,95,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-miromesnil-386
+"Invalides, Paris",Rue de Sèvres,2350,43,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-655
+"Ternes, Paris",Avenue de Wagram,3170,55,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-502
+"Invalides, Paris",Rue du Bac,2820,37,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-856
+"Villiers, Paris",Boulevard Malesherbes,1890,56,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-608
+"Bastille, Paris",Rue Saint-Antoine,2500,48,4,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-132
+"Anatole-France, Paris",Rue Marius Aufan,2740,92,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/levallois-perret-anatole-france-524
+"Saint-Germain-des-Prés, Paris",Rue des Canettes,3090,50,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-405
+"Saint-Germain-des-Prés, Paris",Rue Stanislas,2400,47,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-005
+"Madeleine, Paris",Rue Tronchet,3330,71,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-madeleine-138
+"Champs-Élysées, Paris",Avenue George V,3570,78,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-466
+"Jardin des Plantes, Paris",Boulevard Saint-Marcel,3130,82,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-jardin-des-plantes-420
+"Pigalle, Paris",Rue Jean-Baptiste Pigalle,4860,100,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-215
+"Trocadéro, Paris",Avenue Paul Doumer,1910,45,2,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-625
+"Le Marais - République, Paris",Rue Jean-Pierre Timbaud,2310,55,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-020
+"Ternes, Paris",Rue de l'Étoile,1880,30,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-074
+"Le Marais - République, Paris",Rue Charlot,1910,31,3,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-006
+"Sentier - Montorgueil, Paris",Rue Étienne Marcel,2920,54,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-349
+"Champs-Élysées, Paris",Avenue de Friedland,2840,48,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-056
+"Europe, Paris",Rue de Constantinople,2870,59,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-351
+"Le Marais - République, Paris",Rue de Turenne,4290,82,4,4,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-854
+"Saint-Germain-des-Prés, Paris",Rue de Grenelle,2150,36,1,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-255
+"Jardin des Plantes, Paris",Rue du Cardinal Lemoine,1970,50,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-jardin-des-plantes-861
+"Quartier Latin, Paris",Rue des Carmes,2120,36,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-117
+"Odéon, Paris",Rue Dauphine,2320,40,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-odeon-175
+"Invalides, Paris",Avenue Duquesne,2550,31,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-740
+"Quartier Latin, Paris",Rue du Petit Pont,2510,40,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-026
+"Pereire, Paris",Boulevard Pereire,2530,60,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-623
+"Notre Dame des Champs, Paris",Rue de Chevreuse,2740,42,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-notre-dame-des-champs-922
+"Pereire, Paris",Boulevard Pereire,2850,77,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-580
+"Notre Dame des Champs, Paris",Boulevard Raspail,3370,58,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-notre-dame-des-champs-889
+"Trocadéro, Paris",Rue Lauriston,5430,112,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-148
+"Saint-Germain-des-Prés, Paris",Rue Visconti,1850,32,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-673
+"Haussman - Saint Lazare, Paris",Rue de la Chaussée d'Antin,2390,68,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-haussman-saint-lazare-163
+"Le Marais - République, Paris",Rue du Temple,2600,55,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-191
+"Les Halles, Paris",Rue Saint-Martin,3280,63,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-720
+"Opéra, Paris",Rue de Provence,4320,79,2,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-opera-857
+"Madeleine, Paris",Rue Tronchet,6260,123,2,,4 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-madeleine-021
+"Jardin des Plantes, Paris",Rue Linné,3120,37,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-jardin-des-plantes-832
+"Invalides, Paris",Rue Fabert,3260,60,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-238
+"Invalides, Paris",Rue Vaneau,3610,65,2,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-606
+"Saint-Germain-des-Prés, Paris",Rue du Dragon,2430,41,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-694
+"Invalides, Paris",Rue Saint-Dominique,2560,50,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-095
+"Le Marais - République, Paris",Rue du Vertbois,2570,50,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-078
+"Monceau, Paris",Avenue Beaucour,3500,57,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-563
+"Le Marais - Saint-Paul, Paris",Rue Saint-Martin,3860,65,4,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-048
+"Ternes, Paris",Avenue des Ternes,1740,32,5,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-251
+"Passy, Paris",Rue Jean Bologne,4390,60,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-247
+"Europe, Paris",Rue de Berne,1840,34,6,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-551
+"Champs-Élysées, Paris",Rue Lord Byron,3760,54,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-315
+"Trocadéro, Paris",Rue Boissière,3430,100,6,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-231
+"Batignolles, Paris",Rue des Dames,3050,55,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-853
+"Notre-Dame-de-Lorette, Paris",Rue de la Victoire,3680,92,4,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-notre-dame-de-lorette-200
+"Ternes, Paris",Boulevard Malesherbes,5040,107,5,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-422
+"Anatole-France, Paris",Rue Aristide Briand,1890,43,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/levallois-perret-anatole-france-564
+"Vaugirard, Paris",Rue Ferdinand Fabre,2350,48,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-vaugirard-660
+"Invalides, Paris",Rue de Bourgogne,2430,41,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-119
+"Le Marais - Saint-Paul, Paris",Rue des Haudriettes,2430,52,2,2,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-296
+"Denfert-Rochereau, Paris",Rue Poirier de Narçay,2470,51,1,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-14th-denfert-rochereau-732
+"Trocadéro, Paris",Rue Desbordes-Valmore,2550,38,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-012
+"Pigalle, Paris",Place d'Anvers,2600,47,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-674
+"Porte Dauphine, Paris",Rue Marbeau,2750,40,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-879
+"Trocadéro, Paris",Avenue Raymond Poincaré,2840,50,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-598
+"Batignolles, Paris",Rue Nollet,3040,75,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-526
+"Pont de Neuilly, Paris",Avenue Achille Peretti,3270,56,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-691
+"Porte Dauphine, Paris",Rue Pergolèse,3360,80,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-878
+"Europe, Paris",Rue de Madrid,3710,65,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-235
+"Le Marais - République, Paris",Rue de Turenne,3800,50,4,4,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-855
+"Champs-Élysées, Paris",Rue Lamennais,3980,105,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-212
+"Trocadéro, Paris",Rue de la Pompe,3940,60,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-395
+"Courcelles, Paris",Rue Théodore de Banville,4600,107,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-courcelles-464
+"Trocadéro, Paris",Avenue de Lamballe,4150,81,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-125
+"Le Marais - République, Paris",Rue Dupetit-Thouars,2230,30,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-116
+"Invalides, Paris",Rue Surcouf,2740,45,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-100
+"Commerce, Paris",Avenue Emile Zola,3510,54,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-commerce-754
+"Villiers, Paris",Rue des Dames,4160,71,4,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-339
+"Pereire, Paris",Avenue Gourgaud,2380,45,9,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-537
+"Notre-Dame-de-Lorette, Paris",Rue Choron,2630,57,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-notre-dame-de-lorette-248
+"Les Halles, Paris",Rue Quincampoix,1920,25,2,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-620
+"Bastille, Paris",Rue de la Cerisaie,3380,60,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-022
+"Le Marais - Saint-Paul, Paris",Rue Saint-Martin,4090,60,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-801
+"Saint-Georges, Paris",Rue Blanche,2850,44,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-saint-georges-157
+"Le Marais - République, Paris",Rue Beaubourg,4890,89,4,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-848
+"Saint-Germain-des-Prés, Paris",Rue Jacob,3390,47,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-678
+"Denfert-Rochereau, Paris",Avenue Jean Moulin,3440,98,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-14th-denfert-rochereau-432
+"Auteuil, Paris",Rue de Civry,2510,64,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-355
+"Bastille, Paris",Rue Basfroi,2750,55,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-514
+"Anatole-France, Paris",Rue Rivay,2860,71,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/levallois-perret-anatole-france-616
+"Champs-Élysées, Paris",Rue Robert Estienne,3110,50,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-036
+"Porte Dauphine, Paris",Boulevard Lannes,4450,127,3,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-367
+"Saint-Germain-des-Prés, Paris",Rue du Cherche-Midi,2530,38,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-129
+"Europe, Paris",Rue de Bucarest,2970,58,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-310
+"Pont de Neuilly, Paris",Avenue Sainte-Foy,3290,86,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-245
+"Invalides, Paris",Rue de Bourgogne,4520,100,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-122
+"Trocadéro, Paris",Rue Lalo,2100,44,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-082
+"Saint-Georges, Paris",Rue Ballu,4440,94,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-saint-georges-257
+"Quartier Latin, Paris",Boulevard Saint-Germain,3910,77,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-049
+"Opéra, Paris",Rue Saint-Augustin,2280,70,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-opera-210
+"Le Marais - Saint-Paul, Paris",Rue des Archives,3340,39,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-846
+"Porte Dauphine, Paris",Avenue Victor Hugo,2710,41,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-665
+"Abbesses - Montmartre, Paris",Rue de Clignancourt,2390,51,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-abbesses-montmartre-414
+"La Motte-Picquet Grenelle, Paris",Rue Barthélémy,3300,58,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-472
+"Monceau, Paris",Boulevard Malesherbes,2070,40,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-monceau-090
+"Ternes, Paris",Avenue Beaucour,3220,44,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-527
+"Quartier Latin, Paris",Rue Monge,2610,58,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-070
+"Trocadéro, Paris",Avenue d'Iéna,3280,77,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-207
+"Le Marais - Saint-Paul, Paris",Rue Saint-Antoine,2150,30,4,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-635
+"Saint-Georges, Paris",Impasse Louise-Émilie de la Tour d´Auvergne,3610,65,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-saint-georges-837
+"Batignolles, Paris",Rue de Saussure,2100,42,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-454
+"Notre-Dame-de-Lorette, Paris",Rue de Châteaudun,3440,63,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-notre-dame-de-lorette-234
+"Pigalle, Paris",Rue du Delta,1620,29,5,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-199
+"École Militaire, Paris",Avenue de la Motte-Picquet,1870,39,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-493
+"Republique, Paris",Quai de Valmy,2610,43,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-11th-republique-237
+"Quartier Latin, Paris",Rue Poliveau,2650,57,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-670
+"Republique, Paris",Rue Saint-Maur,2780,55,1,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-11th-republique-097
+"Cadet, Paris",Rue Pierre Semard,2980,61,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-cadet-279
+"Odéon, Paris",Boulevard Saint-Germain,3090,58,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-odeon-225
+"Haussman - Saint Lazare, Paris",Rue de l'Isly,3030,93,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-haussman-saint-lazare-373
+"Anatole-France, Paris",Rue Louis Rouquier,3080,64,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/levallois-perret-anatole-france-803
+"Batignolles, Paris",Rue des Dames,3470,85,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-437
+"Champ de Mars, Paris",Rue du Laos,3560,66,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-578
+"Europe, Paris",Rue de Bucarest,3680,77,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-409
+"Trocadéro, Paris",Rue Lauriston,4860,123,2,,3 Bedroom,3,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-336
+"Batignolles, Paris",Rue de Monbel,5600,116,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-541
+"Saint-Germain-des-Prés, Paris",Rue de Seine,5660,104,1,5,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-634
+"École Militaire, Paris",Rue de Grenelle,2000,23,6,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-136
+"Auteuil, Paris",Rue de la Source,4100,83,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-755
+"Les Halles, Paris",Rue de la Cossonnerie,4510,93,5,,3 Bedroom,3,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-555
+"Louvre, Paris",Place du Marché Saint-Honoré,3100,37,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-446
+"Miromesnil, Paris",Rue de Penthièvre,2410,47,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-miromesnil-408
+"Pigalle, Paris",Rue de Clichy,3040,65,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-213
+"Passy, Paris",Avenue du Président Kennedy,4240,92,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-392
+"Quartier Latin, Paris",Rue de la Clef,3840,79,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-512
+"Auteuil, Paris",Rue d'Auteuil,2410,49,3,2,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-326
+"Porte Dauphine, Paris",Vla de la Faisanderie,2030,45,1,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-654
+"La Muette, Paris",Boulevard Suchet,2790,60,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-508
+"Le Marais - Saint-Paul, Paris",Rue de Rivoli,4880,100,3,6,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-672
+"Haussman - Saint Lazare, Paris",Rue de la Victoire,4780,100,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-haussman-saint-lazare-718
+"Lamarck - Caulaincourt, Paris",Rue Lamarck,2060,35,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-250
+"Ternes, Paris",Avenue Mac-Mahon,2110,35,5,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-685
+"Porte Dauphine, Paris",Rue de la Pompe,4860,86,6,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-680
+"Arc de Triomphe, Paris",Rue Lauriston,2550,34,3,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-arc-de-triomphe-866
+"Invalides, Paris",Rue de Bellechasse,3680,51,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-133
+"Odéon, Paris",Place Saint-Michel,5000,98,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-odeon-609
+"Le Marais - République, Paris",Rue Saint-Sébastien,2080,47,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-415
+"Pigalle, Paris",Rue Victor Massé,2340,40,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-714
+"Trocadéro, Paris",Rue de Longchamp,2310,41,1,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-528
+"Ternes, Paris",Avenue Mac-Mahon,2800,50,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-666
+"Passy, Paris",Avenue Mozart,2690,60,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-668
+"Lamarck - Caulaincourt, Paris",Rue Caulaincourt,3480,68,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-lamarck-caulaincourt-460
+"Ternes, Paris",Boulevard Pereire,3880,77,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-358
+"Bourse, Paris",Rue Saint-Augustin,5210,120,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-bourse-155
+"Villiers, Paris",Rue des Dames,2490,39,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-412
+"Champs-Élysées, Paris",Rue de Berri,2780,55,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-031
+"Haussman - Saint Lazare, Paris",Rue du Rocher,2690,33,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-haussman-saint-lazare-139
+"Ternes, Paris",Avenue Mac-Mahon,2780,56,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-227
+"Ternes, Paris",Rue Emile Allez,1720,30,4,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-717
+"Porte Dauphine, Paris",Rue Weber,1810,35,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-067
+"Le Marais - République, Paris",Rue Réaumur,2110,31,1,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-860
+"Invalides, Paris",Boulevard de la Tour-Maubourg,3220,53,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-128
+"Sentier - Montorgueil, Paris",Rue Marie Stuart,3590,55,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-401
+"La Motte-Picquet Grenelle, Paris",Rue Valentin Haüy,3280,50,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-589
+"Sentier - Montorgueil, Paris",Rue Poissonnière,3400,45,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-798
+"Jardin des Plantes, Paris",Rue Poliveau,3340,95,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-jardin-des-plantes-194
+"Le Marais - Saint-Paul, Paris",Rue des Blancs Manteaux,2600,43,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-363
+"Auteuil, Paris",Boulevard Exelmans,3100,77,1,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-419
+"Bastille, Paris",Rue de la Cerisaie,1750,35,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-035
+"Saint-Germain-des-Prés, Paris",Rue d'Assas,1830,32,1,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-018
+"Courcelles, Paris",Rue Médéric,1920,30,2,2,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-courcelles-425
+"Ternes, Paris",Rue du Faubourg Saint-Honoré,2130,28,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-073
+"Trocadéro, Paris",Rue Yvon Villarceau,2110,28,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-519
+"Champs-Élysées, Paris",Rue du Colisée,2200,38,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-092
+"Villiers, Paris",Avenue de Villiers,2210,33,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-554
+"Trocadéro, Paris",Avenue Foch,2290,38,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-381
+"Le Marais - Saint-Paul, Paris",Rue des Tournelles,2580,37,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-298
+"Invalides, Paris",Rue Saint-Dominique,2730,35,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-176
+"Le Marais - Saint-Paul, Paris",Rue Saint-Gilles,2880,46,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-380
+"Monceau, Paris",Rue de Logelbach,3050,31,5,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-monceau-382
+"Anatole-France, Paris",Allée Auguste Renoir,2990,92,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/levallois-perret-anatole-france-534
+"Champ de Mars, Paris",Avenue Franco-Russe,5070,91,1,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-650
+"Porte Dauphine, Paris",Rue Chalgrin,3490,65,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-229
+"Monceau, Paris",Rue de Monceau,6260,114,6,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-348
+"Batignolles, Paris",Rue la Condamine,2950,42,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-767
+"Le Marais - République, Paris",Rue Saint-Sébastien,2030,47,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-575
+"Champs-Élysées, Paris",Rue de Berri,2270,50,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-086
+"Sentier - Montorgueil, Paris",Rue Greneta,2530,39,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-499
+"Pasteur - Montparnasse, Paris",Rue de Vaugirard,3400,77,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-pasteur-montparnasse-677
+"Épinettes, Paris",Rue Legendre,3590,76,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-epinettes-792
+"Trocadéro, Paris",Impasse des Prêtres,3290,57,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-489
+"Sentier - Montorgueil, Paris",Rue Greneta,4050,61,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-198
+"Pereire, Paris",Boulevard Pereire,4650,105,1,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-515
+"Madeleine, Paris",Rue Duphot,2920,35,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-madeleine-280
+"Ternes, Paris",Rue Pierre Demours,2730,40,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-599
+"Villiers, Paris",Rue des Dames,2890,56,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-340
+"Trocadéro, Paris",Rue Benjamin Godard,5850,120,3,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-840
+"Monceau, Paris",Rue Médéric,3470,51,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-230
+"Auteuil, Paris",Rue Boileau,1600,32,2,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-265
+"Auteuil, Paris",Quai Louis Blériot,4300,100,1,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-568
+"Champs-Élysées, Paris",Avenue des Ternes,1880,36,6,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-024
+"Trocadéro, Paris",Square Mignot,2220,49,6,,1 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-098
+"Saint-Germain-des-Prés, Paris",Rue Monsieur le Prince,2260,37,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-093
+"Place Vendome, Paris",Rue de Choiseul,3210,48,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-place-vendome-826
+"Ternes, Paris",Rue de l'Arc de Triomphe,3270,55,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-042
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,3620,110,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-627
+"Batignolles, Paris",Rue Nollet,4590,84,3,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-851
+"Batignolles, Paris",Rue Truffaut,2060,38,2,2,1 Bedroom,0,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-644
+"Auteuil, Paris",Rue Michel Ange,3990,98,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-211
+"Les Halles, Paris",Rue Montorgueil,4490,67,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-663
+"Trocadéro, Paris",Avenue Victor Hugo,2630,45,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-004
+"Trocadéro, Paris",Rue Lauriston,2400,45,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-440
+"Bastille, Paris",Rue de la Cerisaie,1820,28,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-297
+"Passy, Paris",Rue de Passy,3510,90,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-535
+"Monceau, Paris",Avenue de Villiers,3840,100,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-monceau-379
+"Champs-Élysées, Paris",Rue du Faubourg Saint-Honoré,3230,80,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-322
+"Trocadéro, Paris",Avenue Raymond Poincaré,5160,68,7,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-595
+"Invalides, Paris",Rue de Bellechasse,5440,125,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-560
+"Pont de Neuilly, Paris",Rue Rigaud,2890,50,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-487
+"Le Marais - République, Paris",Passage Sainte Avoye,4800,100,1,4,2 Bedroom,3,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-172
+"Courcelles, Paris",Boulevard de Courcelles,5470,87,7,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-courcelles-816
+"Montparnasse, Paris",Boulevard du Montparnasse,3850,91,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-montparnasse-393
+"Ternes, Paris",Rue Marbeau,5460,140,5,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-542
+"Champ de Mars, Paris",Rue Saint-Dominique,3000,53,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-303
+"Trocadéro, Paris",Rue de la Faisanderie,4270,100,7,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-014
+"Europe, Paris",Rue de Miromesnil,7460,174,4,,3 Bedroom,3,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-804
+"Cadet, Paris",Rue Saulnier,4510,128,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-cadet-371
+"Villiers, Paris",Rue Jouffroy d'Abbans,4230,100,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-369
+"Champs-Élysées, Paris",Rue de Ponthieu,2630,55,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-249
+"Île Saint-Louis, Paris",Rue Saint-Louis en l'Île,3120,69,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-ile-saint-louis-091
+"Porte Dauphine, Paris",Rue Duret,5790,138,8,,4 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-504
+"Ternes, Paris",Rue Pierre Demours,1710,31,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-547
+"Le Marais - République, Paris",Rue Jean-Pierre Timbaud,1940,32,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-043
+"Anatole-France, Paris",Rue Voltaire,2290,65,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/levallois-perret-anatole-france-903
+"Auteuil, Paris",Rue Molitor,2660,57,7,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-453
+"Invalides, Paris",Rue Rousselet,2580,45,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-156
+"Pereire, Paris",Avenue de Villiers,2910,57,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-094
+"Le Marais - Saint-Paul, Paris",Rue des Guillemites,2920,43,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-594
+"Le Marais - République, Paris",Rue Oberkampf,2940,56,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-533
+"Auteuil, Paris",Rue Chanez,3000,78,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-160
+"Ternes, Paris",Avenue Carnot,3220,51,1,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-574
+"Villiers, Paris",Rue des Dames,3290,61,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-411
+"École Militaire, Paris",Avenue de Tourville,3480,69,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-324
+"Les Halles, Paris",Rue Greneta,3380,53,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-137
+"Pont de Neuilly, Paris",Rue André Citroën,3460,64,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-780
+"Ternes, Paris",Villa Monceau,3600,87,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-258
+"Grands Boulevards, Paris",Rue du Faubourg Montmartre,4400,110,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-grands-boulevards-278
+"Notre Dame des Champs, Paris",Rue de Rennes,4530,100,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-notre-dame-des-champs-549
+"Miromesnil, Paris",Rue de Courcelles,3890,85,5,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-miromesnil-378
+"Pont de Neuilly, Paris",Rue Parmentier,3870,92,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-552
+"Bastille Charonne, Paris",Avenue Daumesnil,2560,55,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-11th-bastille-charonne-683
+"Pereire, Paris",Rue Albert Samain,4370,110,3,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-151
+"Quartier Latin, Paris",Rue Poliveau,4340,90,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-407
+"Saint-Georges, Paris",Rue Hippolyte Lebas,4850,118,1,,3 Bedroom,3,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-saint-georges-471
+"Europe, Paris",Rue de Monceau,1640,40,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-442
+"Le Marais - Saint-Paul, Paris",Rue du Grand Veneur,4620,83,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-317
+"Trocadéro, Paris",Rue Scheffer,2340,55,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-901
+"Pigalle, Paris",Rue Pierre Fontaine,1990,46,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-559
+"Quartier Latin, Paris",Rue Saint-Jacques,1940,31,2,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-209
+"Ternes, Paris",Rue Roger Bacon,2320,63,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-397
+"Le Marais - Saint-Paul, Paris",Rue des Minimes,2980,35,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-784
+"École Militaire, Paris",Rue Augereau,3770,80,,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-890
+"Le Marais - République, Paris",Rue Saint-Sébastien,4070,96,2,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-646
+"Trocadéro, Paris",Rue des Belles Feuilles,4070,61,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-662
+"Bastille, Paris",Boulevard Henri IV,6710,145,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-622
+"Sentier - Montorgueil, Paris",Rue Poissonnière,4510,105,3,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-314
+"Le Marais - Saint-Paul, Paris",Rue Saint-Martin,2330,34,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-131
+"Trocadéro, Paris",Rue Scheffer,2750,58,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-120
+"Le Marais - Saint-Paul, Paris",Rue Saint-Martin,3360,60,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-013
+"Champs-Élysées, Paris",Impasse d'Antin,3490,69,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-312
+"Madeleine, Paris",Rue Tronchet,5050,124,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-madeleine-058
+"Invalides, Paris",Rue de Saint-Simon,2890,66,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-893
+"Saint-Germain-des-Prés, Paris",Rue Jacob,1870,33,3,1,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-088
+"Le Marais - Saint-Paul, Paris",Rue Saint-Antoine,2720,45,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-522
+"Saint-Germain-des-Prés, Paris",Rue Servandoni,2290,47,2,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-274
+"Monceau, Paris",Boulevard de Courcelles,3190,54,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-110
+"Les Halles, Paris",Rue Quincampoix,1940,35,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-353
+"Palais Royal, Paris",Rue Saint-Honoré,2190,28,6,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-palais-royal-657
+"Le Marais - Saint-Paul, Paris",Rue des Archives,3050,55,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-895
+"Saint-Germain-des-Prés, Paris",Rue de l'Echaudé,2060,33,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-204
+"Odéon, Paris",Rue de Seine,2810,49,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-odeon-517
+"Ternes, Paris",Rue de l'Arc de Triomphe,3620,83,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-843
+"Trocadéro, Paris",Rue des Belles Feuilles,2600,63,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-399
+"Madeleine, Paris",Rue d'Astorg,2920,54,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-madeleine-796
+"Le Marais - Saint-Paul, Paris",Rue Castex,3510,70,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-076
+"Invalides, Paris",Rue Vaneau,3810,66,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-044
+"École Militaire, Paris",Avenue Duquesne,1660,35,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-201
+"Jardin du Luxembourg, Paris",Boulevard Saint-Michel,2070,26,4,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-776
+"Quartier Latin, Paris",Rue des Bernardins,2220,37,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-216
+"Invalides, Paris",Rue Pierre Leroux,2260,38,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-571
+"Haussman - Saint Lazare, Paris",Avenue de Messine,2420,37,5,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-haussman-saint-lazare-063
+"Batignolles, Paris",Rue Nollet,2340,54,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-343
+"École Militaire, Paris",Cité de l'Alma,2610,50,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-069
+"Invalides, Paris",Rue de Babylone,2850,36,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-121
+"École Militaire, Paris",Rue Cler,2860,56,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-256
+"Canal Saint-Martin, Paris",Rue La Fayette,2940,75,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-10th-canal-saint-martin-653
+"Trocadéro, Paris",Rue du Dôme,3110,60,2,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-641
+"Sentier - Montorgueil, Paris",Rue Dussoubs,3470,63,4,3,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-115
+"Les Sablons, Paris",Avenue Charles de Gaulle,3550,78,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-les-sablons-638
+"Le Marais - République, Paris",Rue Saint-Sébastien,3960,93,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-721
+"Champs-Élysées, Paris",Rue de Berri,4150,80,4,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-750
+"Bastille, Paris",Rue de la Roquette,1620,30,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-476
+"Pigalle, Paris",Boulevard de Rochechouart,1910,31,1,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-178
+"Le Marais - Saint-Paul, Paris",Rue Beautreillis,1970,25,2,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-346
+"Madeleine, Paris",Rue de Duras,2490,39,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-madeleine-688
+"Invalides, Paris",Avenue de la Motte-Picquet,2530,55,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-584
+"Quartier Latin, Paris",Rue des Fossés Saint-Jacques,2770,50,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-068
+"Villiers, Paris",Rue des Dames,2660,56,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-413
+"Saint-Germain-des-Prés, Paris",Impasse de Valmy,2810,58,,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-556
+"Le Marais - République, Paris",Rue Réaumur,2930,32,7,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-188
+"Invalides, Paris",Rue las Cases,3990,70,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-077
+"Monceau, Paris",Rue de Courcelles,2220,44,1,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-140
+"Le Marais - République, Paris",Rue de Beauce,5210,120,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-150
+"Saint-Germain-des-Prés, Paris",Rue Mazarine,1780,31,4,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-072
+"Louvre, Paris",Place du Marché Saint-Honoré,4170,65,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-304
+"École Militaire, Paris",Boulevard de la Tour-Maubourg,2020,40,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-503
+"Saint-Germain-des-Prés, Paris",Rue de l'Éperon,3540,61,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-066
+"Pereire, Paris",Avenue de Villiers,2160,41,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-473
+"Palais Royal, Paris",Rue Saint-Honoré,3000,34,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-palais-royal-532
+"Ternes, Paris",Rue Fourcroy,3130,48,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-651
+"Champs-Élysées, Paris",Rue de Penthièvre,2450,47,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-025
+"Champ de Mars, Paris",Rue Nélaton,2780,58,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-506
+"École Militaire, Paris",Avenue Rapp,2540,45,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-153
+"Saint-Germain-des-Prés, Paris",Boulevard Saint-Germain,2050,29,4,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-461
+"Porte Dauphine, Paris",Rue Duret,4160,71,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-porte-dauphine-501
+"Ternes, Paris",Rue Roger Bacon,2260,60,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-465
+"Champs-Élysées, Paris",Rue de Berri,3330,60,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-239
+"Republique, Paris",Quai de Valmy,1840,36,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-11th-republique-108
+"La Motte-Picquet Grenelle, Paris",Rue Bouilloux-Lafont,2180,46,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-746
+"Invalides, Paris",Rue Saint-Dominique,3120,50,,2,1 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-103
+"Passy, Paris",Rue Picot,3740,110,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-700
+"Batignolles, Paris",Rue des Batignolles,2290,45,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-batignolles-438
+"Ternes, Paris",Rue Torricelli,2000,35,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-648
+"Trocadéro, Paris",Rue Nicolo,2180,35,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-105
+"Champs-Élysées, Paris",Rue Jean Mermoz,3790,70,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-520
+"Trocadéro, Paris",Avenue Raymond Poincaré,5700,81,7,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-849
+"Abbesses - Montmartre, Paris",Rue de Clignancourt,3320,86,8,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-18th-abbesses-montmartre-320
+"Passy, Paris",Rue Raynouard,3910,110,8,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-628
+"Bastille, Paris",Rue du Faubourg Saint-Antoine,3950,121,5,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-891
+"Anatole-France, Paris",Rue Ernest Cognacq,1830,56,5,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/levallois-perret-anatole-france-902
+"Ternes, Paris",Rue Nicolas Chuquet,2430,57,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-244
+"Champs-Élysées, Paris",Rue d'Artois,2680,50,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-195
+"Trocadéro, Paris",Rue Paul Valéry,2600,55,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-896
+"Champ de Mars, Paris",Rue Duvivier,2730,34,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-champ-de-mars-842
+"Le Marais - République, Paris",Rue de Bretagne,2990,53,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-263
+"Trocadéro, Paris",Rue Gustave Courbet,3600,63,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-291
+"Invalides, Paris",Avenue de la Bourdonnais,3660,83,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-376
+"Champs-Élysées, Paris",Rue de Miromesnil,3910,75,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-311
+"Louvre, Paris",Place du Marché Saint-Honoré,4140,65,4,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-307
+"Odéon, Paris",Place Edmond Rostand,4800,100,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-odeon-699
+"Quartier Latin, Paris",Rue Royer-Collard,5730,116,5,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-388
+"Les Sablons, Paris",Rue Perronet,2680,70,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-les-sablons-742
+"Bastille, Paris",Rue de Charonne,3070,60,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-bastille-387
+"Les Halles, Paris",Rue Jean-Jacques Rousseau,3120,67,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-les-halles-636
+"Ternes, Paris",Avenue Carnot,3280,67,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-642
+"Pigalle, Paris",Rue de Navarin,3490,63,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-827
+"Pont de Neuilly, Paris",Boulevard de la Saussaye,3930,90,6,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-708
+"Saint Ambroise République, Paris",Rue Saint-Maur,2750,70,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-11th-saint-ambroise-republique-667
+"Saint-Germain-des-Prés, Paris",Rue du Vieux Colombier,2220,34,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-223
+"Invalides, Paris",Rue de Grenelle,2430,42,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-109
+"Louvre, Paris",Place du Marché Saint-Honoré,2860,47,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-603
+"La Muette, Paris",Rue Singer,2420,58,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-617
+"Saint-Georges, Paris",Rue Petrelle,3230,87,2,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-saint-georges-416
+"Invalides, Paris",Rue de Bourgogne,3420,57,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-664
+"Invalides, Paris",Avenue de la Bourdonnais,6080,150,6,,4 Bedroom,3,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-267
+"Saint-Germain-des-Prés, Paris",Rue d'Assas,2460,47,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-394
+"Le Marais - République, Paris",Rue Notre Dame de Nazareth,1270,28,1,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-089
+"Le Marais - République, Paris",Rue des Fontaines du Temple,2790,61,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-134
+"Jardin des Plantes, Paris",Rue Pascal,3730,76,5,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-jardin-des-plantes-778
+"Jardin du Luxembourg, Paris",Boulevard Saint-Michel,4340,116,2,5,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-771
+"Pigalle, Paris",Rue Jean-Baptiste Pigalle,1530,27,4,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-300
+"Auteuil, Paris",Rue Claude Lorrain,3300,88,,4,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-722
+"Quartier Latin, Paris",Rue Tournefort,1910,35,3,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-quartier-latin-149
+"Auteuil, Paris",Rue François Gérard,2130,40,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-197
+"Champs-Élysées, Paris",Avenue de Friedland,2370,30,2,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-779
+"Le Marais - République, Paris",Rue Debelleyme,2470,40,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-898
+"Auteuil, Paris",Rue de Civry,3370,107,1,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-908
+"Trocadéro, Paris",Villa Eugène Manuel,4670,120,6,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-282
+"Pigalle, Paris",Rue Henner,4550,141,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-pigalle-444
+"Louvre, Paris",Place du Marché Saint-Honoré,1780,25,5,,Jr. 1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-447
+"Le Marais - Saint-Paul, Paris",Rue Michel le Comte,1730,35,1,2,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-146
+"Invalides, Paris",Rue de Sèvres,2740,40,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-477
+"Le Marais - République, Paris",Rue Réaumur,3210,51,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-187
+"Monceau, Paris",Rue de Tocqueville,3170,80,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-433
+"Denfert-Rochereau, Paris",Rue du Loing,2130,55,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-14th-denfert-rochereau-228
+"Montparnasse, Paris",Avenue du Maine,2160,36,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-montparnasse-161
+"La Muette, Paris",Rue Davioud,3140,71,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-347
+"Notre Dame des Champs, Paris",Rue du Regard,4490,106,5,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-notre-dame-des-champs-457
+"Invalides, Paris",Rue de Bourgogne,3830,98,2,4,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-513
+"Le Marais - République, Paris",Avenue Parmentier,2160,45,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-3rd-le-marais-republique-530
+"Champs-Élysées, Paris",Avenue des Champs-Élysées,2530,32,5,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-286
+"Auteuil, Paris",Avenue de Versailles,1940,54,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-141
+"Saint-Georges, Paris",Rue Pierre Fontaine,3250,81,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-saint-georges-185
+"La Muette, Paris",Rue de Boulainvilliers,5390,138,1,,4 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-639
+"Trocadéro, Paris",Rue Nicolo,2250,48,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-032
+"Auteuil, Paris",Boulevard Exelmans,2970,109,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-543
+"Ternes, Paris",Rue Saint-Ferdinand,3920,82,3,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-910
+"Trocadéro, Paris",Rue Cortambert,1740,30,3,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-467
+"Pereire, Paris",Rue Albert Samain,4220,120,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-pereire-344
+"Villiers, Paris",Rue des Dames,3150,54,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-410
+"Champs-Élysées, Paris",Avenue des Champs-Élysées,3110,34,5,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-285
+"Passy, Paris",Rue Alfred Bruneau,3650,80,2,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-905
+"Louvre, Paris",Place du Marché Saint-Honoré,2940,39,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-449
+"Pont de Neuilly, Paris",Rue de Villiers,3060,78,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-757
+"Europe, Paris",Rue de la Bienfaisance,2140,36,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-301
+"Olympiades, Paris",Rue Françoise Dolto,2660,68,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-13th-olympiades-597
+"Olympiades, Paris",Rue des Frigos,3250,92,10,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-13th-olympiades-736
+"Notre Dame des Champs, Paris",Rue de Rennes,3060,55,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-notre-dame-des-champs-203
+"Pont de Neuilly, Paris",Rue Saint-Pierre,4310,95,6,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/neuilly-sur-seine-pont-de-neuilly-576
+"Le Marais - Saint-Paul, Paris",Rue du Renard,3510,54,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-716
+"Champs-Élysées, Paris",Rue Robert Estienne,3620,52,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-226
+"Trocadéro, Paris",Avenue Victor Hugo,3070,60,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-045
+"Villiers, Paris",Rue de Tocqueville,2440,54,1,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-villiers-479
+"Monceau, Paris",Boulevard Malesherbes,3680,76,2,4,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-102
+"Denfert-Rochereau, Paris",Boulevard de Port-Royal,3360,61,1,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-14th-denfert-rochereau-474
+"Grands Boulevards, Paris",Rue d'Hauteville,3310,68,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-grands-boulevards-637
+"Monceau, Paris",Rue de Monceau,6510,140,3,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-monceau-434
+"Jardin du Luxembourg, Paris",Boulevard Saint-Michel,3590,54,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-772
+"Louvre, Paris",Rue de Rivoli,3690,49,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-192
+"Saint-Germain-des-Prés, Paris",Rue de l'Abbé Grégoire,2120,32,2,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-083
+"Louvre, Paris",Place du Marché Saint-Honoré,2800,33,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-308
+"Auteuil, Paris",Boulevard de Montmorency,3370,88,2,5,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-181
+"École Militaire, Paris",Rue Augereau,1730,23,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-632
+"Sentier - Montorgueil, Paris",Rue du Sentier,2460,50,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-sentier-montorgueil-015
+"Invalides, Paris",Rue de Bellechasse,5210,125,1,,3 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-536
+"Saint-Germain-des-Prés, Paris",Rue de Sèvres,4400,66,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-saint-germain-des-pres-193
+"Trocadéro, Paris",Rue de l'Alboni,2770,53,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-182
+"Auteuil, Paris",Rue de Civry,2670,64,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-auteuil-266
+"Palais Royal, Paris",Rue des Moulins,3340,52,5,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-palais-royal-375
+"École Militaire, Paris",Avenue Duquesne,4230,90,3,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-366
+"Place Vendome, Paris",Rue d'Antin,3190,49,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-place-vendome-538
+"Trocadéro, Paris",Quai Louis Blériot,2620,68,8,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-196
+"Trocadéro, Paris",Rue Saint-Didier,1700,30,7,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-342
+"Louvre, Paris",Place du Marché Saint-Honoré,2800,47,4,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-309
+"La Motte-Picquet Grenelle, Paris",Boulevard de Grenelle,2240,40,7,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-la-motte-picquet-grenelle-337
+"Odéon, Paris",Rue du Pont de Lodi,3020,49,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-odeon-523
+"Montparnasse, Paris",Boulevard du Montparnasse,2240,50,3,2,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-montparnasse-114
+"Grands Boulevards, Paris",Boulevard de Bonne Nouvelle,2470,43,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-2nd-grands-boulevards-002
+"Le Marais - Saint-Paul, Paris",Rue de la Verrerie,1900,32,1,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-001
+"Europe, Paris",Rue de Monceau,5130,102,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-europe-468
+"Ternes, Paris",Rue Torricelli,3130,46,2,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-490
+"Le Marais - Saint-Paul, Paris",Rue des Archives,3680,70,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-4th-le-marais-saint-paul-323
+"Louvre, Paris",Place du Marché Saint-Honoré,5630,76,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-448
+"Louvre, Paris",Place du Marché Saint-Honoré,2910,46,2,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-1st-louvre-306
+"Madeleine, Paris",Rue Tronchet,2510,41,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-madeleine-057
+"Buttes-Chaumont, Paris",Avenue Simon Bolivar,2510,47,3,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-19th-buttes-chaumont-221
+"École Militaire, Paris",Avenue de Ségur,3350,107,1,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-ecole-militaire-214
+"Champs-Élysées, Paris",Rue la Boétie,8100,260,4,,4 Bedroom,3,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-champs-elysees-242
+"Trocadéro, Paris",Rue Decamps,2810,50,6,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-459
+"Cadet, Paris",Rue Marguerite de Rochechouart,4140,81,4,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-9th-cadet-403
+"Ternes, Paris",Rue Marcel Renault,3360,71,3,4,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-17th-ternes-723
+"Jardin des Plantes, Paris",Rue de l'Épée de Bois,3780,70,6,,2 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-5th-jardin-des-plantes-781
+"La Muette, Paris",Rue de Boulainvilliers,6230,143,5,,2 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-la-muette-760
+"Pasteur - Montparnasse, Paris",Rue Falguière,1860,33,5,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-15th-pasteur-montparnasse-888
+"Passy, Paris",Rue des Eaux,5580,156,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-passy-669
+"Arc de Triomphe, Paris",Rue Lauriston,2460,45,6,,Studio,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-8th-arc-de-triomphe-735
+"Invalides, Paris",Rue de la Comète,2580,41,,,1 Bedroom,1,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-7th-invalides-463
+"Jardin du Luxembourg, Paris",Avenue Georges Bernanos,4450,105,4,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-6th-jardin-du-luxembourg-645
+"Trocadéro, Paris",Rue des Belles Feuilles,5000,115,2,,3 Bedroom,2,https://www.theblueground.com/furnished-apartments-paris-fr/arrondissement-16th-trocadero-529
