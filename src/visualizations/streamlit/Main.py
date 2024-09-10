@@ -21,7 +21,7 @@ from utils.scam_algorithm import get_district_ci, calculate_scam_properties
 # Directory pathing
 curr_dir = os.path.dirname(__file__)
 merged_dataset_path = os.path.relpath('./data/merged_dataset.xlsx', start=curr_dir)
-geojson_path = os.path.relpath('./data/paris_arrondisements.geojson')
+geojson_path = os.path.relpath('./data/paris_arrondisements.geojson', start=curr_dir)
 
 # Page configs
 st.set_page_config(
