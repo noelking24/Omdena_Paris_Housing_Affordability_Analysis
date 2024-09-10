@@ -5,3 +5,4 @@ numpy==1.26.3
 pandas==2.0.3
 plotly==5.15.0
 geojson==3.1.0
+geopandas==1.0.1
